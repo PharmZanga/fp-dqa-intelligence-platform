@@ -1,0 +1,812 @@
+{
+  "metadata": {
+    "name": "FP DQA Round 2 Target Facility Master List",
+    "period": "June 2026",
+    "expectedProvinces": 3,
+    "expectedDistricts": 16,
+    "expectedFacilities": 160,
+    "note": "Round 2 target registry for Luapula, Southern and Eastern provinces."
+  },
+  "facilities": [
+    {
+      "province": "Luapula",
+      "district": "Mansa",
+      "facility": "Lubende RHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mansa",
+      "facility": "Mantumbusa RHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mansa",
+      "facility": "Mano RHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mansa",
+      "facility": "Chisembe RHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mansa",
+      "facility": "Muwanguni RHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mansa",
+      "facility": "Fimpulu RHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mansa",
+      "facility": "Mufuma HP"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mansa",
+      "facility": "Chisongo HP"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mansa",
+      "facility": "Mansa Central Clinic"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mansa",
+      "facility": "Namwandwe HP"
+    },
+    {
+      "province": "Luapula",
+      "district": "Samfya",
+      "facility": "Veronica Chikonda HP"
+    },
+    {
+      "province": "Luapula",
+      "district": "Samfya",
+      "facility": "Mano HP"
+    },
+    {
+      "province": "Luapula",
+      "district": "Samfya",
+      "facility": "Katanshya RHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Samfya",
+      "facility": "Njipi RHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Samfya",
+      "facility": "Chipako RHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Samfya",
+      "facility": "Samfya Stage 2"
+    },
+    {
+      "province": "Luapula",
+      "district": "Samfya",
+      "facility": "Mungulube RHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Samfya",
+      "facility": "Mulisha HP"
+    },
+    {
+      "province": "Luapula",
+      "district": "Samfya",
+      "facility": "Chikunyu HP"
+    },
+    {
+      "province": "Luapula",
+      "district": "Samfya",
+      "facility": "Nkungu HP"
+    },
+    {
+      "province": "Luapula",
+      "district": "Chifunabuli",
+      "facility": "Chimanda RHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Chifunabuli",
+      "facility": "Miponda RHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Chifunabuli",
+      "facility": "Mwewa HP"
+    },
+    {
+      "province": "Luapula",
+      "district": "Chifunabuli",
+      "facility": "Shikamushile RHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Chifunabuli",
+      "facility": "Mwansakombe RHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Chifunabuli",
+      "facility": "Kasuba RHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Chifunabuli",
+      "facility": "Nambale RHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Chifunabuli",
+      "facility": "Chibuye RHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Chifunabuli",
+      "facility": "Mundubi RHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Chifunabuli",
+      "facility": "Kandolo HP"
+    },
+    {
+      "province": "Luapula",
+      "district": "Chipili",
+      "facility": "Chipili RHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Chipili",
+      "facility": "Chinshinki HP"
+    },
+    {
+      "province": "Luapula",
+      "district": "Chipili",
+      "facility": "Kaoma Makasa RHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Chipili",
+      "facility": "Kansonta HP"
+    },
+    {
+      "province": "Luapula",
+      "district": "Chipili",
+      "facility": "Kamami HP"
+    },
+    {
+      "province": "Luapula",
+      "district": "Chipili",
+      "facility": "Mutipula RHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Chipili",
+      "facility": "Luminu RHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Chipili",
+      "facility": "Mwenda RHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Chipili",
+      "facility": "Mimbulu HP"
+    },
+    {
+      "province": "Luapula",
+      "district": "Chipili",
+      "facility": "Musele HP"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mwense",
+      "facility": "Chalwe HP"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mwense",
+      "facility": "Kabili HP"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mwense",
+      "facility": "Mambilima M Hospital"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mwense",
+      "facility": "Kashiba RHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mwense",
+      "facility": "Kanyemba HP"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mwense",
+      "facility": "Mwense Stage 2"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mwense",
+      "facility": "Kankomba HP"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mwense",
+      "facility": "Lubunda RHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mwense",
+      "facility": "Loto HP"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mwense",
+      "facility": "Mubende RHC"
+    },
+    {
+      "province": "Southern",
+      "district": "Kalomo",
+      "facility": "Nazilongo RHC"
+    },
+    {
+      "province": "Southern",
+      "district": "Kalomo",
+      "facility": "Moonde HP"
+    },
+    {
+      "province": "Southern",
+      "district": "Kalomo",
+      "facility": "Mukwela RHC"
+    },
+    {
+      "province": "Southern",
+      "district": "Kalomo",
+      "facility": "Kalonda RHC"
+    },
+    {
+      "province": "Southern",
+      "district": "Kalomo",
+      "facility": "Sikweya HP"
+    },
+    {
+      "province": "Southern",
+      "district": "Kalomo",
+      "facility": "Sipatunyana RHC"
+    },
+    {
+      "province": "Southern",
+      "district": "Kalomo",
+      "facility": "Mabuyu HP"
+    },
+    {
+      "province": "Southern",
+      "district": "Kalomo",
+      "facility": "Mubanga RHC"
+    },
+    {
+      "province": "Southern",
+      "district": "Kalomo",
+      "facility": "Nantale HP"
+    },
+    {
+      "province": "Southern",
+      "district": "Kalomo",
+      "facility": "Mayoba RHC"
+    },
+    {
+      "province": "Southern",
+      "district": "Zimba",
+      "facility": "Sikalaye"
+    },
+    {
+      "province": "Southern",
+      "district": "Zimba",
+      "facility": "Chidi"
+    },
+    {
+      "province": "Southern",
+      "district": "Zimba",
+      "facility": "Mulamfu"
+    },
+    {
+      "province": "Southern",
+      "district": "Zimba",
+      "facility": "Simwatachela"
+    },
+    {
+      "province": "Southern",
+      "district": "Zimba",
+      "facility": "Njabalombe"
+    },
+    {
+      "province": "Southern",
+      "district": "Zimba",
+      "facility": "Luyaba"
+    },
+    {
+      "province": "Southern",
+      "district": "Zimba",
+      "facility": "Muzya"
+    },
+    {
+      "province": "Southern",
+      "district": "Zimba",
+      "facility": "Kanyanga"
+    },
+    {
+      "province": "Southern",
+      "district": "Zimba",
+      "facility": "HAHC"
+    },
+    {
+      "province": "Southern",
+      "district": "Zimba",
+      "facility": "Nakowa"
+    },
+    {
+      "province": "Southern",
+      "district": "Livingstone",
+      "facility": "Nakatindi UHC"
+    },
+    {
+      "province": "Southern",
+      "district": "Livingstone",
+      "facility": "Dalice HP"
+    },
+    {
+      "province": "Southern",
+      "district": "Livingstone",
+      "facility": "Vicfalls UHC"
+    },
+    {
+      "province": "Southern",
+      "district": "Livingstone",
+      "facility": "Dssv HP"
+    },
+    {
+      "province": "Southern",
+      "district": "Livingstone",
+      "facility": "Natebe HP"
+    },
+    {
+      "province": "Southern",
+      "district": "Livingstone",
+      "facility": "Hilcrest HP"
+    },
+    {
+      "province": "Southern",
+      "district": "Livingstone",
+      "facility": "Boma UHC"
+    },
+    {
+      "province": "Southern",
+      "district": "Livingstone",
+      "facility": "Mosi Oa Tunya UHC"
+    },
+    {
+      "province": "Southern",
+      "district": "Livingstone",
+      "facility": "Mbita HP"
+    },
+    {
+      "province": "Southern",
+      "district": "Livingstone",
+      "facility": "St Joseph Hospice"
+    },
+    {
+      "province": "Southern",
+      "district": "Mazabuka",
+      "facility": "Kaonga"
+    },
+    {
+      "province": "Southern",
+      "district": "Mazabuka",
+      "facility": "Lubombo"
+    },
+    {
+      "province": "Southern",
+      "district": "Mazabuka",
+      "facility": "Nakambala"
+    },
+    {
+      "province": "Southern",
+      "district": "Mazabuka",
+      "facility": "Research"
+    },
+    {
+      "province": "Southern",
+      "district": "Mazabuka",
+      "facility": "Kaleya Urban"
+    },
+    {
+      "province": "Southern",
+      "district": "Mazabuka",
+      "facility": "Magoye"
+    },
+    {
+      "province": "Southern",
+      "district": "Mazabuka",
+      "facility": "Hillside"
+    },
+    {
+      "province": "Southern",
+      "district": "Mazabuka",
+      "facility": "Chalimbana"
+    },
+    {
+      "province": "Southern",
+      "district": "Mazabuka",
+      "facility": "Nanga RHC"
+    },
+    {
+      "province": "Southern",
+      "district": "Mazabuka",
+      "facility": "Nega Nega"
+    },
+    {
+      "province": "Southern",
+      "district": "Monze",
+      "facility": "Monze Urban"
+    },
+    {
+      "province": "Southern",
+      "district": "Monze",
+      "facility": "Manungu"
+    },
+    {
+      "province": "Southern",
+      "district": "Monze",
+      "facility": "Rusangu"
+    },
+    {
+      "province": "Southern",
+      "district": "Monze",
+      "facility": "Chisekesi"
+    },
+    {
+      "province": "Southern",
+      "district": "Monze",
+      "facility": "Nteme"
+    },
+    {
+      "province": "Southern",
+      "district": "Monze",
+      "facility": "Luyaba"
+    },
+    {
+      "province": "Southern",
+      "district": "Monze",
+      "facility": "Mulumbwa HP"
+    },
+    {
+      "province": "Southern",
+      "district": "Monze",
+      "facility": "Hamapande"
+    },
+    {
+      "province": "Southern",
+      "district": "Monze",
+      "facility": "Zca"
+    },
+    {
+      "province": "Southern",
+      "district": "Monze",
+      "facility": "Kaumba"
+    },
+    {
+      "province": "Southern",
+      "district": "Pemba",
+      "facility": "Kanchomba"
+    },
+    {
+      "province": "Southern",
+      "district": "Pemba",
+      "facility": "Choompa"
+    },
+    {
+      "province": "Southern",
+      "district": "Pemba",
+      "facility": "Michelo"
+    },
+    {
+      "province": "Southern",
+      "district": "Pemba",
+      "facility": "Jembo"
+    },
+    {
+      "province": "Southern",
+      "district": "Pemba",
+      "facility": "Chiyumbabenzu"
+    },
+    {
+      "province": "Southern",
+      "district": "Pemba",
+      "facility": "Ndondi"
+    },
+    {
+      "province": "Southern",
+      "district": "Pemba",
+      "facility": "Demu"
+    },
+    {
+      "province": "Southern",
+      "district": "Pemba",
+      "facility": "Chilundu"
+    },
+    {
+      "province": "Southern",
+      "district": "Pemba",
+      "facility": "Kasiya"
+    },
+    {
+      "province": "Southern",
+      "district": "Pemba",
+      "facility": "Muzoka"
+    },
+    {
+      "province": "Eastern",
+      "district": "Sinda",
+      "facility": "Chafulu"
+    },
+    {
+      "province": "Eastern",
+      "district": "Sinda",
+      "facility": "Seya"
+    },
+    {
+      "province": "Eastern",
+      "district": "Sinda",
+      "facility": "Nyanje HAHC"
+    },
+    {
+      "province": "Eastern",
+      "district": "Sinda",
+      "facility": "Chanjoka"
+    },
+    {
+      "province": "Eastern",
+      "district": "Sinda",
+      "facility": "Chanjobvu"
+    },
+    {
+      "province": "Eastern",
+      "district": "Sinda",
+      "facility": "Chitawe"
+    },
+    {
+      "province": "Eastern",
+      "district": "Sinda",
+      "facility": "Kasamba"
+    },
+    {
+      "province": "Eastern",
+      "district": "Sinda",
+      "facility": "Chimtengo"
+    },
+    {
+      "province": "Eastern",
+      "district": "Sinda",
+      "facility": "Nsheketeni"
+    },
+    {
+      "province": "Eastern",
+      "district": "Sinda",
+      "facility": "Sinda Zonal"
+    },
+    {
+      "province": "Eastern",
+      "district": "Nyimba",
+      "facility": "Mchimazi"
+    },
+    {
+      "province": "Eastern",
+      "district": "Nyimba",
+      "facility": "Kacholola"
+    },
+    {
+      "province": "Eastern",
+      "district": "Nyimba",
+      "facility": "Ndake"
+    },
+    {
+      "province": "Eastern",
+      "district": "Nyimba",
+      "facility": "Msima"
+    },
+    {
+      "province": "Eastern",
+      "district": "Nyimba",
+      "facility": "Chininkhu"
+    },
+    {
+      "province": "Eastern",
+      "district": "Nyimba",
+      "facility": "Mtilizi HP"
+    },
+    {
+      "province": "Eastern",
+      "district": "Nyimba",
+      "facility": "Mkopeka"
+    },
+    {
+      "province": "Eastern",
+      "district": "Nyimba",
+      "facility": "Vizimumba"
+    },
+    {
+      "province": "Eastern",
+      "district": "Nyimba",
+      "facility": "Chinambi"
+    },
+    {
+      "province": "Eastern",
+      "district": "Nyimba",
+      "facility": "Chalubilo"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chadiza",
+      "facility": "Zingalume"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chadiza",
+      "facility": "Kabvumo"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chadiza",
+      "facility": "Chamandala"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chadiza",
+      "facility": "Kapirimpika"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chadiza",
+      "facility": "Chilenga"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chadiza",
+      "facility": "Nsadzu"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chadiza",
+      "facility": "Naviruli"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chadiza",
+      "facility": "Sinalo"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chadiza",
+      "facility": "John"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chadiza",
+      "facility": "Bwanukha"
+    },
+    {
+      "province": "Eastern",
+      "district": "Lusangazi",
+      "facility": "Kakwiya RHC"
+    },
+    {
+      "province": "Eastern",
+      "district": "Lusangazi",
+      "facility": "Nyamphande RHC"
+    },
+    {
+      "province": "Eastern",
+      "district": "Lusangazi",
+      "facility": "Mawanda RHC"
+    },
+    {
+      "province": "Eastern",
+      "district": "Lusangazi",
+      "facility": "Chipungu RHC"
+    },
+    {
+      "province": "Eastern",
+      "district": "Lusangazi",
+      "facility": "Nyamphodolo RHC"
+    },
+    {
+      "province": "Eastern",
+      "district": "Lusangazi",
+      "facility": "Matonga HP"
+    },
+    {
+      "province": "Eastern",
+      "district": "Lusangazi",
+      "facility": "Misolo HP"
+    },
+    {
+      "province": "Eastern",
+      "district": "Lusangazi",
+      "facility": "Sasu RHC"
+    },
+    {
+      "province": "Eastern",
+      "district": "Lusangazi",
+      "facility": "Makale HP"
+    },
+    {
+      "province": "Eastern",
+      "district": "Lusangazi",
+      "facility": "Chitindi Mini Hospital"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chipangali",
+      "facility": "Vizenge"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chipangali",
+      "facility": "Rukuzye"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chipangali",
+      "facility": "Mshawa"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chipangali",
+      "facility": "Mnoro"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chipangali",
+      "facility": "Tamanda"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chipangali",
+      "facility": "Mkanda"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chipangali",
+      "facility": "Mafuta"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chipangali",
+      "facility": "Kasenga"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chipangali",
+      "facility": "Mnukwa"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chipangali",
+      "facility": "Nyaviyombo"
+    }
+  ]
+}
