@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-10",
-  "source": "SRMNH DQA eLMIS Verification Tool Round 2 cumulative export 2026-06-10",
+  "date": "2026-06-11",
+  "source": "SRMNH DQA eLMIS Verification Tool Round 2 cumulative export 2026-06-11",
   "records": [
     {
       "visitDate": "2026-06-09",
@@ -35,7 +35,7 @@
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 1
         },
         "DMPA-SC": {
@@ -82,7 +82,7 @@
       "level": "Level 1 Hospital",
       "assessed": true,
       "elmisFunctional": false,
-      "sccAvailable": true,
+      "sccAvailable": false,
       "stockCardUpdated": false,
       "dhis2Discrepancy": 5,
       "pharmacyStockout": 1,
@@ -100,42 +100,42 @@
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 1
         },
         "Jadelle": {
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 1
         },
         "DMPA-SC": {
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 1
         },
         "DMPA-IM": {
           "pharmacyStockout": 1,
           "facilityStockout": 0,
           "stockoutProduct": 1,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 1
         },
         "COCs": {
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 1
         },
         "IUCD": {
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 0
         }
       },
@@ -195,7 +195,7 @@
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 1
         },
         "COCs": {
@@ -209,7 +209,7 @@
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 0
         }
       },
@@ -250,7 +250,7 @@
           "pharmacyStockout": 1,
           "facilityStockout": 0,
           "stockoutProduct": 1,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 1
         },
         "Jadelle": {
@@ -278,20 +278,19 @@
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 1
         },
         "IUCD": {
           "pharmacyStockout": 1,
           "facilityStockout": 0,
           "stockoutProduct": 1,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 0
         }
       },
       "rootCauses": [
         "Staff knowledge gap",
-        "DHIS2 inconsistency",
         "Stockout"
       ],
       "remarks": "SUPPLY CHAIN/ELMIS TRAINING NEEDED FOR THE STAFF"
@@ -304,7 +303,7 @@
       "level": "Rural Health Centre",
       "assessed": true,
       "elmisFunctional": true,
-      "sccAvailable": true,
+      "sccAvailable": false,
       "stockCardUpdated": false,
       "dhis2Discrepancy": 6,
       "pharmacyStockout": 1,
@@ -343,7 +342,7 @@
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 1,
+          "sccElmisDiscrepancy": 0,
           "fpDhis2Discrepancy": 1
         },
         "COCs": {
@@ -357,7 +356,7 @@
           "pharmacyStockout": 1,
           "facilityStockout": 0,
           "stockoutProduct": 1,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 1
         }
       },
@@ -366,9 +365,10 @@
         "Incomplete SCC",
         "Stock card not updated",
         "Poor documentation",
-        "DHIS2 inconsistency"
+        "DHIS2 inconsistency",
+        "Stockout"
       ],
-      "remarks": "Improve  documentation and reporting in both HMIS and ELMIS,"
+      "remarks": "Recommending training in ELMIS/HMIS and TSS"
     },
     {
       "visitDate": "2026-06-10",
@@ -378,7 +378,7 @@
       "level": "Urban Health Centre",
       "assessed": true,
       "elmisFunctional": true,
-      "sccAvailable": true,
+      "sccAvailable": false,
       "stockCardUpdated": false,
       "dhis2Discrepancy": 6,
       "pharmacyStockout": 0,
@@ -396,14 +396,14 @@
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 1
         },
         "Jadelle": {
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 1
         },
         "DMPA-SC": {
@@ -417,7 +417,7 @@
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 1
         },
         "COCs": {
@@ -444,7 +444,7 @@
         "Staff knowledge gap",
         "DHIS2 inconsistency"
       ],
-      "remarks": "1. Update SCC both physical and eLMIS in real time"
+      "remarks": "Correctly fill and complete FP registers at any given time"
     },
     {
       "visitDate": "2026-06-10",
@@ -454,7 +454,7 @@
       "level": "Rural Health Centre",
       "assessed": true,
       "elmisFunctional": true,
-      "sccAvailable": true,
+      "sccAvailable": false,
       "stockCardUpdated": false,
       "dhis2Discrepancy": 4,
       "pharmacyStockout": 0,
@@ -472,28 +472,28 @@
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 1,
+          "sccElmisDiscrepancy": 0,
           "fpDhis2Discrepancy": 1
         },
         "Jadelle": {
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 1,
+          "sccElmisDiscrepancy": 0,
           "fpDhis2Discrepancy": 1
         },
         "DMPA-SC": {
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 1,
+          "sccElmisDiscrepancy": 0,
           "fpDhis2Discrepancy": 1
         },
         "DMPA-IM": {
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 1
         },
         "COCs": {
@@ -507,7 +507,7 @@
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 0
         }
       },
@@ -518,7 +518,7 @@
         "Staff knowledge gap",
         "DHIS2 inconsistency"
       ],
-      "remarks": "Improve on documentation for HMIS SCC ELMIS"
+      "remarks": "Need for TSS"
     },
     {
       "visitDate": "2026-06-10",
@@ -529,7 +529,7 @@
       "assessed": true,
       "elmisFunctional": true,
       "sccAvailable": true,
-      "stockCardUpdated": true,
+      "stockCardUpdated": false,
       "dhis2Discrepancy": 3,
       "pharmacyStockout": 2,
       "facilityStockout": 0,
@@ -546,7 +546,7 @@
           "pharmacyStockout": 1,
           "facilityStockout": 0,
           "stockoutProduct": 1,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 0
         },
         "Jadelle": {
@@ -560,7 +560,7 @@
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 1
         },
         "DMPA-IM": {
@@ -581,7 +581,7 @@
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 0
         }
       },
@@ -589,9 +589,10 @@
         "UoM mismatch",
         "Stock card not updated",
         "Staff knowledge gap",
-        "DHIS2 inconsistency"
+        "DHIS2 inconsistency",
+        "Stockout"
       ],
-      "remarks": "1.use generic name on stock control cards.2.use unit that is on delivery note.To collect and record temperature chart in pharmacy.intensify data verification before entry in DHIS2. facility to conduct orientation and mentorship in documentation in family planning register"
+      "remarks": "The facility to take ownership in management of family planning logistics and data management."
     },
     {
       "visitDate": "2026-06-10",
@@ -601,7 +602,7 @@
       "level": "Rural Health Centre",
       "assessed": true,
       "elmisFunctional": true,
-      "sccAvailable": true,
+      "sccAvailable": false,
       "stockCardUpdated": false,
       "dhis2Discrepancy": 5,
       "pharmacyStockout": 4,
@@ -640,7 +641,7 @@
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 1,
+          "sccElmisDiscrepancy": 0,
           "fpDhis2Discrepancy": 1
         },
         "COCs": {
@@ -663,9 +664,10 @@
         "Incomplete SCC",
         "Stock card not updated",
         "Poor documentation",
-        "DHIS2 inconsistency"
+        "DHIS2 inconsistency",
+        "Stockout"
       ],
-      "remarks": "1.Fp registers to be filled in correctly as per guidelines and updating ELMIS transactions in real time."
+      "remarks": "Correct mistakes in the register and also the figures in the eLMIS and DHIS 2 systems"
     },
     {
       "visitDate": "2026-06-10",
@@ -676,7 +678,7 @@
       "assessed": true,
       "elmisFunctional": true,
       "sccAvailable": true,
-      "stockCardUpdated": false,
+      "stockCardUpdated": true,
       "dhis2Discrepancy": 0,
       "pharmacyStockout": 3,
       "facilityStockout": 2,
@@ -707,21 +709,21 @@
           "pharmacyStockout": 1,
           "facilityStockout": 1,
           "stockoutProduct": 1,
-          "sccElmisDiscrepancy": 1,
+          "sccElmisDiscrepancy": 0,
           "fpDhis2Discrepancy": 0
         },
         "DMPA-IM": {
           "pharmacyStockout": 1,
           "facilityStockout": 0,
           "stockoutProduct": 1,
-          "sccElmisDiscrepancy": 1,
+          "sccElmisDiscrepancy": 0,
           "fpDhis2Discrepancy": 0
         },
         "COCs": {
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 1,
+          "sccElmisDiscrepancy": 0,
           "fpDhis2Discrepancy": 0
         },
         "IUCD": {
@@ -734,9 +736,10 @@
       },
       "rootCauses": [
         "eLMIS access challenges",
-        "Staff knowledge gap"
+        "Staff knowledge gap",
+        "Stockout"
       ],
-      "remarks": "jadelle stock outs, Knowledge gap in ELMIS & system configuration"
+      "remarks": "Order jadelle from DHO,staff training in ELMIS & System uodate for the saver"
     },
     {
       "visitDate": "2026-06-10",
@@ -747,7 +750,7 @@
       "assessed": true,
       "elmisFunctional": false,
       "sccAvailable": true,
-      "stockCardUpdated": false,
+      "stockCardUpdated": true,
       "dhis2Discrepancy": 1,
       "pharmacyStockout": 3,
       "facilityStockout": 2,
@@ -764,7 +767,7 @@
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 1
         },
         "Jadelle": {
@@ -785,14 +788,14 @@
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 0
         },
         "COCs": {
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 0
         },
         "IUCD": {
@@ -804,9 +807,10 @@
         }
       },
       "rootCauses": [
-        "Poor documentation"
+        "Poor documentation",
+        "Stockout"
       ],
-      "remarks": "Improve on documentation Facility performing well"
+      "remarks": "TSS"
     },
     {
       "visitDate": "2026-06-10",
@@ -834,14 +838,14 @@
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 0
         },
         "Jadelle": {
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 1
         },
         "DMPA-SC": {
@@ -855,29 +859,30 @@
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 0
         },
         "COCs": {
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 1
         },
         "IUCD": {
           "pharmacyStockout": 0,
           "facilityStockout": 0,
           "stockoutProduct": 0,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 0
         }
       },
       "rootCauses": [
         "Poor documentation",
-        "DHIS2 inconsistency"
+        "DHIS2 inconsistency",
+        "Stockout"
       ],
-      "remarks": "Improve on HMIS documentation"
+      "remarks": "TSS"
     },
     {
       "visitDate": "2026-06-10",
@@ -905,13 +910,819 @@
           "pharmacyStockout": 1,
           "facilityStockout": 0,
           "stockoutProduct": 1,
-          "sccElmisDiscrepancy": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 1
         },
         "Jadelle": {
           "pharmacyStockout": 1,
           "facilityStockout": 0,
           "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "IUCD": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        }
+      },
+      "rootCauses": [
+        "UoM mismatch",
+        "Delayed eLMIS entry",
+        "Stock card not updated",
+        "DHIS2 inconsistency",
+        "Stockout"
+      ],
+      "remarks": "Encourage teamwork in family planning logistics management and data management"
+    },
+    {
+      "visitDate": "2026-06-10",
+      "province": "Southern",
+      "district": "Mazabuka",
+      "facility": "Research",
+      "level": "Rural Health Centre",
+      "assessed": true,
+      "elmisFunctional": true,
+      "sccAvailable": false,
+      "stockCardUpdated": false,
+      "dhis2Discrepancy": 1,
+      "pharmacyStockout": 3,
+      "facilityStockout": 2,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": true,
+      "productsOnShelves": true,
+      "productsOffGround": false,
+      "tempChartUpdated": false,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "Jadelle": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 0,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "IUCD": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "Delayed eLMIS entry",
+        "Incomplete SCC",
+        "Stock card not updated",
+        "eLMIS access challenges",
+        "Staff knowledge gap",
+        "Stockout"
+      ],
+      "remarks": "1.ELMIS training,Mentorship,system configuration,SCC updating & Pharmacy to assign FP"
+    },
+    {
+      "visitDate": "2026-06-10",
+      "province": "Luapula",
+      "district": "Samfya",
+      "facility": "Chipako RHC",
+      "level": "Rural Health Centre",
+      "assessed": true,
+      "elmisFunctional": true,
+      "sccAvailable": true,
+      "stockCardUpdated": false,
+      "dhis2Discrepancy": 3,
+      "pharmacyStockout": 1,
+      "facilityStockout": 1,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": true,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": true,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "Jadelle": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "IUCD": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "Stock card not updated",
+        "eLMIS access challenges",
+        "Staff knowledge gap",
+        "DHIS2 inconsistency",
+        "Stockout"
+      ],
+      "remarks": "TSS  AND MENTORSHIP IS NEEDED"
+    },
+    {
+      "visitDate": "2026-06-10",
+      "province": "Luapula",
+      "district": "Samfya",
+      "facility": "Mano HP",
+      "level": "Health Post",
+      "assessed": true,
+      "elmisFunctional": true,
+      "sccAvailable": true,
+      "stockCardUpdated": true,
+      "dhis2Discrepancy": 0,
+      "pharmacyStockout": 2,
+      "facilityStockout": 1,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": true,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": true,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "Jadelle": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 0,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "COCs": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "IUCD": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "Ordering errors",
+        "DHIS2 inconsistency",
+        "Stockout"
+      ],
+      "remarks": "TSS"
+    },
+    {
+      "visitDate": "2026-06-10",
+      "province": "Luapula",
+      "district": "Chifunabuli",
+      "facility": "Kandolo HP",
+      "level": "Health Post",
+      "assessed": true,
+      "elmisFunctional": false,
+      "sccAvailable": true,
+      "stockCardUpdated": true,
+      "dhis2Discrepancy": 5,
+      "pharmacyStockout": 0,
+      "facilityStockout": 0,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": true,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": true,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "Jadelle": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "IUCD": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "DHIS2 inconsistency"
+      ],
+      "remarks": "Data cleaning to be done"
+    },
+    {
+      "visitDate": "2026-06-10",
+      "province": "Eastern",
+      "district": "Chipangali",
+      "facility": "Mshawa",
+      "level": "Rural Health Centre",
+      "assessed": true,
+      "elmisFunctional": true,
+      "sccAvailable": true,
+      "stockCardUpdated": false,
+      "dhis2Discrepancy": 0,
+      "pharmacyStockout": 4,
+      "facilityStockout": 4,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": true,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": true,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "Jadelle": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "IUCD": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "Delayed eLMIS entry",
+        "Stock card not updated",
+        "Poor documentation",
+        "Stockout"
+      ],
+      "remarks": "Timely update of SCCs"
+    },
+    {
+      "visitDate": "2026-06-11",
+      "province": "Luapula",
+      "district": "Chipili",
+      "facility": "Mutipula RHC",
+      "level": "Rural Health Centre",
+      "assessed": true,
+      "elmisFunctional": true,
+      "sccAvailable": false,
+      "stockCardUpdated": false,
+      "dhis2Discrepancy": 2,
+      "pharmacyStockout": 1,
+      "facilityStockout": 1,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": true,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": true,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "Jadelle": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "IUCD": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "Delayed eLMIS entry",
+        "Incomplete SCC",
+        "Stock card not updated",
+        "Poor documentation",
+        "DHIS2 inconsistency",
+        "Stockout"
+      ],
+      "remarks": "TSS"
+    },
+    {
+      "visitDate": "2026-06-10",
+      "province": "Eastern",
+      "district": "Chadiza",
+      "facility": "Zingalume",
+      "level": "Health Post",
+      "assessed": true,
+      "elmisFunctional": false,
+      "sccAvailable": true,
+      "stockCardUpdated": true,
+      "dhis2Discrepancy": 1,
+      "pharmacyStockout": 1,
+      "facilityStockout": 1,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": false,
+      "productsOnShelves": true,
+      "productsOffGround": false,
+      "tempChartUpdated": false,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "Jadelle": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "IUCD": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "UoM mismatch",
+        "Poor documentation",
+        "Ordering errors",
+        "eLMIS access challenges",
+        "Stockout"
+      ],
+      "remarks": "Commodities to match across all reporting platforms"
+    },
+    {
+      "visitDate": "2026-06-11",
+      "province": "Luapula",
+      "district": "Chifunabuli",
+      "facility": "Miponda RHC",
+      "level": "Rural Health Centre",
+      "assessed": true,
+      "elmisFunctional": true,
+      "sccAvailable": false,
+      "stockCardUpdated": false,
+      "dhis2Discrepancy": 4,
+      "pharmacyStockout": 0,
+      "facilityStockout": 0,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": false,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": true,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "Jadelle": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "IUCD": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "Incomplete SCC",
+        "Stock card not updated",
+        "Poor documentation",
+        "eLMIS access challenges",
+        "Staff knowledge gap",
+        "DHIS2 inconsistency"
+      ],
+      "remarks": "1. Formulate and update SCC for each fp product2. Orient other staff in the correct filling 3 of the register 3."
+    },
+    {
+      "visitDate": "2026-06-11",
+      "province": "Eastern",
+      "district": "Chipangali",
+      "facility": "Vizenge",
+      "level": "Rural Health Centre",
+      "assessed": true,
+      "elmisFunctional": false,
+      "sccAvailable": false,
+      "stockCardUpdated": false,
+      "dhis2Discrepancy": 0,
+      "pharmacyStockout": 5,
+      "facilityStockout": 3,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": true,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": true,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "Jadelle": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 0,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "COCs": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "IUCD": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 0,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "Incomplete SCC",
+        "Stock card not updated",
+        "Stockout"
+      ],
+      "remarks": "To regularly update stock control cards."
+    },
+    {
+      "visitDate": "2026-06-11",
+      "province": "Luapula",
+      "district": "Samfya",
+      "facility": "Samfya Stage 2",
+      "level": "Rural Health Centre",
+      "assessed": true,
+      "elmisFunctional": true,
+      "sccAvailable": true,
+      "stockCardUpdated": true,
+      "dhis2Discrepancy": 3,
+      "pharmacyStockout": 0,
+      "facilityStockout": 0,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": true,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": true,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "Jadelle": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "IUCD": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "UoM mismatch",
+        "Staff knowledge gap",
+        "DHIS2 inconsistency"
+      ],
+      "remarks": "TSS needed in data aggregation and documentation"
+    },
+    {
+      "visitDate": "2026-06-11",
+      "province": "Southern",
+      "district": "Mazabuka",
+      "facility": "Kaleya Urban",
+      "level": "Urban Health Centre",
+      "assessed": true,
+      "elmisFunctional": true,
+      "sccAvailable": true,
+      "stockCardUpdated": true,
+      "dhis2Discrepancy": 5,
+      "pharmacyStockout": 1,
+      "facilityStockout": 1,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": false,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": true,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "Jadelle": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
           "sccElmisDiscrepancy": 0,
           "fpDhis2Discrepancy": 1
         },
@@ -941,16 +1752,1405 @@
           "facilityStockout": 0,
           "stockoutProduct": 0,
           "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "Other",
+        "system not updated",
+        "Stockout"
+      ],
+      "remarks": "1.syncing of data base was done 2.Need to update system"
+    },
+    {
+      "visitDate": "2026-06-11",
+      "province": "Luapula",
+      "district": "Mansa",
+      "facility": "Lubende RHC",
+      "level": "Rural Health Centre",
+      "assessed": true,
+      "elmisFunctional": true,
+      "sccAvailable": false,
+      "stockCardUpdated": false,
+      "dhis2Discrepancy": 6,
+      "pharmacyStockout": 1,
+      "facilityStockout": 1,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": false,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": true,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "Jadelle": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "IUCD": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
           "fpDhis2Discrepancy": 1
         }
       },
       "rootCauses": [
         "UoM mismatch",
-        "Delayed eLMIS entry",
+        "Incomplete SCC",
         "Stock card not updated",
+        "Ordering errors",
+        "DHIS2 inconsistency",
+        "Stockout"
+      ],
+      "remarks": "Facility encouraged to review data and scrutinize it before entry in DHIS2 and elmis."
+    },
+    {
+      "visitDate": "2026-06-10",
+      "province": "Eastern",
+      "district": "Chadiza",
+      "facility": "Kabvumo",
+      "level": "Health Post",
+      "assessed": true,
+      "elmisFunctional": false,
+      "sccAvailable": true,
+      "stockCardUpdated": true,
+      "dhis2Discrepancy": 2,
+      "pharmacyStockout": 4,
+      "facilityStockout": 2,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": false,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": true,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "Jadelle": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 0,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "COCs": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "IUCD": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 0,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "UoM mismatch",
+        "Poor documentation",
+        "Ordering errors",
+        "DHIS2 inconsistency",
+        "Stockout"
+      ],
+      "remarks": "-Need training in cupper T and jadel insertion -Need to know the re order the of the commodities to avoid stock out. Review registers before submitting data"
+    },
+    {
+      "visitDate": "2026-06-11",
+      "province": "Luapula",
+      "district": "Chifunabuli",
+      "facility": "Shikamushile RHC",
+      "level": "Rural Health Centre",
+      "assessed": true,
+      "elmisFunctional": true,
+      "sccAvailable": true,
+      "stockCardUpdated": true,
+      "dhis2Discrepancy": 4,
+      "pharmacyStockout": 4,
+      "facilityStockout": 2,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": true,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": false,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "Jadelle": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 0,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "COCs": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 0,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "IUCD": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "UoM mismatch",
+        "Stockout"
+      ],
+      "remarks": "Nil"
+    },
+    {
+      "visitDate": "2026-06-11",
+      "province": "Luapula",
+      "district": "Chipili",
+      "facility": "Kamami HP",
+      "level": "Health Post",
+      "assessed": true,
+      "elmisFunctional": false,
+      "sccAvailable": true,
+      "stockCardUpdated": false,
+      "dhis2Discrepancy": 0,
+      "pharmacyStockout": 0,
+      "facilityStockout": 0,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": false,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": true,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "Jadelle": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "IUCD": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "Stock card not updated"
+      ],
+      "remarks": "TSS"
+    },
+    {
+      "visitDate": "2026-06-11",
+      "province": "Southern",
+      "district": "Kalomo",
+      "facility": "Siachitema Rural Health Center",
+      "level": "Rural Health Centre",
+      "assessed": true,
+      "elmisFunctional": true,
+      "sccAvailable": false,
+      "stockCardUpdated": false,
+      "dhis2Discrepancy": 5,
+      "pharmacyStockout": 2,
+      "facilityStockout": 1,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": false,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": false,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "Jadelle": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "IUCD": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 0,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "UoM mismatch",
+        "Delayed eLMIS entry",
+        "Incomplete SCC",
+        "Stock card not updated",
+        "Poor documentation",
+        "DHIS2 inconsistency",
+        "Stockout"
+      ],
+      "remarks": "Recommendations one staff to be trained in LARC service provision"
+    },
+    {
+      "visitDate": "2026-06-11",
+      "province": "Southern",
+      "district": "Kalomo",
+      "facility": "Kalonda RHC",
+      "level": "Rural Health Centre",
+      "assessed": true,
+      "elmisFunctional": false,
+      "sccAvailable": true,
+      "stockCardUpdated": true,
+      "dhis2Discrepancy": 3,
+      "pharmacyStockout": 1,
+      "facilityStockout": 0,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": true,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": true,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "Jadelle": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "IUCD": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 0,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "DHIS2 inconsistency",
+        "Stockout"
+      ],
+      "remarks": "Facility to be doing triangulation of data before inputting in DHIS 2 so that data mismatch is avoided"
+    },
+    {
+      "visitDate": "2026-06-11",
+      "province": "Southern",
+      "district": "Mazabuka",
+      "facility": "Kaonga",
+      "level": "Level 1 Hospital",
+      "assessed": true,
+      "elmisFunctional": true,
+      "sccAvailable": true,
+      "stockCardUpdated": true,
+      "dhis2Discrepancy": 2,
+      "pharmacyStockout": 3,
+      "facilityStockout": 3,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": true,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": true,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "Jadelle": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "IUCD": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "Other",
+        "eLMIS not updated (RH0004 & RH0006) not found",
+        "Stockout"
+      ],
+      "remarks": "1.Update eLMIS system 2.Generate order quantities when submitting reports"
+    },
+    {
+      "visitDate": "2026-06-11",
+      "province": "Luapula",
+      "district": "Mwense",
+      "facility": "Kashiba RHC",
+      "level": "Rural Health Centre",
+      "assessed": true,
+      "elmisFunctional": true,
+      "sccAvailable": true,
+      "stockCardUpdated": false,
+      "dhis2Discrepancy": 4,
+      "pharmacyStockout": 1,
+      "facilityStockout": 0,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": true,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": true,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "Jadelle": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 0,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "IUCD": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "Stock card not updated",
+        "Stockout"
+      ],
+      "remarks": "Facility staff to update stock control card regularly. Facility staff to fully document in the family planning register."
+    },
+    {
+      "visitDate": "2026-06-11",
+      "province": "Luapula",
+      "district": "Mwense",
+      "facility": "Mambilima M Hospital",
+      "level": "Level 1 Hospital",
+      "assessed": true,
+      "elmisFunctional": false,
+      "sccAvailable": true,
+      "stockCardUpdated": true,
+      "dhis2Discrepancy": 5,
+      "pharmacyStockout": 1,
+      "facilityStockout": 0,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": false,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": true,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 0,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "Jadelle": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "IUCD": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "Poor documentation",
+        "Ordering errors",
+        "DHIS2 inconsistency",
+        "Other",
+        "Variance in the dispensary unit for sub commodities eg Sayana...Wrong entries in the family planning register.",
+        "Stockout"
+      ],
+      "remarks": "Facility need to create demand for long term planning. Facility staff needs to properly document their clients and commodities Commodities should be written in full names."
+    },
+    {
+      "visitDate": "2026-06-10",
+      "province": "Luapula",
+      "district": "Mwense",
+      "facility": "Chalwe HP",
+      "level": "Health Post",
+      "assessed": true,
+      "elmisFunctional": true,
+      "sccAvailable": true,
+      "stockCardUpdated": false,
+      "dhis2Discrepancy": 3,
+      "pharmacyStockout": 1,
+      "facilityStockout": 1,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": true,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": true,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "Jadelle": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "IUCD": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "Stock card not updated",
+        "Stockout"
+      ],
+      "remarks": "Stock Control Card needs to be updated regularly."
+    },
+    {
+      "visitDate": "2026-06-10",
+      "province": "Luapula",
+      "district": "Mwense",
+      "facility": "Kabili HP",
+      "level": "Health Post",
+      "assessed": true,
+      "elmisFunctional": true,
+      "sccAvailable": false,
+      "stockCardUpdated": false,
+      "dhis2Discrepancy": 5,
+      "pharmacyStockout": 0,
+      "facilityStockout": 0,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": true,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": false,
+      "functionalThermometer": false,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "Jadelle": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "IUCD": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "Delayed eLMIS entry",
+        "Incomplete SCC",
+        "Stock card not updated",
+        "Poor documentation",
+        "Ordering errors",
+        "Staff knowledge gap",
         "DHIS2 inconsistency"
       ],
-      "remarks": "Real time transactions updating of Elmis transactions, Intensified data verification before entering in DHIS2, Corrections of incorrect data on the system"
+      "remarks": "Facility to update the SCC for commodities in ELMIS.Facility staff need to accurately count their data together . Marie stopes data should be part of facility data."
+    },
+    {
+      "visitDate": "2026-06-10",
+      "province": "Eastern",
+      "district": "Chadiza",
+      "facility": "Kapirimpika",
+      "level": "Health Post",
+      "assessed": true,
+      "elmisFunctional": false,
+      "sccAvailable": true,
+      "stockCardUpdated": true,
+      "dhis2Discrepancy": 4,
+      "pharmacyStockout": 4,
+      "facilityStockout": 4,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": false,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": false,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "Jadelle": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "IUCD": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 0,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "UoM mismatch",
+        "Poor documentation",
+        "Ordering errors",
+        "DHIS2 inconsistency",
+        "Stockout"
+      ],
+      "remarks": "Monitor family planing stock  to avoid stock out    b) Miss match of data different data reporting tools C)Facility to create a stock control card in MCH for sayana"
+    },
+    {
+      "visitDate": "2026-06-11",
+      "province": "Luapula",
+      "district": "Chifunabuli",
+      "facility": "Mwewa HP",
+      "level": "Health Post",
+      "assessed": true,
+      "elmisFunctional": true,
+      "sccAvailable": true,
+      "stockCardUpdated": false,
+      "dhis2Discrepancy": 6,
+      "pharmacyStockout": 2,
+      "facilityStockout": 1,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": false,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": true,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "Jadelle": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "COCs": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 0,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "IUCD": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        }
+      },
+      "rootCauses": [
+        "Stock card not updated",
+        "Poor documentation",
+        "Ordering errors",
+        "eLMIS access challenges",
+        "Stockout"
+      ],
+      "remarks": "Orientation of al facility staff in the use of standard codes provided in the register guide"
+    },
+    {
+      "visitDate": "2026-06-11",
+      "province": "Luapula",
+      "district": "Samfya",
+      "facility": "Veronica Chikonda HP",
+      "level": "Health Post",
+      "assessed": true,
+      "elmisFunctional": true,
+      "sccAvailable": true,
+      "stockCardUpdated": true,
+      "dhis2Discrepancy": 0,
+      "pharmacyStockout": 1,
+      "facilityStockout": 1,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": true,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": true,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "Jadelle": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "IUCD": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "Other",
+        "supply do not meet demand for some commodities.",
+        "Stockout"
+      ],
+      "remarks": "continuous TSS and mentorship, a staff to be attached to pharmacy to add up man power"
+    },
+    {
+      "visitDate": "2026-06-10",
+      "province": "Eastern",
+      "district": "Chadiza",
+      "facility": "Chamandala",
+      "level": "Health Post",
+      "assessed": true,
+      "elmisFunctional": false,
+      "sccAvailable": true,
+      "stockCardUpdated": false,
+      "dhis2Discrepancy": 4,
+      "pharmacyStockout": 1,
+      "facilityStockout": 2,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": false,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": false,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "Jadelle": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "IUCD": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "UoM mismatch",
+        "Stock card not updated",
+        "Poor documentation",
+        "Ordering errors",
+        "DHIS2 inconsistency",
+        "Stockout"
+      ],
+      "remarks": "Facility to update the stock control cards, follow the commodity re-order level, start documenting in the register correctly, to hold data reviews to close the gaps btn registers and DHIS2"
+    },
+    {
+      "visitDate": "2026-06-11",
+      "province": "Luapula",
+      "district": "Mansa",
+      "facility": "Mufuma HP",
+      "level": "Health Post",
+      "assessed": true,
+      "elmisFunctional": true,
+      "sccAvailable": false,
+      "stockCardUpdated": true,
+      "dhis2Discrepancy": 4,
+      "pharmacyStockout": 2,
+      "facilityStockout": 2,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": true,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": true,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "Jadelle": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "IUCD": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "UoM mismatch",
+        "Incomplete SCC",
+        "Poor documentation",
+        "eLMIS access challenges",
+        "Staff knowledge gap",
+        "DHIS2 inconsistency",
+        "Stockout"
+      ],
+      "remarks": "THE FACILITY TO WORK AS A TEAM IN ENSURING PROVISION OF FP COMMODITIES ,UTILISATION BY CREATING DEMAND AND DATA MANAGEMENT"
+    },
+    {
+      "visitDate": "2026-06-11",
+      "province": "Luapula",
+      "district": "Mansa",
+      "facility": "Chisongo HP",
+      "level": "Health Post",
+      "assessed": true,
+      "elmisFunctional": false,
+      "sccAvailable": false,
+      "stockCardUpdated": true,
+      "dhis2Discrepancy": 3,
+      "pharmacyStockout": 0,
+      "facilityStockout": 0,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": false,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": false,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "Jadelle": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "IUCD": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "Incomplete SCC",
+        "DHIS2 inconsistency"
+      ],
+      "remarks": "Facility to work as a team in ensuring good management of family planning logistic and data management."
+    },
+    {
+      "visitDate": "2026-06-11",
+      "province": "Luapula",
+      "district": "Chipili",
+      "facility": "Luminu RHC",
+      "level": "Rural Health Centre",
+      "assessed": true,
+      "elmisFunctional": true,
+      "sccAvailable": false,
+      "stockCardUpdated": false,
+      "dhis2Discrepancy": 4,
+      "pharmacyStockout": 1,
+      "facilityStockout": 1,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": true,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": true,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "Jadelle": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "IUCD": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "Delayed eLMIS entry",
+        "Incomplete SCC",
+        "Stock card not updated",
+        "Staff knowledge gap",
+        "DHIS2 inconsistency",
+        "Stockout"
+      ],
+      "remarks": "TSS"
+    },
+    {
+      "visitDate": "2026-06-11",
+      "province": "Luapula",
+      "district": "Chipili",
+      "facility": "Mimbulu HP",
+      "level": "Health Post",
+      "assessed": true,
+      "elmisFunctional": false,
+      "sccAvailable": false,
+      "stockCardUpdated": true,
+      "dhis2Discrepancy": 2,
+      "pharmacyStockout": 1,
+      "facilityStockout": 1,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": false,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": true,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "Jadelle": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "IUCD": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "Incomplete SCC",
+        "Stockout"
+      ],
+      "remarks": "TSS"
     }
   ]
 }
