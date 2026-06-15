@@ -1,6 +1,6 @@
 {
   "date": "2026-06-09",
-  "source": "SRMNH DQA eLMIS Verification Tool Round 2 cumulative export 2026-06-14",
+  "source": "SRMNH DQA eLMIS Verification Tool Round 2 cumulative export 2026-06-15",
   "records": [
     {
       "visitDate": "2026-06-09",
@@ -1509,6 +1509,308 @@
           "zammsaQuantityReceived": 0,
           "receivedFromDho": true,
           "dhoQuantityReceived": 12
+        }
+      ]
+    },
+    {
+      "visitDate": "2026-06-09",
+      "province": "Luapula",
+      "district": "Mwense",
+      "facility": "Mwense Stage 2",
+      "products": [
+        {
+          "product": "Implanon",
+          "months": {
+            "January": {
+              "orderQuantity": 0,
+              "physicalCount": 0,
+              "elmisStock": 0,
+              "physicalVsElmisDiscrepancy": 0,
+              "monthlyConsumptionScc": 5,
+              "monthlyConsumptionElmis": 5,
+              "consumptionDiscrepancy": 0,
+              "quantityReceived": 0,
+              "numberOfPatientsDhis2": 19,
+              "numberOfPatientsFpRegister": 19,
+              "patientRegisterDiscrepancy": 0
+            },
+            "February": {
+              "orderQuantity": 5,
+              "physicalCount": 0,
+              "elmisStock": 0,
+              "physicalVsElmisDiscrepancy": 0,
+              "monthlyConsumptionScc": 0,
+              "monthlyConsumptionElmis": 0,
+              "consumptionDiscrepancy": 0,
+              "quantityReceived": 0,
+              "numberOfPatientsDhis2": 4,
+              "numberOfPatientsFpRegister": 5,
+              "patientRegisterDiscrepancy": 1
+            },
+            "March": {
+              "orderQuantity": 46,
+              "physicalCount": 8,
+              "elmisStock": 18,
+              "physicalVsElmisDiscrepancy": -10,
+              "monthlyConsumptionScc": 20,
+              "monthlyConsumptionElmis": 20,
+              "consumptionDiscrepancy": 0,
+              "quantityReceived": 0,
+              "numberOfPatientsDhis2": 9,
+              "numberOfPatientsFpRegister": 10,
+              "patientRegisterDiscrepancy": 1
+            }
+          },
+          "availableOnAssessment": true,
+          "receivedFromZammsa": true,
+          "zammsaQuantityReceived": 0,
+          "receivedFromDho": false,
+          "dhoQuantityReceived": 0
+        },
+        {
+          "product": "Jadelle",
+          "months": {
+            "January": {
+              "orderQuantity": 0,
+              "physicalCount": 0,
+              "elmisStock": 0,
+              "physicalVsElmisDiscrepancy": 0,
+              "monthlyConsumptionScc": 0,
+              "monthlyConsumptionElmis": 0,
+              "consumptionDiscrepancy": 0,
+              "quantityReceived": 0,
+              "numberOfPatientsDhis2": 0,
+              "numberOfPatientsFpRegister": 1,
+              "patientRegisterDiscrepancy": 1
+            },
+            "February": {
+              "orderQuantity": 171,
+              "physicalCount": 0,
+              "elmisStock": 0,
+              "physicalVsElmisDiscrepancy": 0,
+              "monthlyConsumptionScc": 0,
+              "monthlyConsumptionElmis": 0,
+              "consumptionDiscrepancy": 0,
+              "quantityReceived": 0,
+              "numberOfPatientsDhis2": 5,
+              "numberOfPatientsFpRegister": 6,
+              "patientRegisterDiscrepancy": 1
+            },
+            "March": {
+              "orderQuantity": 171,
+              "physicalCount": 5,
+              "elmisStock": 5,
+              "physicalVsElmisDiscrepancy": 0,
+              "monthlyConsumptionScc": 0,
+              "monthlyConsumptionElmis": 0,
+              "consumptionDiscrepancy": 0,
+              "quantityReceived": 0,
+              "numberOfPatientsDhis2": 4,
+              "numberOfPatientsFpRegister": 4,
+              "patientRegisterDiscrepancy": 0
+            }
+          },
+          "availableOnAssessment": true,
+          "receivedFromZammsa": false,
+          "zammsaQuantityReceived": 0,
+          "receivedFromDho": false,
+          "dhoQuantityReceived": 0
+        },
+        {
+          "product": "DMPA-SC",
+          "months": {
+            "January": {
+              "orderQuantity": 0,
+              "physicalCount": 0,
+              "elmisStock": 0,
+              "physicalVsElmisDiscrepancy": 0,
+              "monthlyConsumptionScc": 200,
+              "monthlyConsumptionElmis": 200,
+              "consumptionDiscrepancy": 0,
+              "quantityReceived": 0,
+              "numberOfPatientsDhis2": 197,
+              "numberOfPatientsFpRegister": 197,
+              "patientRegisterDiscrepancy": 0
+            },
+            "February": {
+              "orderQuantity": 0,
+              "physicalCount": 0,
+              "elmisStock": 0,
+              "physicalVsElmisDiscrepancy": 0,
+              "monthlyConsumptionScc": 200,
+              "monthlyConsumptionElmis": 200,
+              "consumptionDiscrepancy": 0,
+              "quantityReceived": 0,
+              "numberOfPatientsDhis2": 125,
+              "numberOfPatientsFpRegister": 123,
+              "patientRegisterDiscrepancy": -2
+            },
+            "March": {
+              "orderQuantity": 601,
+              "physicalCount": 200,
+              "elmisStock": 200,
+              "physicalVsElmisDiscrepancy": 0,
+              "monthlyConsumptionScc": 400,
+              "monthlyConsumptionElmis": 400,
+              "consumptionDiscrepancy": 0,
+              "quantityReceived": 0,
+              "numberOfPatientsDhis2": 141,
+              "numberOfPatientsFpRegister": 144,
+              "patientRegisterDiscrepancy": 3
+            }
+          },
+          "availableOnAssessment": true,
+          "receivedFromZammsa": false,
+          "zammsaQuantityReceived": 0,
+          "receivedFromDho": true,
+          "dhoQuantityReceived": 600
+        },
+        {
+          "product": "DMPA-IM",
+          "months": {
+            "January": {
+              "orderQuantity": 0,
+              "physicalCount": 0,
+              "elmisStock": 0,
+              "physicalVsElmisDiscrepancy": 0,
+              "monthlyConsumptionScc": 1,
+              "monthlyConsumptionElmis": 2,
+              "consumptionDiscrepancy": -1,
+              "quantityReceived": 0,
+              "numberOfPatientsDhis2": 68,
+              "numberOfPatientsFpRegister": 37,
+              "patientRegisterDiscrepancy": -31
+            },
+            "February": {
+              "orderQuantity": 0,
+              "physicalCount": 0,
+              "elmisStock": 0,
+              "physicalVsElmisDiscrepancy": 0,
+              "monthlyConsumptionScc": 2,
+              "monthlyConsumptionElmis": 2,
+              "consumptionDiscrepancy": 0,
+              "quantityReceived": 0,
+              "numberOfPatientsDhis2": 36,
+              "numberOfPatientsFpRegister": 29,
+              "patientRegisterDiscrepancy": -7
+            },
+            "March": {
+              "orderQuantity": 0,
+              "physicalCount": 30,
+              "elmisStock": 31,
+              "physicalVsElmisDiscrepancy": -1,
+              "monthlyConsumptionScc": 2,
+              "monthlyConsumptionElmis": 2,
+              "consumptionDiscrepancy": 0,
+              "quantityReceived": 0,
+              "numberOfPatientsDhis2": 29,
+              "numberOfPatientsFpRegister": 25,
+              "patientRegisterDiscrepancy": -4
+            }
+          },
+          "availableOnAssessment": true,
+          "receivedFromZammsa": true,
+          "zammsaQuantityReceived": 0,
+          "receivedFromDho": true,
+          "dhoQuantityReceived": 20
+        },
+        {
+          "product": "COCs",
+          "months": {
+            "January": {
+              "orderQuantity": 0,
+              "physicalCount": 0,
+              "elmisStock": 0,
+              "physicalVsElmisDiscrepancy": 0,
+              "monthlyConsumptionScc": 14,
+              "monthlyConsumptionElmis": 14,
+              "consumptionDiscrepancy": 0,
+              "quantityReceived": 0,
+              "numberOfPatientsDhis2": 23,
+              "numberOfPatientsFpRegister": 17,
+              "patientRegisterDiscrepancy": -6
+            },
+            "February": {
+              "orderQuantity": 39,
+              "physicalCount": 0,
+              "elmisStock": 0,
+              "physicalVsElmisDiscrepancy": 0,
+              "monthlyConsumptionScc": 40,
+              "monthlyConsumptionElmis": 40,
+              "consumptionDiscrepancy": 0,
+              "quantityReceived": 0,
+              "numberOfPatientsDhis2": 5,
+              "numberOfPatientsFpRegister": 5,
+              "patientRegisterDiscrepancy": 0
+            },
+            "March": {
+              "orderQuantity": 53,
+              "physicalCount": 19,
+              "elmisStock": 19,
+              "physicalVsElmisDiscrepancy": 0,
+              "monthlyConsumptionScc": 14,
+              "monthlyConsumptionElmis": 14,
+              "consumptionDiscrepancy": 0,
+              "quantityReceived": 0,
+              "numberOfPatientsDhis2": 5,
+              "numberOfPatientsFpRegister": 4,
+              "patientRegisterDiscrepancy": -1
+            }
+          },
+          "availableOnAssessment": true,
+          "receivedFromZammsa": false,
+          "zammsaQuantityReceived": 0,
+          "receivedFromDho": true,
+          "dhoQuantityReceived": 42
+        },
+        {
+          "product": "IUCD",
+          "months": {
+            "January": {
+              "orderQuantity": 5,
+              "physicalCount": 0,
+              "elmisStock": 0,
+              "physicalVsElmisDiscrepancy": 0,
+              "monthlyConsumptionScc": 0,
+              "monthlyConsumptionElmis": 0,
+              "consumptionDiscrepancy": 0,
+              "quantityReceived": 0,
+              "numberOfPatientsDhis2": 0,
+              "numberOfPatientsFpRegister": 1,
+              "patientRegisterDiscrepancy": 1
+            },
+            "February": {
+              "orderQuantity": 5,
+              "physicalCount": 0,
+              "elmisStock": 0,
+              "physicalVsElmisDiscrepancy": 0,
+              "monthlyConsumptionScc": 0,
+              "monthlyConsumptionElmis": 0,
+              "consumptionDiscrepancy": 0,
+              "quantityReceived": 0,
+              "numberOfPatientsDhis2": 0,
+              "numberOfPatientsFpRegister": 0,
+              "patientRegisterDiscrepancy": 0
+            },
+            "March": {
+              "orderQuantity": 5,
+              "physicalCount": 74,
+              "elmisStock": 74,
+              "physicalVsElmisDiscrepancy": 0,
+              "monthlyConsumptionScc": 0,
+              "monthlyConsumptionElmis": 0,
+              "consumptionDiscrepancy": 0,
+              "quantityReceived": 0,
+              "numberOfPatientsDhis2": 0,
+              "numberOfPatientsFpRegister": 0,
+              "patientRegisterDiscrepancy": 0
+            }
+          },
+          "availableOnAssessment": true,
+          "receivedFromZammsa": false,
+          "zammsaQuantityReceived": 0,
+          "receivedFromDho": false,
+          "dhoQuantityReceived": 0
         }
       ]
     }
