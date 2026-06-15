@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Pending Facilities | FP DQA Intelligence Platform</title>
+  <style>
+    :root{--blue:#0c447c;--blue2:#185fa5;--line:#d9e2ef;--muted:#657084;--bg:#eef4fb;--text:#172033}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text)}
+    header{background:linear-gradient(135deg,var(--blue),var(--blue2));color:#fff;padding:24px 30px;border-bottom:4px solid #d9a441}
+    header h1{margin:0;font-size:26px} header p{margin:7px 0 0;color:#dcecff}
+    main{max-width:1400px;margin:auto;padding:22px}
+    .toolbar{display:flex;gap:10px;align-items:end;flex-wrap:wrap;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:14px}
+    .filter{flex:1;min-width:175px}.filter label{display:block;font-size:11px;text-transform:uppercase;color:var(--muted);margin-bottom:5px}
+    select,input,button{width:100%;padding:10px;border:1px solid var(--line);border-radius:8px;background:#fff}
+    button{background:var(--blue);color:#fff;font-weight:800;cursor:pointer}
+    .summary{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}.summary span{background:#fff;border:1px solid var(--line);border-radius:999px;padding:8px 12px;font-size:13px}
+    .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px;box-shadow:0 8px 24px rgba(12,68,124,.08)}
+    table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:10px;border-bottom:1px solid var(--line);text-align:left}
+    th{font-size:11px;text-transform:uppercase;color:var(--muted);background:#f7fbff;position:sticky;top:0}
+    .pending{display:inline-block;background:#eef1f5;color:#64748b;border-radius:999px;padding:4px 8px;font-size:11px;font-weight:800}
+    .empty{text-align:center;color:var(--muted);padding:30px}
+    @media(max-width:700px){main{padding:12px}header{padding:20px}.filter{min-width:100%}.card{overflow-x:auto}}
+    @media print{body{background:#fff}header{padding:12px 0;color:#000;background:#fff;border-bottom:2px solid #000}.toolbar button{display:none}.card{box-shadow:none;border:0;padding:0}main{max-width:none;padding:0}th{position:static}}
+  </style>
+</head>
+<body>
+  <header><h1>Pending Facilities</h1><p id="subtitle">Loading the full pending assessment list...</p></header>
+  <main>
+    <section class="toolbar">
+      <div class="filter"><label>Visit Date</label><select id="dateFilter"></select></div>
+      <div class="filter"><label>Province</label><select id="provinceFilter"></select></div>
+      <div class="filter"><label>District</label><select id="districtFilter"></select></div>
+      <div class="filter"><label>Facility</label><input id="facilitySearch" placeholder="Search facility"></div>
+      <div class="filter"><label>Print / PDF</label><button onclick="window.print()">Print Full List</button></div>
+    </section>
+    <div class="summary"><span id="pendingCount">Loading...</span><span id="scopeLabel"></span></div>
+    <section class="card">
+      <table>
+        <thead><tr><th>No.</th><th>Province</th><th>District</th><th>Facility</th><th>Status</th></tr></thead>
+        <tbody id="pendingRows"></tbody>
+      </table>
+    </section>
+  </main>
+  <script>
+    let TARGET={facilities:[]},DAILY={records:[]};
+    const params=new URLSearchParams(location.search);
+    const round=params.get('round')==='round1'?'round1':'round2';
+    const base=round==='round2'?'data/round2/':'data/';
+    const roundName=round==='round2'?'DQA Round 2 - June 2026':'DQA Round 1 - May 2026';
+    function norm(value){return String(value||'').toLowerCase().replace(/[^a-z0-9]/g,'')}
+    function similar(a,b){let x=norm(a),y=norm(b);return x&&y&&(x===y||x.includes(y)||y.includes(x)||x.slice(0,6)===y.slice(0,6))}
+    function key(x){return `${x.province}|${x.district}|${x.facility}`.toLowerCase()}
+    function option(value,label,selected){return `<option value="${value}"${value===selected?' selected':''}>${label}</option>`}
+    function assessedKeys(){
+      let date=dateFilter.value,records=DAILY.records.filter(r=>date==='All'||r.visitDate===date),used=new Set(),keys=new Set();
+      TARGET.facilities.forEach(f=>{let index=records.findIndex((r,i)=>!used.has(i)&&r.province===f.province&&r.district===f.district&&(key(r)===key(f)||similar(r.facility,f.facility)));if(index>=0){used.add(index);keys.add(key(f))}});
+      return keys;
+    }
+    function populateDistricts(){
+      let province=provinceFilter.value,selected=districtFilter.value||params.get('district')||'All';
+      let districts=[...new Set(TARGET.facilities.filter(f=>province==='All'||f.province===province).map(f=>f.district))].sort();
+      if(selected!=='All'&&!districts.includes(selected))selected='All';
+      districtFilter.innerHTML=option('All','All Districts',selected)+districts.map(d=>option(d,d,selected)).join('');
+    }
+    function render(){
+      let assessed=assessedKeys(),province=provinceFilter.value,district=districtFilter.value,q=facilitySearch.value.trim().toLowerCase();
+      let rows=TARGET.facilities.filter(f=>!assessed.has(key(f))&&(province==='All'||f.province===province)&&(district==='All'||f.district===district)&&(!q||f.facility.toLowerCase().includes(q))).sort((a,b)=>a.province.localeCompare(b.province)||a.district.localeCompare(b.district)||a.facility.localeCompare(b.facility));
+      pendingRows.innerHTML=rows.length?rows.map((f,i)=>`<tr><td>${i+1}</td><td>${f.province}</td><td>${f.district}</td><td><strong>${f.facility}</strong></td><td><span class="pending">Pending</span></td></tr>`).join(''):'<tr><td colspan="5" class="empty">No pending facilities match the selected filters.</td></tr>';
+      pendingCount.textContent=`${rows.length} pending facilities`;
+      scopeLabel.textContent=`${dateFilter.value==='All'?'All dates':dateFilter.value} · ${province==='All'?'All provinces':province} · ${district==='All'?'All districts':district}`;
+      subtitle.textContent=`${roundName} · Full pending assessment list`;
+    }
+    async function init(){
+      [TARGET,DAILY]=await Promise.all([fetch(base+'target-facilities.json',{cache:'no-store'}).then(r=>r.json()),fetch(base+'daily/latest.json',{cache:'no-store'}).then(r=>r.json())]);
+      let dates=[...new Set(DAILY.records.map(r=>r.visitDate).filter(Boolean))].sort(),selectedDate=params.get('date')||'All';
+      if(selectedDate!=='All'&&!dates.includes(selectedDate))selectedDate='All';
+      dateFilter.innerHTML=option('All','All Dates',selectedDate)+dates.map(d=>option(d,d,selectedDate)).join('');
+      let provinces=[...new Set(TARGET.facilities.map(f=>f.province))].sort(),selectedProvince=params.get('province')||'All';
+      if(selectedProvince!=='All'&&!provinces.includes(selectedProvince))selectedProvince='All';
+      provinceFilter.innerHTML=option('All','All Provinces',selectedProvince)+provinces.map(p=>option(p,p,selectedProvince)).join('');
+      populateDistricts();facilitySearch.value=params.get('q')||'';
+      dateFilter.onchange=render;provinceFilter.onchange=()=>{districtFilter.value='All';populateDistricts();render()};districtFilter.onchange=render;facilitySearch.oninput=render;
+      render();
+    }
+    init().catch(error=>{subtitle.textContent='Unable to load pending facilities';pendingRows.innerHTML=`<tr><td colspan="5" class="empty">${error.message}</td></tr>`});
+  </script>
+</body>
+</html>
