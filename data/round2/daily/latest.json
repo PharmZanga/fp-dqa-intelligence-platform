@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-13",
-  "source": "SRMNH DQA eLMIS Verification Tool Round 2 cumulative export 2026-06-13",
+  "date": "2026-06-14",
+  "source": "SRMNH DQA eLMIS Verification Tool Round 2 cumulative export 2026-06-14",
   "records": [
     {
       "visitDate": "2026-06-09",
@@ -5423,6 +5423,152 @@
         "Stockout"
       ],
       "remarks": "The facility to update stock control cards missing"
+    },
+    {
+      "visitDate": "2026-06-14",
+      "province": "Southern",
+      "district": "Zimba",
+      "facility": "Sikalaye",
+      "level": "Rural Health Centre",
+      "assessed": true,
+      "elmisFunctional": false,
+      "sccAvailable": true,
+      "stockCardUpdated": false,
+      "dhis2Discrepancy": 3,
+      "pharmacyStockout": 3,
+      "facilityStockout": 3,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": false,
+      "productsOnShelves": false,
+      "productsOffGround": false,
+      "tempChartUpdated": false,
+      "functionalThermometer": false,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "Jadelle": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "IUCD": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        }
+      },
+      "rootCauses": [
+        "Stock card not updated",
+        "Poor documentation",
+        "DHIS2 inconsistency",
+        "Stockout"
+      ],
+      "remarks": "TSS in logistics management"
+    },
+    {
+      "visitDate": "2026-06-14",
+      "province": "Southern",
+      "district": "Zimba",
+      "facility": "Njabalombe",
+      "level": "Other (specify in notes)",
+      "assessed": true,
+      "elmisFunctional": false,
+      "sccAvailable": true,
+      "stockCardUpdated": true,
+      "dhis2Discrepancy": 5,
+      "pharmacyStockout": 4,
+      "facilityStockout": 4,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": false,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": true,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "Jadelle": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "IUCD": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        }
+      },
+      "rootCauses": [
+        "Poor documentation",
+        "Ordering errors",
+        "DHIS2 inconsistency",
+        "Stockout"
+      ],
+      "remarks": "The facility to increase storage capacity of pharmacy and install shelves"
     }
   ]
 }
