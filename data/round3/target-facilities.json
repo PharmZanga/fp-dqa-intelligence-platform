@@ -1,0 +1,616 @@
+{
+  "metadata": {
+    "name": "FP DQA Round 3 Target Facility Master List",
+    "period": "Round 3 2026",
+    "expectedProvinces": 4,
+    "expectedDistricts": 12,
+    "expectedFacilities": 120,
+    "note": "Round 3 planning registry for Lusaka, Central, Muchinga and Western provinces. Facility names are placeholders until final facility line list is confirmed.",
+    "pendingConfirmations": [
+      "Confirm the two additional Muchinga districts after Nakonde.",
+      "Confirm spelling/name for Western district listed as Kehema."
+    ]
+  },
+  "facilities": [
+    {
+      "province": "Lusaka",
+      "district": "Kafue",
+      "facility": "Kafue TBD Facility 01"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Kafue",
+      "facility": "Kafue TBD Facility 02"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Kafue",
+      "facility": "Kafue TBD Facility 03"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Kafue",
+      "facility": "Kafue TBD Facility 04"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Kafue",
+      "facility": "Kafue TBD Facility 05"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Kafue",
+      "facility": "Kafue TBD Facility 06"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Kafue",
+      "facility": "Kafue TBD Facility 07"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Kafue",
+      "facility": "Kafue TBD Facility 08"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Kafue",
+      "facility": "Kafue TBD Facility 09"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Kafue",
+      "facility": "Kafue TBD Facility 10"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Chongwe",
+      "facility": "Chongwe TBD Facility 01"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Chongwe",
+      "facility": "Chongwe TBD Facility 02"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Chongwe",
+      "facility": "Chongwe TBD Facility 03"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Chongwe",
+      "facility": "Chongwe TBD Facility 04"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Chongwe",
+      "facility": "Chongwe TBD Facility 05"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Chongwe",
+      "facility": "Chongwe TBD Facility 06"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Chongwe",
+      "facility": "Chongwe TBD Facility 07"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Chongwe",
+      "facility": "Chongwe TBD Facility 08"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Chongwe",
+      "facility": "Chongwe TBD Facility 09"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Chongwe",
+      "facility": "Chongwe TBD Facility 10"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Luangwa",
+      "facility": "Luangwa TBD Facility 01"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Luangwa",
+      "facility": "Luangwa TBD Facility 02"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Luangwa",
+      "facility": "Luangwa TBD Facility 03"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Luangwa",
+      "facility": "Luangwa TBD Facility 04"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Luangwa",
+      "facility": "Luangwa TBD Facility 05"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Luangwa",
+      "facility": "Luangwa TBD Facility 06"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Luangwa",
+      "facility": "Luangwa TBD Facility 07"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Luangwa",
+      "facility": "Luangwa TBD Facility 08"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Luangwa",
+      "facility": "Luangwa TBD Facility 09"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Luangwa",
+      "facility": "Luangwa TBD Facility 10"
+    },
+    {
+      "province": "Central",
+      "district": "Chibombo",
+      "facility": "Chibombo TBD Facility 01"
+    },
+    {
+      "province": "Central",
+      "district": "Chibombo",
+      "facility": "Chibombo TBD Facility 02"
+    },
+    {
+      "province": "Central",
+      "district": "Chibombo",
+      "facility": "Chibombo TBD Facility 03"
+    },
+    {
+      "province": "Central",
+      "district": "Chibombo",
+      "facility": "Chibombo TBD Facility 04"
+    },
+    {
+      "province": "Central",
+      "district": "Chibombo",
+      "facility": "Chibombo TBD Facility 05"
+    },
+    {
+      "province": "Central",
+      "district": "Chibombo",
+      "facility": "Chibombo TBD Facility 06"
+    },
+    {
+      "province": "Central",
+      "district": "Chibombo",
+      "facility": "Chibombo TBD Facility 07"
+    },
+    {
+      "province": "Central",
+      "district": "Chibombo",
+      "facility": "Chibombo TBD Facility 08"
+    },
+    {
+      "province": "Central",
+      "district": "Chibombo",
+      "facility": "Chibombo TBD Facility 09"
+    },
+    {
+      "province": "Central",
+      "district": "Chibombo",
+      "facility": "Chibombo TBD Facility 10"
+    },
+    {
+      "province": "Central",
+      "district": "Chisamba",
+      "facility": "Chisamba TBD Facility 01"
+    },
+    {
+      "province": "Central",
+      "district": "Chisamba",
+      "facility": "Chisamba TBD Facility 02"
+    },
+    {
+      "province": "Central",
+      "district": "Chisamba",
+      "facility": "Chisamba TBD Facility 03"
+    },
+    {
+      "province": "Central",
+      "district": "Chisamba",
+      "facility": "Chisamba TBD Facility 04"
+    },
+    {
+      "province": "Central",
+      "district": "Chisamba",
+      "facility": "Chisamba TBD Facility 05"
+    },
+    {
+      "province": "Central",
+      "district": "Chisamba",
+      "facility": "Chisamba TBD Facility 06"
+    },
+    {
+      "province": "Central",
+      "district": "Chisamba",
+      "facility": "Chisamba TBD Facility 07"
+    },
+    {
+      "province": "Central",
+      "district": "Chisamba",
+      "facility": "Chisamba TBD Facility 08"
+    },
+    {
+      "province": "Central",
+      "district": "Chisamba",
+      "facility": "Chisamba TBD Facility 09"
+    },
+    {
+      "province": "Central",
+      "district": "Chisamba",
+      "facility": "Chisamba TBD Facility 10"
+    },
+    {
+      "province": "Central",
+      "district": "Kapiri Mposhi",
+      "facility": "Kapiri Mposhi TBD Facility 01"
+    },
+    {
+      "province": "Central",
+      "district": "Kapiri Mposhi",
+      "facility": "Kapiri Mposhi TBD Facility 02"
+    },
+    {
+      "province": "Central",
+      "district": "Kapiri Mposhi",
+      "facility": "Kapiri Mposhi TBD Facility 03"
+    },
+    {
+      "province": "Central",
+      "district": "Kapiri Mposhi",
+      "facility": "Kapiri Mposhi TBD Facility 04"
+    },
+    {
+      "province": "Central",
+      "district": "Kapiri Mposhi",
+      "facility": "Kapiri Mposhi TBD Facility 05"
+    },
+    {
+      "province": "Central",
+      "district": "Kapiri Mposhi",
+      "facility": "Kapiri Mposhi TBD Facility 06"
+    },
+    {
+      "province": "Central",
+      "district": "Kapiri Mposhi",
+      "facility": "Kapiri Mposhi TBD Facility 07"
+    },
+    {
+      "province": "Central",
+      "district": "Kapiri Mposhi",
+      "facility": "Kapiri Mposhi TBD Facility 08"
+    },
+    {
+      "province": "Central",
+      "district": "Kapiri Mposhi",
+      "facility": "Kapiri Mposhi TBD Facility 09"
+    },
+    {
+      "province": "Central",
+      "district": "Kapiri Mposhi",
+      "facility": "Kapiri Mposhi TBD Facility 10"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Nakonde",
+      "facility": "Nakonde TBD Facility 01"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Nakonde",
+      "facility": "Nakonde TBD Facility 02"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Nakonde",
+      "facility": "Nakonde TBD Facility 03"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Nakonde",
+      "facility": "Nakonde TBD Facility 04"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Nakonde",
+      "facility": "Nakonde TBD Facility 05"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Nakonde",
+      "facility": "Nakonde TBD Facility 06"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Nakonde",
+      "facility": "Nakonde TBD Facility 07"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Nakonde",
+      "facility": "Nakonde TBD Facility 08"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Nakonde",
+      "facility": "Nakonde TBD Facility 09"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Nakonde",
+      "facility": "Nakonde TBD Facility 10"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Muchinga District 2 (TBC)",
+      "facility": "Muchinga District 2 (TBC) TBD Facility 01"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Muchinga District 2 (TBC)",
+      "facility": "Muchinga District 2 (TBC) TBD Facility 02"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Muchinga District 2 (TBC)",
+      "facility": "Muchinga District 2 (TBC) TBD Facility 03"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Muchinga District 2 (TBC)",
+      "facility": "Muchinga District 2 (TBC) TBD Facility 04"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Muchinga District 2 (TBC)",
+      "facility": "Muchinga District 2 (TBC) TBD Facility 05"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Muchinga District 2 (TBC)",
+      "facility": "Muchinga District 2 (TBC) TBD Facility 06"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Muchinga District 2 (TBC)",
+      "facility": "Muchinga District 2 (TBC) TBD Facility 07"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Muchinga District 2 (TBC)",
+      "facility": "Muchinga District 2 (TBC) TBD Facility 08"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Muchinga District 2 (TBC)",
+      "facility": "Muchinga District 2 (TBC) TBD Facility 09"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Muchinga District 2 (TBC)",
+      "facility": "Muchinga District 2 (TBC) TBD Facility 10"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Muchinga District 3 (TBC)",
+      "facility": "Muchinga District 3 (TBC) TBD Facility 01"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Muchinga District 3 (TBC)",
+      "facility": "Muchinga District 3 (TBC) TBD Facility 02"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Muchinga District 3 (TBC)",
+      "facility": "Muchinga District 3 (TBC) TBD Facility 03"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Muchinga District 3 (TBC)",
+      "facility": "Muchinga District 3 (TBC) TBD Facility 04"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Muchinga District 3 (TBC)",
+      "facility": "Muchinga District 3 (TBC) TBD Facility 05"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Muchinga District 3 (TBC)",
+      "facility": "Muchinga District 3 (TBC) TBD Facility 06"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Muchinga District 3 (TBC)",
+      "facility": "Muchinga District 3 (TBC) TBD Facility 07"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Muchinga District 3 (TBC)",
+      "facility": "Muchinga District 3 (TBC) TBD Facility 08"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Muchinga District 3 (TBC)",
+      "facility": "Muchinga District 3 (TBC) TBD Facility 09"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Muchinga District 3 (TBC)",
+      "facility": "Muchinga District 3 (TBC) TBD Facility 10"
+    },
+    {
+      "province": "Western",
+      "district": "Kaoma",
+      "facility": "Kaoma TBD Facility 01"
+    },
+    {
+      "province": "Western",
+      "district": "Kaoma",
+      "facility": "Kaoma TBD Facility 02"
+    },
+    {
+      "province": "Western",
+      "district": "Kaoma",
+      "facility": "Kaoma TBD Facility 03"
+    },
+    {
+      "province": "Western",
+      "district": "Kaoma",
+      "facility": "Kaoma TBD Facility 04"
+    },
+    {
+      "province": "Western",
+      "district": "Kaoma",
+      "facility": "Kaoma TBD Facility 05"
+    },
+    {
+      "province": "Western",
+      "district": "Kaoma",
+      "facility": "Kaoma TBD Facility 06"
+    },
+    {
+      "province": "Western",
+      "district": "Kaoma",
+      "facility": "Kaoma TBD Facility 07"
+    },
+    {
+      "province": "Western",
+      "district": "Kaoma",
+      "facility": "Kaoma TBD Facility 08"
+    },
+    {
+      "province": "Western",
+      "district": "Kaoma",
+      "facility": "Kaoma TBD Facility 09"
+    },
+    {
+      "province": "Western",
+      "district": "Kaoma",
+      "facility": "Kaoma TBD Facility 10"
+    },
+    {
+      "province": "Western",
+      "district": "Kehema",
+      "facility": "Kehema TBD Facility 01"
+    },
+    {
+      "province": "Western",
+      "district": "Kehema",
+      "facility": "Kehema TBD Facility 02"
+    },
+    {
+      "province": "Western",
+      "district": "Kehema",
+      "facility": "Kehema TBD Facility 03"
+    },
+    {
+      "province": "Western",
+      "district": "Kehema",
+      "facility": "Kehema TBD Facility 04"
+    },
+    {
+      "province": "Western",
+      "district": "Kehema",
+      "facility": "Kehema TBD Facility 05"
+    },
+    {
+      "province": "Western",
+      "district": "Kehema",
+      "facility": "Kehema TBD Facility 06"
+    },
+    {
+      "province": "Western",
+      "district": "Kehema",
+      "facility": "Kehema TBD Facility 07"
+    },
+    {
+      "province": "Western",
+      "district": "Kehema",
+      "facility": "Kehema TBD Facility 08"
+    },
+    {
+      "province": "Western",
+      "district": "Kehema",
+      "facility": "Kehema TBD Facility 09"
+    },
+    {
+      "province": "Western",
+      "district": "Kehema",
+      "facility": "Kehema TBD Facility 10"
+    },
+    {
+      "province": "Western",
+      "district": "Luampa",
+      "facility": "Luampa TBD Facility 01"
+    },
+    {
+      "province": "Western",
+      "district": "Luampa",
+      "facility": "Luampa TBD Facility 02"
+    },
+    {
+      "province": "Western",
+      "district": "Luampa",
+      "facility": "Luampa TBD Facility 03"
+    },
+    {
+      "province": "Western",
+      "district": "Luampa",
+      "facility": "Luampa TBD Facility 04"
+    },
+    {
+      "province": "Western",
+      "district": "Luampa",
+      "facility": "Luampa TBD Facility 05"
+    },
+    {
+      "province": "Western",
+      "district": "Luampa",
+      "facility": "Luampa TBD Facility 06"
+    },
+    {
+      "province": "Western",
+      "district": "Luampa",
+      "facility": "Luampa TBD Facility 07"
+    },
+    {
+      "province": "Western",
+      "district": "Luampa",
+      "facility": "Luampa TBD Facility 08"
+    },
+    {
+      "province": "Western",
+      "district": "Luampa",
+      "facility": "Luampa TBD Facility 09"
+    },
+    {
+      "province": "Western",
+      "district": "Luampa",
+      "facility": "Luampa TBD Facility 10"
+    }
+  ]
+}

@@ -46,9 +46,10 @@
   <script>
     let TARGET={facilities:[]},DAILY={records:[]};
     const params=new URLSearchParams(location.search);
-    const round=params.get('round')==='round1'?'round1':'round2';
-    const base=round==='round2'?'data/round2/':'data/';
-    const roundName=round==='round2'?'DQA Round 2 - June 2026':'DQA Round 1 - May 2026';
+    const requestedRound=params.get('round');
+    const round=['round1','round2','round3'].includes(requestedRound)?requestedRound:'round2';
+    const base=round==='round1'?'data/':`data/${round}/`;
+    const roundName=round==='round3'?'DQA Round 3 - 2026':round==='round2'?'DQA Round 2 - June 2026':'DQA Round 1 - May 2026';
     function norm(value){return String(value||'').toLowerCase().replace(/[^a-z0-9]/g,'')}
     function similar(a,b){let x=norm(a),y=norm(b);return x&&y&&(x===y||x.includes(y)||y.includes(x)||x.slice(0,6)===y.slice(0,6))}
     function key(x){return `${x.province}|${x.district}|${x.facility}`.toLowerCase()}
