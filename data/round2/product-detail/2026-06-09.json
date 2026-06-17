@@ -52,6 +52,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": false,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": true,
@@ -101,6 +103,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": false,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": false,
@@ -150,6 +154,8 @@
             }
           },
           "availableOnAssessment": false,
+          "pharmacyStockout": false,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": false,
@@ -199,6 +205,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": true,
+          "dispensingPointStockout": true,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": false,
@@ -248,6 +256,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": false,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": true,
@@ -297,6 +307,8 @@
             }
           },
           "availableOnAssessment": false,
+          "pharmacyStockout": true,
+          "dispensingPointStockout": true,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": false,
@@ -354,6 +366,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": false,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": true,
@@ -403,6 +417,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": false,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": true,
@@ -452,6 +468,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": false,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": true,
@@ -501,6 +519,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": true,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": false,
@@ -550,6 +570,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": false,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": true,
@@ -599,6 +621,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": false,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": false,
@@ -656,6 +680,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": true,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": true,
@@ -705,6 +731,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": true,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": false,
@@ -754,6 +782,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": false,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": true,
@@ -803,6 +833,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": false,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": true,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": true,
@@ -852,6 +884,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": false,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": false,
@@ -901,6 +935,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": false,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": false,
@@ -958,6 +994,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": true,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": true,
@@ -1007,6 +1045,8 @@
             }
           },
           "availableOnAssessment": false,
+          "pharmacyStockout": true,
+          "dispensingPointStockout": true,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": false,
@@ -1056,6 +1096,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": false,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": true,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": false,
@@ -1105,6 +1147,8 @@
             }
           },
           "availableOnAssessment": false,
+          "pharmacyStockout": true,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": true,
@@ -1154,6 +1198,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": false,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": true,
@@ -1203,6 +1249,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": true,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": false,
@@ -1260,6 +1308,8 @@
             }
           },
           "availableOnAssessment": false,
+          "pharmacyStockout": false,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": true,
@@ -1309,6 +1359,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": false,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": true,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": false,
@@ -1358,6 +1410,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": false,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": true,
@@ -1407,6 +1461,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": false,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": true,
@@ -1456,6 +1512,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": false,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": true,
@@ -1505,6 +1563,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": true,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": true,
@@ -1562,6 +1622,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": false,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": true,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": false,
@@ -1611,6 +1673,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": false,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": false,
@@ -1660,6 +1724,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": false,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": true,
@@ -1709,6 +1775,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": false,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": true,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": true,
@@ -1758,6 +1826,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": false,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": true,
@@ -1807,6 +1877,8 @@
             }
           },
           "availableOnAssessment": true,
+          "pharmacyStockout": false,
+          "dispensingPointStockout": false,
           "receivedFromZammsa": false,
           "zammsaQuantityReceived": 0,
           "receivedFromDho": false,
