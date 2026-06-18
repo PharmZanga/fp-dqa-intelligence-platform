@@ -53,6 +53,7 @@
     function norm(value){return String(value||'').toLowerCase().replace(/[^a-z0-9]/g,'')}
     function similar(a,b){let x=norm(a),y=norm(b);return x&&y&&(x===y||x.includes(y)||y.includes(x)||x.slice(0,6)===y.slice(0,6))}
     function key(x){return `${x.province}|${x.district}|${x.facility}`.toLowerCase()}
+    function isExcludedPending(f){return ['luapula|chifunabuli|chibuye rhc','luapula|mwense|kanyemba hp'].includes(key(f))}
     function option(value,label,selected){return `<option value="${value}"${value===selected?' selected':''}>${label}</option>`}
     function assessedKeys(){
       let date=dateFilter.value,records=DAILY.records.filter(r=>date==='All'||r.visitDate===date),used=new Set(),keys=new Set();
@@ -67,7 +68,7 @@
     }
     function render(){
       let assessed=assessedKeys(),province=provinceFilter.value,district=districtFilter.value,q=facilitySearch.value.trim().toLowerCase();
-      let rows=TARGET.facilities.filter(f=>!assessed.has(key(f))&&(province==='All'||f.province===province)&&(district==='All'||f.district===district)&&(!q||f.facility.toLowerCase().includes(q))).sort((a,b)=>a.province.localeCompare(b.province)||a.district.localeCompare(b.district)||a.facility.localeCompare(b.facility));
+      let rows=TARGET.facilities.filter(f=>!assessed.has(key(f))&&!isExcludedPending(f)&&(province==='All'||f.province===province)&&(district==='All'||f.district===district)&&(!q||f.facility.toLowerCase().includes(q))).sort((a,b)=>a.province.localeCompare(b.province)||a.district.localeCompare(b.district)||a.facility.localeCompare(b.facility));
       pendingRows.innerHTML=rows.length?rows.map((f,i)=>`<tr><td>${i+1}</td><td>${f.province}</td><td>${f.district}</td><td><strong>${f.facility}</strong></td><td><span class="pending">Pending</span></td></tr>`).join(''):'<tr><td colspan="5" class="empty">No pending facilities match the selected filters.</td></tr>';
       pendingCount.textContent=`${rows.length} pending facilities`;
       scopeLabel.textContent=`${dateFilter.value==='All'?'All dates':dateFilter.value} · ${province==='All'?'All provinces':province} · ${district==='All'?'All districts':district}`;
@@ -89,3 +90,5 @@
   </script>
 </body>
 </html>
+
+
