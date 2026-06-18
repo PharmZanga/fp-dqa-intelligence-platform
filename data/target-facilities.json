@@ -2,8 +2,16 @@
   "metadata": {
     "name": "FP DQA Round 1 Assessed Facility Registry",
     "period": "May 2026",
-    "expectedFacilities": 183,
-    "note": "Round 1 registry restored from May 31 approved daily output; target equals assessed facilities to preserve completed Round 1 and prevent pending facilities."
+    "plannedTargetFacilities": 180,
+    "provinceTargets": {
+      "Copperbelt": 30,
+      "Eastern": 30,
+      "Luapula": 30,
+      "Northern": 30,
+      "North-Western": 30,
+      "Southern": 30
+    },
+    "note": "Round 1 uses approved May 31 raw assessed records. Planned target is 30 per province; assessed counts may exceed 100% completion."
   },
   "facilities": [
     {
