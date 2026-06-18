@@ -1,6 +1,10 @@
 {
-  "round": "round1",
-  "period": "May 2026",
+  "metadata": {
+    "name": "FP DQA Round 1 Assessed Facility Registry",
+    "period": "May 2026",
+    "expectedFacilities": 183,
+    "note": "Round 1 registry restored from May 31 approved daily output; target equals assessed facilities to preserve completed Round 1 and prevent pending facilities."
+  },
   "facilities": [
     {
       "province": "Northern",
@@ -100,12 +104,822 @@
     {
       "province": "North-Western",
       "district": "Mufumbwe",
-      "facility": "Kashima Rural Health Center"
+      "facility": "1"
     },
     {
       "province": "Eastern",
       "district": "Petauke",
       "facility": "Prisons Health Post"
+    },
+    {
+      "province": "Northern",
+      "district": "Kasama",
+      "facility": "Lwabwe Health Post"
+    },
+    {
+      "province": "Copperbelt",
+      "district": "Ndola",
+      "facility": "Twapia"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chipata",
+      "facility": "Chipata Urban Health Centre"
+    },
+    {
+      "province": "Southern",
+      "district": "Kazungula",
+      "facility": "Mukuni Rural Health Center"
+    },
+    {
+      "province": "Northern",
+      "district": "Mbala",
+      "facility": "Kawimbe Rural Health Center 607013"
+    },
+    {
+      "province": "Eastern",
+      "district": "Petauke",
+      "facility": "Nkhwewa Khewa Mini Hospital"
+    },
+    {
+      "province": "Copperbelt",
+      "district": "Kitwe",
+      "facility": "Zamtan Urban"
+    },
+    {
+      "province": "Northern",
+      "district": "Mbala",
+      "facility": "Mwamba Rural Health Center Mbala"
+    },
+    {
+      "province": "North-Western",
+      "district": "Kabompo",
+      "facility": "Enock Kavindele Mini Hospital"
+    },
+    {
+      "province": "Copperbelt",
+      "district": "Chingola",
+      "facility": "Chiwempala Urban Health Centre"
+    },
+    {
+      "province": "Southern",
+      "district": "Livingstone",
+      "facility": "Linda Urban Health Center"
+    },
+    {
+      "province": "Northern",
+      "district": "Kasama",
+      "facility": "Kateshi Rural Health Center"
+    },
+    {
+      "province": "Copperbelt",
+      "district": "Ndola",
+      "facility": "New Masala"
+    },
+    {
+      "province": "Eastern",
+      "district": "Petauke",
+      "facility": "Zuze Health Post"
+    },
+    {
+      "province": "Southern",
+      "district": "Kazungula",
+      "facility": "Sons Of Thunder Rural Health Center"
+    },
+    {
+      "province": "North-Western",
+      "district": "Mufumbwe",
+      "facility": "Boma Urban Clinic"
+    },
+    {
+      "province": "Copperbelt",
+      "district": "Chingola",
+      "facility": "Kings Health Center"
+    },
+    {
+      "province": "Southern",
+      "district": "Kazungula",
+      "facility": "Sons Of Thunder Rural Health Center"
+    },
+    {
+      "province": "Southern",
+      "district": "Livingstone",
+      "facility": "Mulala Health Post 80060042"
+    },
+    {
+      "province": "Northern",
+      "district": "Mbala",
+      "facility": "Kamuzwazi Rural Health Center"
+    },
+    {
+      "province": "North-Western",
+      "district": "Mushindamo",
+      "facility": "Kichikwe RHC"
+    },
+    {
+      "province": "North-Western",
+      "district": "Kabompo",
+      "facility": "Kabompo District Hospital HAHC"
+    },
+    {
+      "province": "Northern",
+      "district": "Kasama",
+      "facility": "Mwamba Rural Health Center"
+    },
+    {
+      "province": "North-Western",
+      "district": "Kabompo",
+      "facility": "Kamashila HP"
+    },
+    {
+      "province": "Copperbelt",
+      "district": "Chingola",
+      "facility": "Chawama Mini Hospital"
+    },
+    {
+      "province": "North-Western",
+      "district": "Mushindamo",
+      "facility": "Kangwena HP"
+    },
+    {
+      "province": "Eastern",
+      "district": "Petauke",
+      "facility": "Mkwama Mini Hospital"
+    },
+    {
+      "province": "Northern",
+      "district": "Mbala",
+      "facility": "Mwenda Health Post"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chipata",
+      "facility": "Chipata Central Hospital"
+    },
+    {
+      "province": "Eastern",
+      "district": "Katete",
+      "facility": "Katete Urban Health Center"
+    },
+    {
+      "province": "Copperbelt",
+      "district": "Ndola",
+      "facility": "Nkwazi"
+    },
+    {
+      "province": "Southern",
+      "district": "Kazungula",
+      "facility": "Mambova Rural Health Center"
+    },
+    {
+      "province": "North-Western",
+      "district": "Mushindamo",
+      "facility": "St Dorothy RHC"
+    },
+    {
+      "province": "Southern",
+      "district": "Livingstone",
+      "facility": "Mahatma Ghandhi Health Centre Livingstone"
+    },
+    {
+      "province": "Eastern",
+      "district": "Petauke",
+      "facility": "Msanzala Rural Health Center"
+    },
+    {
+      "province": "North-Western",
+      "district": "Kabompo",
+      "facility": "Kavungu"
+    },
+    {
+      "province": "Southern",
+      "district": "Choma",
+      "facility": "Nalube Health Post"
+    },
+    {
+      "province": "Copperbelt",
+      "district": "Kitwe",
+      "facility": "Mulenga Urban Clinic"
+    },
+    {
+      "province": "Southern",
+      "district": "Kazungula",
+      "facility": "Kazungula Rural Health Center"
+    },
+    {
+      "province": "Copperbelt",
+      "district": "Chingola",
+      "facility": "Kabundi East Urban Health Centre"
+    },
+    {
+      "province": "Northern",
+      "district": "Kasama",
+      "facility": "Mulenga Hills Health Post"
+    },
+    {
+      "province": "Copperbelt",
+      "district": "Kitwe",
+      "facility": "Kawama UHC"
+    },
+    {
+      "province": "Southern",
+      "district": "Livingstone",
+      "facility": "Dambwa North Urban Health Center"
+    },
+    {
+      "province": "Copperbelt",
+      "district": "Kitwe",
+      "facility": "Twatasha Urban Health Centre"
+    },
+    {
+      "province": "North-Western",
+      "district": "Mufumbwe",
+      "facility": "HAHC"
+    },
+    {
+      "province": "North-Western",
+      "district": "Mufumbwe",
+      "facility": "Lubilo Rural Health Center 704021"
+    },
+    {
+      "province": "Copperbelt",
+      "district": "Ndola",
+      "facility": "Mapalo"
+    },
+    {
+      "province": "Copperbelt",
+      "district": "Ndola",
+      "facility": "Singogo"
+    },
+    {
+      "province": "Northern",
+      "district": "Mbala",
+      "facility": "Zombe Health Post"
+    },
+    {
+      "province": "Copperbelt",
+      "district": "Chingola",
+      "facility": "Heath Centre One"
+    },
+    {
+      "province": "Northern",
+      "district": "Kasama",
+      "facility": "Lukupa Rural Health Center"
+    },
+    {
+      "province": "North-Western",
+      "district": "Mushindamo",
+      "facility": "Shafiludu HP"
+    },
+    {
+      "province": "Southern",
+      "district": "Kazungula",
+      "facility": "Kabuyu Rural Health Center"
+    },
+    {
+      "province": "Northern",
+      "district": "Kasama",
+      "facility": "Lukashya Rural Health Center"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chipata",
+      "facility": "Kapata Urban Health Centre"
+    },
+    {
+      "province": "Eastern",
+      "district": "Katete",
+      "facility": "Chibolya Health Post Katete"
+    },
+    {
+      "province": "Luapula",
+      "district": "Kawambwa",
+      "facility": "Mushota Rural Health Center"
+    },
+    {
+      "province": "Copperbelt",
+      "district": "Kitwe",
+      "facility": "Kwacha UHC"
+    },
+    {
+      "province": "Northern",
+      "district": "Mbala",
+      "facility": "Mbala Urban Health Center"
+    },
+    {
+      "province": "Copperbelt",
+      "district": "Chingola",
+      "facility": "Chingola Correctional Health Post"
+    },
+    {
+      "province": "North-Western",
+      "district": "Mufumbwe",
+      "facility": "Shukwe Health Post"
+    },
+    {
+      "province": "North-Western",
+      "district": "Mufumbwe",
+      "facility": "Kikonge Health Post"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chipata",
+      "facility": "Chipata Trades Mini Hospital"
+    },
+    {
+      "province": "Southern",
+      "district": "Livingstone",
+      "facility": "Chileleko Health Post 80060045"
+    },
+    {
+      "province": "North-Western",
+      "district": "Mufumbwe",
+      "facility": "Nyansonso Health Post"
+    },
+    {
+      "province": "Southern",
+      "district": "Livingstone",
+      "facility": "Namatama Clinic"
+    },
+    {
+      "province": "Southern",
+      "district": "Choma",
+      "facility": "Njase Rural Health Center"
+    },
+    {
+      "province": "Eastern",
+      "district": "Katete",
+      "facility": "Kalimeta Health Post"
+    },
+    {
+      "province": "Eastern",
+      "district": "Katete",
+      "facility": "Kafunkha Health Post"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chipata",
+      "facility": "Mchini Health Post"
+    },
+    {
+      "province": "Luapula",
+      "district": "Kawambwa",
+      "facility": "Shikalaba Health Post"
+    },
+    {
+      "province": "Eastern",
+      "district": "Petauke",
+      "facility": "Kabvumbe Health Post"
+    },
+    {
+      "province": "Eastern",
+      "district": "Petauke",
+      "facility": "Luamphande Rural Health Center"
+    },
+    {
+      "province": "Luapula",
+      "district": "Nchelenge",
+      "facility": "Kasumpa Health Post"
+    },
+    {
+      "province": "Luapula",
+      "district": "Nchelenge",
+      "facility": "Kanyembo Rural Health Center"
+    },
+    {
+      "province": "Luapula",
+      "district": "Nchelenge",
+      "facility": "Chabilikila Rural Health Center"
+    },
+    {
+      "province": "Eastern",
+      "district": "Katete",
+      "facility": "Kamphambe Rural Health Center"
+    },
+    {
+      "province": "North-Western",
+      "district": "Kabompo",
+      "facility": "Kamisamba"
+    },
+    {
+      "province": "Southern",
+      "district": "Livingstone",
+      "facility": "Simonga Rural Health Centre"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chipata",
+      "facility": "Mwami Wellness Health Post"
+    },
+    {
+      "province": "North-Western",
+      "district": "Kabompo",
+      "facility": "Mumbeji Rural Health Center 702017"
+    },
+    {
+      "province": "Southern",
+      "district": "Livingstone",
+      "facility": "Airport Urban Health Center"
+    },
+    {
+      "province": "North-Western",
+      "district": "Kabompo",
+      "facility": "Kabulamema Rural Health Center 702011"
+    },
+    {
+      "province": "North-Western",
+      "district": "Mufumbwe",
+      "facility": "Matushi Rural Health Center"
+    },
+    {
+      "province": "North-Western",
+      "district": "Mufumbwe",
+      "facility": "Wishmanga Health Post"
+    },
+    {
+      "province": "North-Western",
+      "district": "Mufumbwe",
+      "facility": "Kamazovu Health Post"
+    },
+    {
+      "province": "Southern",
+      "district": "Choma",
+      "facility": "Mochipapa Rural Health Center"
+    },
+    {
+      "province": "North-Western",
+      "district": "Kabompo",
+      "facility": "Mufuli HP"
+    },
+    {
+      "province": "North-Western",
+      "district": "Kabompo",
+      "facility": "Nkulwashi RHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Nchelenge",
+      "facility": "Kapambwe Health Post"
+    },
+    {
+      "province": "Copperbelt",
+      "district": "Kitwe",
+      "facility": "Ndeke UHC"
+    },
+    {
+      "province": "Eastern",
+      "district": "Petauke",
+      "facility": "Kalindawalo Rural Health Center"
+    },
+    {
+      "province": "Eastern",
+      "district": "Petauke",
+      "facility": "Chisenjere Rural Health Center"
+    },
+    {
+      "province": "North-Western",
+      "district": "Mushindamo",
+      "facility": "Luamala RHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Kawambwa",
+      "facility": "Kawambwa Tea Rural Health Center"
+    },
+    {
+      "province": "North-Western",
+      "district": "Mushindamo",
+      "facility": "Kamisenga Rural Health Cenyre"
+    },
+    {
+      "province": "Copperbelt",
+      "district": "Kitwe",
+      "facility": "Nkana UHC"
+    },
+    {
+      "province": "North-Western",
+      "district": "Kasempa",
+      "facility": "Kasempa Urban Heath Center 703014"
+    },
+    {
+      "province": "Luapula",
+      "district": "Kawambwa",
+      "facility": "Titus Mukupo Mini Hospital"
+    },
+    {
+      "province": "Luapula",
+      "district": "Nchelenge",
+      "facility": "Kambwali Rural Health Post"
+    },
+    {
+      "province": "North-Western",
+      "district": "Mushindamo",
+      "facility": "Kanuma Rural Health Centre"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mwansabombwe",
+      "facility": "Kapesa Health Post 4020c2"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mwansabombwe",
+      "facility": "Chipunka Rural Health Center 402014"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chipata",
+      "facility": "Namseche Urban Health Centre"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mwansabombwe",
+      "facility": "Salanga Rural Health Center 402026"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chipata",
+      "facility": "Eastern Command Camp Clinic"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chipata",
+      "facility": "Walela Urban Health Post"
+    },
+    {
+      "province": "Southern",
+      "district": "Choma",
+      "facility": "Simukanka Health Post"
+    },
+    {
+      "province": "Copperbelt",
+      "district": "Ndola",
+      "facility": "Kalewa"
+    },
+    {
+      "province": "Southern",
+      "district": "Choma",
+      "facility": "Simakutu Rural Health Center"
+    },
+    {
+      "province": "Copperbelt",
+      "district": "Ndola",
+      "facility": "Dolla Hill"
+    },
+    {
+      "province": "Northern",
+      "district": "Mungwi",
+      "facility": "Ngoli Rural Health Center"
+    },
+    {
+      "province": "Northern",
+      "district": "Mungwi",
+      "facility": "Nseluka Rural Health Center"
+    },
+    {
+      "province": "Northern",
+      "district": "Mungwi",
+      "facility": "Malole RHC"
+    },
+    {
+      "province": "Northern",
+      "district": "Mungwi",
+      "facility": "Chitimukulu Rural Health Center"
+    },
+    {
+      "province": "Northern",
+      "district": "Mungwi",
+      "facility": "Kapolyo Rural Health Center"
+    },
+    {
+      "province": "Northern",
+      "district": "Mungwi",
+      "facility": "Mungwi Baptist Rural Health Center"
+    },
+    {
+      "province": "Luapula",
+      "district": "Nchelenge",
+      "facility": "Kafutuma Rural Health Post"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mwansabombwe",
+      "facility": "Seesa Health Post 00006"
+    },
+    {
+      "province": "Copperbelt",
+      "district": "Kitwe",
+      "facility": "Ipusukilo UHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Kawambwa",
+      "facility": "Chitondo Rural Health Center"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mwansabombwe",
+      "facility": "Katotoma Health Post 000098"
+    },
+    {
+      "province": "Southern",
+      "district": "Choma",
+      "facility": "Railway Surgery Urban Health Center Choma"
+    },
+    {
+      "province": "Luapula",
+      "district": "Nchelenge",
+      "facility": "Lushiba Health Post"
+    },
+    {
+      "province": "Copperbelt",
+      "district": "Kitwe",
+      "facility": "Buchi Main UHC"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mwansabombwe",
+      "facility": "Lufubu Rural Health Center 402026"
+    },
+    {
+      "province": "Southern",
+      "district": "Kazungula",
+      "facility": "Bunsanga Rural Health Post"
+    },
+    {
+      "province": "Southern",
+      "district": "Choma",
+      "facility": "Mbabala Rural Health Center"
+    },
+    {
+      "province": "Southern",
+      "district": "Kazungula",
+      "facility": "Kauwe Rural Health Center"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chipata",
+      "facility": "Chiswa Health Post"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chipata",
+      "facility": "Makungwa Health Post"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chipata",
+      "facility": "Madzimoyo Rural Health Centre"
+    },
+    {
+      "province": "Southern",
+      "district": "Choma",
+      "facility": "Batoka Rural Health Center"
+    },
+    {
+      "province": "Southern",
+      "district": "Choma",
+      "facility": "Shampande Urban Health Center"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mwansabombwe",
+      "facility": "Kapale Health Post 4020b1"
+    },
+    {
+      "province": "North-Western",
+      "district": "Mushindamo",
+      "facility": "Israel HP"
+    },
+    {
+      "province": "Copperbelt",
+      "district": "Ndola",
+      "facility": "Katondo"
+    },
+    {
+      "province": "North-Western",
+      "district": "Mushindamo",
+      "facility": "Kishela HP"
+    },
+    {
+      "province": "Eastern",
+      "district": "Katete",
+      "facility": "Chimtende Rural Health Center"
+    },
+    {
+      "province": "Luapula",
+      "district": "Nchelenge",
+      "facility": "Kashikishi"
+    },
+    {
+      "province": "Northern",
+      "district": "Mungwi",
+      "facility": "It's Their"
+    },
+    {
+      "province": "Northern",
+      "district": "Mungwi",
+      "facility": "It's Their"
+    },
+    {
+      "province": "Luapula",
+      "district": "Kawambwa",
+      "facility": "Kawambwa Rural Health Center"
+    },
+    {
+      "province": "Southern",
+      "district": "Kazungula",
+      "facility": "Simango Rural Health Centre"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mwansabombwe",
+      "facility": "Mbereshi Clinic 402098"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chipata",
+      "facility": "Lunkhwakwa Urban Health Center"
+    },
+    {
+      "province": "Luapula",
+      "district": "Nchelenge",
+      "facility": "Nchelenge RHC"
+    },
+    {
+      "province": "Southern",
+      "district": "Choma",
+      "facility": "Sepande Mini Hospital"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mwansabombwe",
+      "facility": "Mukamba Rural Health Center"
+    },
+    {
+      "province": "Eastern",
+      "district": "Chipata",
+      "facility": "Gondar Camp Barracks 4zr Military Hospital"
+    },
+    {
+      "province": "Luapula",
+      "district": "Kawambwa",
+      "facility": "Munkanta Rural Health Center"
+    },
+    {
+      "province": "Southern",
+      "district": "Kazungula",
+      "facility": "Musokotwane Rural Health Center"
+    },
+    {
+      "province": "Eastern",
+      "district": "Katete",
+      "facility": "Mindola Rural Health Center"
+    },
+    {
+      "province": "Eastern",
+      "district": "Katete",
+      "facility": "Kagoro Rural Health Center 304012"
+    },
+    {
+      "province": "Luapula",
+      "district": "Nchelenge",
+      "facility": "Mantapala Rural Health Post"
+    },
+    {
+      "province": "Luapula",
+      "district": "Mwansabombwe",
+      "facility": "Kazembe Rural Health Center 402018"
+    },
+    {
+      "province": "Luapula",
+      "district": "Kawambwa",
+      "facility": "Mufwaya Rural Health Center"
+    },
+    {
+      "province": "Luapula",
+      "district": "Kawambwa",
+      "facility": "Muyembe Rural Health Center"
+    },
+    {
+      "province": "Southern",
+      "district": "Kazungula",
+      "facility": "Sekute Rural Health Center"
+    },
+    {
+      "province": "Luapula",
+      "district": "Kawambwa",
+      "facility": "Lusambo Health Post"
+    },
+    {
+      "province": "Northern",
+      "district": "Mungwi",
+      "facility": "Kampamba HP"
+    },
+    {
+      "province": "Northern",
+      "district": "Mungwi",
+      "facility": "Chimba Rural Health Center"
     }
   ]
 }
