@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-19",
-  "source": "SRMNH DQA eLMIS Verification Tool Round 2 cumulative export 2026-06-19",
+  "date": "2026-06-20",
+  "source": "SRMNH DQA eLMIS Verification Tool Round 2 cumulative export 2026-06-20",
   "records": [
     {
       "visitDate": "2026-06-09",
@@ -4335,7 +4335,7 @@
       "visitDate": "2026-06-12",
       "province": "Luapula",
       "district": "Samfya",
-      "facility": "Katanshya RHC",
+      "facility": "Njipi RHC",
       "level": "Rural Health Centre",
       "assessed": true,
       "elmisFunctional": true,
@@ -11212,6 +11212,151 @@
         "Stockout"
       ],
       "remarks": "Facility reqiures mentorship in data management"
+    },
+    {
+      "visitDate": "2026-06-20",
+      "province": "Luapula",
+      "district": "Samfya",
+      "facility": "Mungulube RHC",
+      "level": "Rural Health Centre",
+      "assessed": true,
+      "elmisFunctional": true,
+      "sccAvailable": true,
+      "stockCardUpdated": true,
+      "dhis2Discrepancy": 0,
+      "pharmacyStockout": 1,
+      "facilityStockout": 0,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": true,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": true,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "Jadelle": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 0,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "IUCD": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "Delayed eLMIS entry",
+        "Ordering errors",
+        "Stockout"
+      ],
+      "remarks": "Always verify whats on the system,stock control cards and physical stock on hand"
+    },
+    {
+      "visitDate": "2026-06-20",
+      "province": "Luapula",
+      "district": "Mansa",
+      "facility": "Namwandwe HP",
+      "level": "Health Post",
+      "assessed": true,
+      "elmisFunctional": true,
+      "sccAvailable": true,
+      "stockCardUpdated": true,
+      "dhis2Discrepancy": 5,
+      "pharmacyStockout": 1,
+      "facilityStockout": 1,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": false,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": true,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "Jadelle": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "IUCD": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "UoM mismatch",
+        "Delayed eLMIS entry",
+        "DHIS2 inconsistency",
+        "Stockout"
+      ],
+      "remarks": "To carry out facility data review meetings and scrutinize data before entry in DHIS2."
     }
   ]
 }

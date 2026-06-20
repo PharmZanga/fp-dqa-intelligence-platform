@@ -1,6 +1,6 @@
 {
   "date": "2026-06-12",
-  "source": "SRMNH DQA eLMIS Verification Tool Round 2 cumulative export 2026-06-19",
+  "source": "SRMNH DQA eLMIS Verification Tool Round 2 cumulative export 2026-06-20",
   "records": [
     {
       "visitDate": "2026-06-12",
@@ -4402,7 +4402,7 @@
       "visitDate": "2026-06-12",
       "province": "Luapula",
       "district": "Samfya",
-      "facility": "Katanshya RHC",
+      "facility": "Njipi RHC",
       "products": [
         {
           "product": "Implanon",
