@@ -5,10 +5,9 @@
     "expectedProvinces": 4,
     "expectedDistricts": 12,
     "expectedFacilities": 120,
-    "note": "Round 3 planning registry for Lusaka, Central, Muchinga and Western provinces. Facility names are placeholders until final facility line list is confirmed.",
+    "note": "Round 3 planning registry for Lusaka, Central, Muchinga and Western provinces. Western Province facility line list confirmed; other pending districts remain placeholders until final line lists are confirmed.",
     "pendingConfirmations": [
-      "Confirm the two additional Muchinga districts after Nakonde.",
-      "Confirm spelling/name for Western district listed as Kehema."
+      "Confirm the two additional Muchinga districts after Nakonde."
     ]
   },
   "facilities": [
@@ -464,153 +463,183 @@
     },
     {
       "province": "Western",
-      "district": "Kaoma",
-      "facility": "Kaoma TBD Facility 01"
-    },
-    {
-      "province": "Western",
-      "district": "Kaoma",
-      "facility": "Kaoma TBD Facility 02"
-    },
-    {
-      "province": "Western",
-      "district": "Kaoma",
-      "facility": "Kaoma TBD Facility 03"
-    },
-    {
-      "province": "Western",
-      "district": "Kaoma",
-      "facility": "Kaoma TBD Facility 04"
-    },
-    {
-      "province": "Western",
-      "district": "Kaoma",
-      "facility": "Kaoma TBD Facility 05"
-    },
-    {
-      "province": "Western",
-      "district": "Kaoma",
-      "facility": "Kaoma TBD Facility 06"
-    },
-    {
-      "province": "Western",
-      "district": "Kaoma",
-      "facility": "Kaoma TBD Facility 07"
-    },
-    {
-      "province": "Western",
-      "district": "Kaoma",
-      "facility": "Kaoma TBD Facility 08"
-    },
-    {
-      "province": "Western",
-      "district": "Kaoma",
-      "facility": "Kaoma TBD Facility 09"
-    },
-    {
-      "province": "Western",
-      "district": "Kaoma",
-      "facility": "Kaoma TBD Facility 10"
-    },
-    {
-      "province": "Western",
-      "district": "Kehema",
-      "facility": "Kehema TBD Facility 01"
-    },
-    {
-      "province": "Western",
-      "district": "Kehema",
-      "facility": "Kehema TBD Facility 02"
-    },
-    {
-      "province": "Western",
-      "district": "Kehema",
-      "facility": "Kehema TBD Facility 03"
-    },
-    {
-      "province": "Western",
-      "district": "Kehema",
-      "facility": "Kehema TBD Facility 04"
-    },
-    {
-      "province": "Western",
-      "district": "Kehema",
-      "facility": "Kehema TBD Facility 05"
-    },
-    {
-      "province": "Western",
-      "district": "Kehema",
-      "facility": "Kehema TBD Facility 06"
-    },
-    {
-      "province": "Western",
-      "district": "Kehema",
-      "facility": "Kehema TBD Facility 07"
-    },
-    {
-      "province": "Western",
-      "district": "Kehema",
-      "facility": "Kehema TBD Facility 08"
-    },
-    {
-      "province": "Western",
-      "district": "Kehema",
-      "facility": "Kehema TBD Facility 09"
-    },
-    {
-      "province": "Western",
-      "district": "Kehema",
-      "facility": "Kehema TBD Facility 10"
+      "district": "Luampa",
+      "facility": "Lui Rural Health Centre",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Western",
       "district": "Luampa",
-      "facility": "Luampa TBD Facility 01"
+      "facility": "Mbanyutu Rural Health Centre",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Western",
       "district": "Luampa",
-      "facility": "Luampa TBD Facility 02"
+      "facility": "Mwandansengo Health Post",
+      "level": "Health Post"
     },
     {
       "province": "Western",
       "district": "Luampa",
-      "facility": "Luampa TBD Facility 03"
+      "facility": "Lububa Health Post",
+      "level": "Health Post"
     },
     {
       "province": "Western",
       "district": "Luampa",
-      "facility": "Luampa TBD Facility 04"
+      "facility": "Katunda Rural Health Centre",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Western",
       "district": "Luampa",
-      "facility": "Luampa TBD Facility 05"
+      "facility": "Luampa 1st Level Hospital",
+      "level": "1st Level Hospital"
     },
     {
       "province": "Western",
       "district": "Luampa",
-      "facility": "Luampa TBD Facility 06"
+      "facility": "Nkenga Rural Health Centre",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Western",
       "district": "Luampa",
-      "facility": "Luampa TBD Facility 07"
+      "facility": "Namando Health Post",
+      "level": "Health Post"
     },
     {
       "province": "Western",
       "district": "Luampa",
-      "facility": "Luampa TBD Facility 08"
+      "facility": "Mulwa Health Post",
+      "level": "Health Post"
     },
     {
       "province": "Western",
       "district": "Luampa",
-      "facility": "Luampa TBD Facility 09"
+      "facility": "Nakayembe Health Post",
+      "level": "Health Post"
     },
     {
       "province": "Western",
-      "district": "Luampa",
-      "facility": "Luampa TBD Facility 10"
+      "district": "Nkeyema",
+      "facility": "Kahare Rural Health Centre",
+      "level": "Rural Health Centre"
+    },
+    {
+      "province": "Western",
+      "district": "Nkeyema",
+      "facility": "Kandende Rural Health Centre",
+      "level": "Rural Health Centre"
+    },
+    {
+      "province": "Western",
+      "district": "Nkeyema",
+      "facility": "Namilangi Rural Health Centre",
+      "level": "Rural Health Centre"
+    },
+    {
+      "province": "Western",
+      "district": "Nkeyema",
+      "facility": "Kakanda Health Post",
+      "level": "Health Post"
+    },
+    {
+      "province": "Western",
+      "district": "Nkeyema",
+      "facility": "Mimpongo Health Post",
+      "level": "Health Post"
+    },
+    {
+      "province": "Western",
+      "district": "Nkeyema",
+      "facility": "Njonjolo Rural Health Centre",
+      "level": "Rural Health Centre"
+    },
+    {
+      "province": "Western",
+      "district": "Nkeyema",
+      "facility": "Maloba Health Post",
+      "level": "Health Post"
+    },
+    {
+      "province": "Western",
+      "district": "Nkeyema",
+      "facility": "Nkeyema Rural Health Centre",
+      "level": "Rural Health Centre"
+    },
+    {
+      "province": "Western",
+      "district": "Nkeyema",
+      "facility": "Nkeyema Zonal Mini Hospital",
+      "level": "Mini Hospital"
+    },
+    {
+      "province": "Western",
+      "district": "Nkeyema",
+      "facility": "Lombelombe Health Post",
+      "level": "Health Post"
+    },
+    {
+      "province": "Western",
+      "district": "Kaoma",
+      "facility": "Mulalila Health Post",
+      "level": "Health Post"
+    },
+    {
+      "province": "Western",
+      "district": "Kaoma",
+      "facility": "Kashamu Health Post",
+      "level": "Health Post"
+    },
+    {
+      "province": "Western",
+      "district": "Kaoma",
+      "facility": "Longe Health Post",
+      "level": "Health Post"
+    },
+    {
+      "province": "Western",
+      "district": "Kaoma",
+      "facility": "Chitwa Rural Health Centre",
+      "level": "Rural Health Centre"
+    },
+    {
+      "province": "Western",
+      "district": "Kaoma",
+      "facility": "Mangango ZNS Urban Health Centre",
+      "level": "Urban Health Centre"
+    },
+    {
+      "province": "Western",
+      "district": "Kaoma",
+      "facility": "Mutondo Rural Health Centre",
+      "level": "Rural Health Centre"
+    },
+    {
+      "province": "Western",
+      "district": "Kaoma",
+      "facility": "Namaloba Health Post",
+      "level": "Health Post"
+    },
+    {
+      "province": "Western",
+      "district": "Kaoma",
+      "facility": "Nyango Rural Health Centre",
+      "level": "Rural Health Centre"
+    },
+    {
+      "province": "Western",
+      "district": "Kaoma",
+      "facility": "Katoya Health Post",
+      "level": "Health Post"
+    },
+    {
+      "province": "Western",
+      "district": "Kaoma",
+      "facility": "Kasimba Rural Health Centre",
+      "level": "Rural Health Centre"
     }
   ]
 }
