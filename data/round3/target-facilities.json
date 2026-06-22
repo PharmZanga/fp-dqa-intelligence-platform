@@ -5,10 +5,8 @@
     "expectedProvinces": 4,
     "expectedDistricts": 12,
     "expectedFacilities": 120,
-    "note": "Round 3 planning registry for Lusaka, Central, Muchinga and Western provinces. Lusaka, Muchinga and Western Province facility line lists confirmed; Central remains placeholder until final line list is confirmed.",
-    "pendingConfirmations": [
-      "Confirm Central Province facility line list."
-    ]
+    "note": "Round 3 planning registry for Lusaka, Central, Muchinga and Western provinces. Facility line lists confirmed for all four provinces.",
+    "pendingConfirmations": []
   },
   "facilities": [
     {
@@ -193,153 +191,183 @@
     },
     {
       "province": "Central",
-      "district": "Chibombo",
-      "facility": "Chibombo TBD Facility 01"
-    },
-    {
-      "province": "Central",
-      "district": "Chibombo",
-      "facility": "Chibombo TBD Facility 02"
-    },
-    {
-      "province": "Central",
-      "district": "Chibombo",
-      "facility": "Chibombo TBD Facility 03"
-    },
-    {
-      "province": "Central",
-      "district": "Chibombo",
-      "facility": "Chibombo TBD Facility 04"
-    },
-    {
-      "province": "Central",
-      "district": "Chibombo",
-      "facility": "Chibombo TBD Facility 05"
-    },
-    {
-      "province": "Central",
-      "district": "Chibombo",
-      "facility": "Chibombo TBD Facility 06"
-    },
-    {
-      "province": "Central",
-      "district": "Chibombo",
-      "facility": "Chibombo TBD Facility 07"
-    },
-    {
-      "province": "Central",
-      "district": "Chibombo",
-      "facility": "Chibombo TBD Facility 08"
-    },
-    {
-      "province": "Central",
-      "district": "Chibombo",
-      "facility": "Chibombo TBD Facility 09"
-    },
-    {
-      "province": "Central",
-      "district": "Chibombo",
-      "facility": "Chibombo TBD Facility 10"
+      "district": "Chisamba",
+      "facility": "Chisamba RHC",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Central",
       "district": "Chisamba",
-      "facility": "Chisamba TBD Facility 01"
+      "facility": "Chipembi RHC",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Central",
       "district": "Chisamba",
-      "facility": "Chisamba TBD Facility 02"
+      "facility": "Kaputi HP",
+      "level": "Health Post"
     },
     {
       "province": "Central",
       "district": "Chisamba",
-      "facility": "Chisamba TBD Facility 03"
+      "facility": "Momboshi HP",
+      "level": "Health Post"
     },
     {
       "province": "Central",
       "district": "Chisamba",
-      "facility": "Chisamba TBD Facility 04"
+      "facility": "Makeni HP",
+      "level": "Health Post"
     },
     {
       "province": "Central",
       "district": "Chisamba",
-      "facility": "Chisamba TBD Facility 05"
+      "facility": "Chisamba Ranch HP",
+      "level": "Health Post"
     },
     {
       "province": "Central",
       "district": "Chisamba",
-      "facility": "Chisamba TBD Facility 06"
+      "facility": "Chikonkomenene RHC",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Central",
       "district": "Chisamba",
-      "facility": "Chisamba TBD Facility 07"
+      "facility": "Mupamapamo HP",
+      "level": "Health Post"
     },
     {
       "province": "Central",
       "district": "Chisamba",
-      "facility": "Chisamba TBD Facility 08"
+      "facility": "Lifwambula RHC",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Central",
       "district": "Chisamba",
-      "facility": "Chisamba TBD Facility 09"
+      "facility": "Liteta Hospital",
+      "level": "Hospital"
     },
     {
       "province": "Central",
-      "district": "Chisamba",
-      "facility": "Chisamba TBD Facility 10"
+      "district": "Chibombo",
+      "facility": "Shimukuni RHC",
+      "level": "Rural Health Centre"
+    },
+    {
+      "province": "Central",
+      "district": "Chibombo",
+      "facility": "Malambanyama RHC",
+      "level": "Rural Health Centre"
+    },
+    {
+      "province": "Central",
+      "district": "Chibombo",
+      "facility": "Keembe RHC",
+      "level": "Rural Health Centre"
+    },
+    {
+      "province": "Central",
+      "district": "Chibombo",
+      "facility": "Golden Valley RHP",
+      "level": "Rural Health Post"
+    },
+    {
+      "province": "Central",
+      "district": "Chibombo",
+      "facility": "Mwachisompola RHC",
+      "level": "Rural Health Centre"
+    },
+    {
+      "province": "Central",
+      "district": "Chibombo",
+      "facility": "Lucy O'Brien RHP",
+      "level": "Rural Health Post"
+    },
+    {
+      "province": "Central",
+      "district": "Chibombo",
+      "facility": "Chibombo RHC",
+      "level": "Rural Health Centre"
+    },
+    {
+      "province": "Central",
+      "district": "Chibombo",
+      "facility": "Mukalashi RHP",
+      "level": "Rural Health Post"
+    },
+    {
+      "province": "Central",
+      "district": "Chibombo",
+      "facility": "Hedezo Level 1 Hospital",
+      "level": "1st Level Hospital"
+    },
+    {
+      "province": "Central",
+      "district": "Chibombo",
+      "facility": "Muntemba RHP",
+      "level": "Rural Health Post"
     },
     {
       "province": "Central",
       "district": "Kapiri Mposhi",
-      "facility": "Kapiri Mposhi TBD Facility 01"
+      "facility": "St Pauls RHC",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Central",
       "district": "Kapiri Mposhi",
-      "facility": "Kapiri Mposhi TBD Facility 02"
+      "facility": "Mulungushi University RHC",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Central",
       "district": "Kapiri Mposhi",
-      "facility": "Kapiri Mposhi TBD Facility 03"
+      "facility": "Kakulu RHC",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Central",
       "district": "Kapiri Mposhi",
-      "facility": "Kapiri Mposhi TBD Facility 04"
+      "facility": "Luanshimba RHC",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Central",
       "district": "Kapiri Mposhi",
-      "facility": "Kapiri Mposhi TBD Facility 05"
+      "facility": "Kabwale RHP",
+      "level": "Rural Health Post"
     },
     {
       "province": "Central",
       "district": "Kapiri Mposhi",
-      "facility": "Kapiri Mposhi TBD Facility 06"
+      "facility": "Renato RHP",
+      "level": "Rural Health Post"
     },
     {
       "province": "Central",
       "district": "Kapiri Mposhi",
-      "facility": "Kapiri Mposhi TBD Facility 07"
+      "facility": "Lukomba RHP",
+      "level": "Rural Health Post"
     },
     {
       "province": "Central",
       "district": "Kapiri Mposhi",
-      "facility": "Kapiri Mposhi TBD Facility 08"
+      "facility": "Lunchu B RHP",
+      "level": "Rural Health Post"
     },
     {
       "province": "Central",
       "district": "Kapiri Mposhi",
-      "facility": "Kapiri Mposhi TBD Facility 09"
+      "facility": "Kapiri Urban Health Centre",
+      "level": "Urban Health Centre"
     },
     {
       "province": "Central",
       "district": "Kapiri Mposhi",
-      "facility": "Kapiri Mposhi TBD Facility 10"
+      "facility": "Kawama RHC",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Muchinga",
