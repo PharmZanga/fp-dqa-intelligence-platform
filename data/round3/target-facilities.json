@@ -5,9 +5,9 @@
     "expectedProvinces": 4,
     "expectedDistricts": 12,
     "expectedFacilities": 120,
-    "note": "Round 3 planning registry for Lusaka, Central, Muchinga and Western provinces. Lusaka and Western Province facility line lists confirmed; other pending districts remain placeholders until final line lists are confirmed.",
+    "note": "Round 3 planning registry for Lusaka, Central, Muchinga and Western provinces. Lusaka, Muchinga and Western Province facility line lists confirmed; Central remains placeholder until final line list is confirmed.",
     "pendingConfirmations": [
-      "Confirm the two additional Muchinga districts after Nakonde."
+      "Confirm Central Province facility line list."
     ]
   },
   "facilities": [
@@ -343,153 +343,183 @@
     },
     {
       "province": "Muchinga",
-      "district": "Nakonde",
-      "facility": "Nakonde TBD Facility 01"
+      "district": "Shiwang'andu",
+      "facility": "Mukungwa HP",
+      "level": "Health Post"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Shiwang'andu",
+      "facility": "Lwanya HP",
+      "level": "Health Post"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Shiwang'andu",
+      "facility": "Mukwikile HP",
+      "level": "Health Post"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Shiwang'andu",
+      "facility": "Shiwang'andu UHC",
+      "level": "Urban Health Centre"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Shiwang'andu",
+      "facility": "Philip HP",
+      "level": "Health Post"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Shiwang'andu",
+      "facility": "Matumbo RHC",
+      "level": "Rural Health Centre"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Shiwang'andu",
+      "facility": "Yosamu HP",
+      "level": "Health Post"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Shiwang'andu",
+      "facility": "Chinkumba HP",
+      "level": "Health Post"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Shiwang'andu",
+      "facility": "Kalantekwe Mini Hospital",
+      "level": "Mini Hospital"
+    },
+    {
+      "province": "Muchinga",
+      "district": "Shiwang'andu",
+      "facility": "Shiwang'andu RHC",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Muchinga",
       "district": "Nakonde",
-      "facility": "Nakonde TBD Facility 02"
+      "facility": "Chilolwa RHC",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Muchinga",
       "district": "Nakonde",
-      "facility": "Nakonde TBD Facility 03"
+      "facility": "Kantongo HP",
+      "level": "Health Post"
     },
     {
       "province": "Muchinga",
       "district": "Nakonde",
-      "facility": "Nakonde TBD Facility 04"
+      "facility": "Waitwika RHC",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Muchinga",
       "district": "Nakonde",
-      "facility": "Nakonde TBD Facility 05"
+      "facility": "Chitamba HP",
+      "level": "Health Post"
     },
     {
       "province": "Muchinga",
       "district": "Nakonde",
-      "facility": "Nakonde TBD Facility 06"
+      "facility": "Ilola HP",
+      "level": "Health Post"
     },
     {
       "province": "Muchinga",
       "district": "Nakonde",
-      "facility": "Nakonde TBD Facility 07"
+      "facility": "Mwenzo RHC",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Muchinga",
       "district": "Nakonde",
-      "facility": "Nakonde TBD Facility 08"
+      "facility": "Shemu RHC",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Muchinga",
       "district": "Nakonde",
-      "facility": "Nakonde TBD Facility 09"
+      "facility": "Kaombwe HP",
+      "level": "Health Post"
     },
     {
       "province": "Muchinga",
       "district": "Nakonde",
-      "facility": "Nakonde TBD Facility 10"
+      "facility": "Katozi",
+      "level": "Other"
     },
     {
       "province": "Muchinga",
-      "district": "Muchinga District 2 (TBC)",
-      "facility": "Muchinga District 2 (TBC) TBD Facility 01"
+      "district": "Nakonde",
+      "facility": "Nakonde UHC",
+      "level": "Urban Health Centre"
     },
     {
       "province": "Muchinga",
-      "district": "Muchinga District 2 (TBC)",
-      "facility": "Muchinga District 2 (TBC) TBD Facility 02"
+      "district": "Mpika",
+      "facility": "Chibansa RHC",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Muchinga",
-      "district": "Muchinga District 2 (TBC)",
-      "facility": "Muchinga District 2 (TBC) TBD Facility 03"
+      "district": "Mpika",
+      "facility": "Tazara Residential UHC",
+      "level": "Urban Health Centre"
     },
     {
       "province": "Muchinga",
-      "district": "Muchinga District 2 (TBC)",
-      "facility": "Muchinga District 2 (TBC) TBD Facility 04"
+      "district": "Mpika",
+      "facility": "Tazara HP",
+      "level": "Health Post"
     },
     {
       "province": "Muchinga",
-      "district": "Muchinga District 2 (TBC)",
-      "facility": "Muchinga District 2 (TBC) TBD Facility 05"
+      "district": "Mpika",
+      "facility": "Chitulika Mini Hospital",
+      "level": "Mini Hospital"
     },
     {
       "province": "Muchinga",
-      "district": "Muchinga District 2 (TBC)",
-      "facility": "Muchinga District 2 (TBC) TBD Facility 06"
+      "district": "Mpika",
+      "facility": "Kamwanya HP",
+      "level": "Health Post"
     },
     {
       "province": "Muchinga",
-      "district": "Muchinga District 2 (TBC)",
-      "facility": "Muchinga District 2 (TBC) TBD Facility 07"
+      "district": "Mpika",
+      "facility": "Mpika UHC",
+      "level": "Urban Health Centre"
     },
     {
       "province": "Muchinga",
-      "district": "Muchinga District 2 (TBC)",
-      "facility": "Muchinga District 2 (TBC) TBD Facility 08"
+      "district": "Mpika",
+      "facility": "Chikwanda HP",
+      "level": "Health Post"
     },
     {
       "province": "Muchinga",
-      "district": "Muchinga District 2 (TBC)",
-      "facility": "Muchinga District 2 (TBC) TBD Facility 09"
+      "district": "Mpika",
+      "facility": "ZCA RHC",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Muchinga",
-      "district": "Muchinga District 2 (TBC)",
-      "facility": "Muchinga District 2 (TBC) TBD Facility 10"
+      "district": "Mpika",
+      "facility": "Chibaye HP",
+      "level": "Health Post"
     },
     {
       "province": "Muchinga",
-      "district": "Muchinga District 3 (TBC)",
-      "facility": "Muchinga District 3 (TBC) TBD Facility 01"
-    },
-    {
-      "province": "Muchinga",
-      "district": "Muchinga District 3 (TBC)",
-      "facility": "Muchinga District 3 (TBC) TBD Facility 02"
-    },
-    {
-      "province": "Muchinga",
-      "district": "Muchinga District 3 (TBC)",
-      "facility": "Muchinga District 3 (TBC) TBD Facility 03"
-    },
-    {
-      "province": "Muchinga",
-      "district": "Muchinga District 3 (TBC)",
-      "facility": "Muchinga District 3 (TBC) TBD Facility 04"
-    },
-    {
-      "province": "Muchinga",
-      "district": "Muchinga District 3 (TBC)",
-      "facility": "Muchinga District 3 (TBC) TBD Facility 05"
-    },
-    {
-      "province": "Muchinga",
-      "district": "Muchinga District 3 (TBC)",
-      "facility": "Muchinga District 3 (TBC) TBD Facility 06"
-    },
-    {
-      "province": "Muchinga",
-      "district": "Muchinga District 3 (TBC)",
-      "facility": "Muchinga District 3 (TBC) TBD Facility 07"
-    },
-    {
-      "province": "Muchinga",
-      "district": "Muchinga District 3 (TBC)",
-      "facility": "Muchinga District 3 (TBC) TBD Facility 08"
-    },
-    {
-      "province": "Muchinga",
-      "district": "Muchinga District 3 (TBC)",
-      "facility": "Muchinga District 3 (TBC) TBD Facility 09"
-    },
-    {
-      "province": "Muchinga",
-      "district": "Muchinga District 3 (TBC)",
-      "facility": "Muchinga District 3 (TBC) TBD Facility 10"
+      "district": "Mpika",
+      "facility": "Kasenga RHC",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Western",
