@@ -176,7 +176,7 @@
     {
       "province": "Luapula",
       "district": "Chipili",
-      "facility": "Kansonta HP"
+      "facility": "Kasonta HP"
     },
     {
       "province": "Luapula",
@@ -351,7 +351,7 @@
     {
       "province": "Southern",
       "district": "Zimba",
-      "facility": "HAHC"
+      "facility": "Zimba Mission Hospital HACH"
     },
     {
       "province": "Southern",
@@ -371,22 +371,22 @@
     {
       "province": "Southern",
       "district": "Livingstone",
-      "facility": "Vicfalls UHC"
+      "facility": "Victoria Falls Urban Health Center"
     },
     {
       "province": "Southern",
       "district": "Livingstone",
-      "facility": "Dssv HP"
+      "facility": "Dambwa site and service clinic"
     },
     {
       "province": "Southern",
       "district": "Livingstone",
-      "facility": "Natebe HP"
+      "facility": "Nateba Health Post"
     },
     {
       "province": "Southern",
       "district": "Livingstone",
-      "facility": "Hilcrest HP"
+      "facility": "Hillcrest Health Post"
     },
     {
       "province": "Southern",
@@ -436,7 +436,7 @@
     {
       "province": "Southern",
       "district": "Mazabuka",
-      "facility": "Magoye"
+      "facility": "Mugoye Rural Health Center"
     },
     {
       "province": "Southern",
@@ -676,7 +676,7 @@
     {
       "province": "Eastern",
       "district": "Chadiza",
-      "facility": "Kapirimpika"
+      "facility": "Kapilipika Health Post"
     },
     {
       "province": "Eastern",
@@ -691,7 +691,7 @@
     {
       "province": "Eastern",
       "district": "Chadiza",
-      "facility": "Naviruli"
+      "facility": "Naviluli Health Post"
     },
     {
       "province": "Eastern",
@@ -706,7 +706,7 @@
     {
       "province": "Eastern",
       "district": "Chadiza",
-      "facility": "Bwanukha"
+      "facility": "Bwanunkha Rural Health Center"
     },
     {
       "province": "Eastern",
