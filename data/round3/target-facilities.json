@@ -5,7 +5,7 @@
     "expectedProvinces": 4,
     "expectedDistricts": 12,
     "expectedFacilities": 120,
-    "note": "Round 3 planning registry for Lusaka, Central, Muchinga and Western provinces. Western Province facility line list confirmed; other pending districts remain placeholders until final line lists are confirmed.",
+    "note": "Round 3 planning registry for Lusaka, Central, Muchinga and Western provinces. Lusaka and Western Province facility line lists confirmed; other pending districts remain placeholders until final line lists are confirmed.",
     "pendingConfirmations": [
       "Confirm the two additional Muchinga districts after Nakonde."
     ]
@@ -14,152 +14,182 @@
     {
       "province": "Lusaka",
       "district": "Kafue",
-      "facility": "Kafue TBD Facility 01"
+      "facility": "Chikupi HC",
+      "level": "Health Centre"
     },
     {
       "province": "Lusaka",
       "district": "Kafue",
-      "facility": "Kafue TBD Facility 02"
+      "facility": "Chikoka HP",
+      "level": "Health Post"
     },
     {
       "province": "Lusaka",
       "district": "Kafue",
-      "facility": "Kafue TBD Facility 03"
+      "facility": "Kafue Mission HC",
+      "level": "Health Centre"
     },
     {
       "province": "Lusaka",
       "district": "Kafue",
-      "facility": "Kafue TBD Facility 04"
+      "facility": "Kafue East HP",
+      "level": "Health Post"
     },
     {
       "province": "Lusaka",
       "district": "Kafue",
-      "facility": "Kafue TBD Facility 05"
+      "facility": "Mungu HP",
+      "level": "Health Post"
     },
     {
       "province": "Lusaka",
       "district": "Kafue",
-      "facility": "Kafue TBD Facility 06"
+      "facility": "Mtendere HP",
+      "level": "Health Post"
     },
     {
       "province": "Lusaka",
       "district": "Kafue",
-      "facility": "Kafue TBD Facility 07"
+      "facility": "Nangongwe HC",
+      "level": "Health Centre"
     },
     {
       "province": "Lusaka",
       "district": "Kafue",
-      "facility": "Kafue TBD Facility 08"
+      "facility": "Soloboni HP",
+      "level": "Health Post"
     },
     {
       "province": "Lusaka",
       "district": "Kafue",
-      "facility": "Kafue TBD Facility 09"
+      "facility": "Shimabala HC",
+      "level": "Health Centre"
     },
     {
       "province": "Lusaka",
       "district": "Kafue",
-      "facility": "Kafue TBD Facility 10"
+      "facility": "Railway HC",
+      "level": "Health Centre"
     },
     {
       "province": "Lusaka",
       "district": "Chongwe",
-      "facility": "Chongwe TBD Facility 01"
+      "facility": "Palabana RHC",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Lusaka",
       "district": "Chongwe",
-      "facility": "Chongwe TBD Facility 02"
+      "facility": "Chongwe RHC",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Lusaka",
       "district": "Chongwe",
-      "facility": "Chongwe TBD Facility 03"
+      "facility": "Chainda RHC",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Lusaka",
       "district": "Chongwe",
-      "facility": "Chongwe TBD Facility 04"
+      "facility": "Mwalumina RHC",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Lusaka",
       "district": "Chongwe",
-      "facility": "Chongwe TBD Facility 05"
+      "facility": "Kanakantapa RHC",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Lusaka",
       "district": "Chongwe",
-      "facility": "Chongwe TBD Facility 06"
+      "facility": "Mpango RHC",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Lusaka",
       "district": "Chongwe",
-      "facility": "Chongwe TBD Facility 07"
+      "facility": "Chalimbana RHC",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Lusaka",
       "district": "Chongwe",
-      "facility": "Chongwe TBD Facility 08"
+      "facility": "Lwiimba RHC",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Lusaka",
       "district": "Chongwe",
-      "facility": "Chongwe TBD Facility 09"
+      "facility": "Kasisi RHC",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Lusaka",
       "district": "Chongwe",
-      "facility": "Chongwe TBD Facility 10"
+      "facility": "Kampekete Mini Hospital",
+      "level": "Mini Hospital"
     },
     {
       "province": "Lusaka",
       "district": "Luangwa",
-      "facility": "Luangwa TBD Facility 01"
+      "facility": "Kanemela Health Post",
+      "level": "Health Post"
     },
     {
       "province": "Lusaka",
       "district": "Luangwa",
-      "facility": "Luangwa TBD Facility 02"
+      "facility": "Kapoche Health Post",
+      "level": "Health Post"
     },
     {
       "province": "Lusaka",
       "district": "Luangwa",
-      "facility": "Luangwa TBD Facility 03"
+      "facility": "Mphuka Rural Health Centre",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Lusaka",
       "district": "Luangwa",
-      "facility": "Luangwa TBD Facility 04"
+      "facility": "Janeiro Health Post",
+      "level": "Health Post"
     },
     {
       "province": "Lusaka",
       "district": "Luangwa",
-      "facility": "Luangwa TBD Facility 05"
+      "facility": "Mandombe Rural Health Centre",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Lusaka",
       "district": "Luangwa",
-      "facility": "Luangwa TBD Facility 06"
+      "facility": "Kavalamanja Rural Health Centre",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Lusaka",
       "district": "Luangwa",
-      "facility": "Luangwa TBD Facility 07"
+      "facility": "Amoro Health Post",
+      "level": "Health Post"
     },
     {
       "province": "Lusaka",
       "district": "Luangwa",
-      "facility": "Luangwa TBD Facility 08"
+      "facility": "Luangwa Boma Rural Health Centre",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Lusaka",
       "district": "Luangwa",
-      "facility": "Luangwa TBD Facility 09"
+      "facility": "Feira Health Post",
+      "level": "Health Post"
     },
     {
       "province": "Lusaka",
       "district": "Luangwa",
-      "facility": "Luangwa TBD Facility 10"
+      "facility": "Luangwa District Hospital",
+      "level": "District Hospital"
     },
     {
       "province": "Central",
