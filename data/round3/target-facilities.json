@@ -30,8 +30,8 @@
     {
       "province": "Lusaka",
       "district": "Kafue",
-      "facility": "Kafue East HP",
-      "level": "Health Post"
+      "facility": "Kafue Estates Rural HC",
+      "level": "Rural Health Centre"
     },
     {
       "province": "Lusaka",
@@ -174,7 +174,7 @@
     {
       "province": "Lusaka",
       "district": "Luangwa",
-      "facility": "Luangwa Boma Rural Health Centre",
+      "facility": "Luangwa Boys Sec School Rural HC",
       "level": "Rural Health Centre"
     },
     {
