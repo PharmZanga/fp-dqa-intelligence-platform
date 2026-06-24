@@ -12,13 +12,25 @@
     {
       "province": "Lusaka",
       "district": "Kafue",
-      "facility": "Chikupi HC",
+      "facility": "Chiawa HC",
       "level": "Health Centre"
     },
     {
       "province": "Lusaka",
       "district": "Kafue",
-      "facility": "Chikoka HP",
+      "facility": "Chipapa HC",
+      "level": "Health Centre"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Kafue",
+      "facility": "Chisankane HC",
+      "level": "Health Centre"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Kafue",
+      "facility": "Kafue East HP",
       "level": "Health Post"
     },
     {
@@ -30,44 +42,32 @@
     {
       "province": "Lusaka",
       "district": "Kafue",
-      "facility": "Kafue Estates Rural HC",
-      "level": "Rural Health Centre"
-    },
-    {
-      "province": "Lusaka",
-      "district": "Kafue",
-      "facility": "Mungu HP",
+      "facility": "Chisakila HP",
       "level": "Health Post"
     },
     {
       "province": "Lusaka",
       "district": "Kafue",
-      "facility": "Mtendere HP",
+      "facility": "Muguramene HP",
       "level": "Health Post"
     },
     {
       "province": "Lusaka",
       "district": "Kafue",
-      "facility": "Nangongwe HC",
-      "level": "Health Centre"
-    },
-    {
-      "province": "Lusaka",
-      "district": "Kafue",
-      "facility": "Soloboni HP",
+      "facility": "New Kabweza HP",
       "level": "Health Post"
-    },
-    {
-      "province": "Lusaka",
-      "district": "Kafue",
-      "facility": "Shimabala HC",
-      "level": "Health Centre"
     },
     {
       "province": "Lusaka",
       "district": "Kafue",
       "facility": "Railway HC",
       "level": "Health Centre"
+    },
+    {
+      "province": "Lusaka",
+      "district": "Kafue",
+      "facility": "Shimabala HP",
+      "level": "Health Post"
     },
     {
       "province": "Lusaka",
