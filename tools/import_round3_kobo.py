@@ -345,13 +345,13 @@ def main():
             existing_daily_records = json.loads(daily_path.read_text(encoding="utf-8")).get("records", [])
         except json.JSONDecodeError:
             existing_daily_records = []
-    existing_prior = [r for r in existing_daily_records if r.get("visitDate") and r.get("visitDate") != latest_date]
-    latest_records = [r for r in daily_records if r.get("visitDate") == latest_date]
+    workbook_dates = {r.get("visitDate") for r in daily_records if r.get("visitDate")}
+    existing_prior = [r for r in existing_daily_records if r.get("visitDate") and r.get("visitDate") not in workbook_dates]
 
     daily_payload = {
         "date": latest_date,
         "source": f"SRMNH DQA Round 3 export {latest_date}",
-        "records": existing_prior + latest_records,
+        "records": existing_prior + daily_records,
     }
     daily_path.write_text(json.dumps(daily_payload, indent=2), encoding="utf-8")
 
@@ -362,8 +362,6 @@ def main():
     detail_dir.mkdir(parents=True, exist_ok=True)
     for visit_date, records in by_date.items():
         detail_path = detail_dir / f"{visit_date}.json"
-        if visit_date != latest_date and detail_path.exists():
-            continue
         payload = {
             "date": visit_date,
             "source": f"SRMNH DQA Round 3 export {latest_date}",
@@ -371,7 +369,7 @@ def main():
         }
         detail_path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
 
-    print(f"wrote {len(existing_prior) + len(latest_records)} daily records")
+    print(f"wrote {len(existing_prior) + len(daily_records)} daily records")
     for visit_date in dates:
         print(f"{visit_date}: {len(by_date[visit_date])} product-detail records")
 

@@ -11,7 +11,7 @@
       "assessed": true,
       "elmisFunctional": true,
       "sccAvailable": true,
-      "stockCardUpdated": true,
+      "stockCardUpdated": false,
       "dhis2Discrepancy": 5,
       "pharmacyStockout": 1,
       "facilityStockout": 1,
@@ -72,8 +72,7 @@
         "Stock card not updated",
         "Poor documentation",
         "Ordering errors",
-        "DHIS2 inconsistency",
-        "Stockout"
+        "DHIS2 inconsistency"
       ],
       "remarks": "Techanical support in ordering by 31/6/2026"
     },
@@ -86,7 +85,7 @@
       "assessed": true,
       "elmisFunctional": true,
       "sccAvailable": true,
-      "stockCardUpdated": true,
+      "stockCardUpdated": false,
       "dhis2Discrepancy": 5,
       "pharmacyStockout": 1,
       "facilityStockout": 1,
@@ -146,8 +145,7 @@
         "Incomplete SCC",
         "Poor documentation",
         "Ordering errors",
-        "eLMIS access challenges",
-        "Stockout"
+        "eLMIS access challenges"
       ],
       "remarks": "The facility should update the cards and update the system,  numbers should tally from the system and from the SCC....2. They should pay attention to the unity in the system so that they order the correct quantity ."
     },
@@ -160,7 +158,7 @@
       "assessed": true,
       "elmisFunctional": false,
       "sccAvailable": true,
-      "stockCardUpdated": true,
+      "stockCardUpdated": false,
       "dhis2Discrepancy": 4,
       "pharmacyStockout": 3,
       "facilityStockout": 2,
@@ -219,8 +217,7 @@
       "rootCauses": [
         "Poor documentation",
         "Staff knowledge gap",
-        "DHIS2 inconsistency",
-        "Stockout"
+        "DHIS2 inconsistency"
       ],
       "remarks": "The facility need to do data reviews before reporting in DHIS2, technical support in data management."
     },
@@ -940,6 +937,77 @@
         "Stock card not updated"
       ],
       "remarks": "Training of staff"
+    },
+    {
+      "visitDate": "2026-06-23",
+      "province": "Lusaka",
+      "district": "Kafue",
+      "facility": "Chipapa Rural Health Center",
+      "level": "Rural Health Centre",
+      "assessed": true,
+      "elmisFunctional": true,
+      "sccAvailable": true,
+      "stockCardUpdated": false,
+      "dhis2Discrepancy": 0,
+      "pharmacyStockout": 1,
+      "facilityStockout": 1,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": false,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": true,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "Jadelle": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "IUCD": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "eLMIS access challenges",
+        "Other"
+      ],
+      "remarks": "1.New laptop for elmis-DHO-Immediately"
     },
     {
       "visitDate": "2026-06-24",
