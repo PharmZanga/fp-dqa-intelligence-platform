@@ -135,6 +135,8 @@ def best_target_name(province, district, facility, targets):
         return "Boma Rural Health Center (Luangwa)"
     if province == "Central" and district == "Kapiri Mposhi" and "kapiri mposhi urban" in facility_text:
         return "Kapiri Urban Health Centre"
+    if province == "Western" and district == "Kaoma" and "chitwa" in facility_text:
+        return "Chitwa Rural Health Centre"
     candidates = [
         t["facility"]
         for t in targets
