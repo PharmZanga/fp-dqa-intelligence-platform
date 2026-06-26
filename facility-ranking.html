@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Facility Ranking League Table | FP DQA Intelligence Platform</title>
+  <style>
+    :root{--blue:#0c447c;--blue2:#185fa5;--line:#d9e2ef;--muted:#657084;--bg:#eef4fb;--text:#172033;--good:#177245;--warn:#b76e00;--crit:#b42318}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text)}
+    header{background:linear-gradient(135deg,var(--blue),var(--blue2));color:#fff;padding:24px 30px;border-bottom:4px solid #d9a441}
+    header h1{margin:0;font-size:26px} header p{margin:7px 0 0;color:#dcecff}
+    main{max-width:1400px;margin:auto;padding:22px}
+    .toolbar{display:flex;gap:10px;align-items:end;flex-wrap:wrap;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:14px}
+    .filter{flex:1;min-width:170px}.filter label{display:block;font-size:11px;text-transform:uppercase;color:var(--muted);margin-bottom:5px}
+    select,input,button{width:100%;padding:10px;border:1px solid var(--line);border-radius:8px;background:#fff}
+    button{background:var(--blue);color:#fff;font-weight:800;cursor:pointer}
+    .summary{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}.summary span{background:#fff;border:1px solid var(--line);border-radius:999px;padding:8px 12px;font-size:13px}
+    .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px;box-shadow:0 8px 24px rgba(12,68,124,.08)}
+    table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:10px;border-bottom:1px solid var(--line);text-align:left}
+    th{font-size:11px;text-transform:uppercase;color:var(--muted);background:#f7fbff;position:sticky;top:0}
+    .pill{display:inline-block;border-radius:999px;padding:4px 8px;font-size:11px;font-weight:800}.red{background:#fdecec;color:var(--crit)}.yellow{background:#fff4df;color:var(--warn)}.green{background:#e7f7ee;color:var(--good)}.grey{background:#eef1f5;color:#64748b}
+    .empty{text-align:center;color:var(--muted);padding:30px}
+    @media(max-width:700px){main{padding:12px}header{padding:20px}.filter{min-width:100%}.card{overflow-x:auto}}
+    @media print{body{background:#fff}header{padding:12px 0;color:#000;background:#fff;border-bottom:2px solid #000}.toolbar{display:none}.card{box-shadow:none;border:0;padding:0}main{max-width:none;padding:0}th{position:static}.summary span{border:0;padding-left:0}}
+  </style>
+</head>
+<body>
+  <header><h1>Facility Ranking League Table</h1><p id="subtitle">Loading full facility ranking list...</p></header>
+  <main>
+    <section class="toolbar">
+      <div class="filter"><label>Visit Date</label><select id="dateFilter"></select></div>
+      <div class="filter"><label>Province</label><select id="provinceFilter"></select></div>
+      <div class="filter"><label>District</label><select id="districtFilter"></select></div>
+      <div class="filter"><label>Facility</label><input id="facilitySearch" placeholder="Search facility"></div>
+      <div class="filter"><label>Risk</label><select id="riskFilter"></select></div>
+      <div class="filter"><label>Export PDF</label><button onclick="window.print()">Print / Save PDF</button></div>
+    </section>
+    <div class="summary"><span id="rowCount">Loading...</span><span id="scopeLabel"></span></div>
+    <section class="card">
+      <table>
+        <thead><tr><th>Rank</th><th>Facility</th><th>Province</th><th>District</th><th>eLMIS</th><th>Discrepancies</th><th>Stockouts</th><th>Score</th><th>Risk</th></tr></thead>
+        <tbody id="rankingRows"></tbody>
+      </table>
+    </section>
+  </main>
+  <script>
+    let TARGET={facilities:[]},DAILY={records:[]};
+    const params=new URLSearchParams(location.search);
+    const requestedRound=params.get('round');
+    const round=['round1','round2','round3'].includes(requestedRound)?requestedRound:'round2';
+    const base=round==='round1'?'data/':`data/${round}/`;
+    const roundName=round==='round3'?'DQA Round 3 - 2026':round==='round2'?'DQA Round 2 - June 2026':'DQA Round 1 - May 2026';
+    function norm(value){return String(value||'').toLowerCase().replace(/[^a-z0-9]/g,'')}
+    function similar(a,b){let x=norm(a),y=norm(b);return x&&y&&(x===y||x.includes(y)||y.includes(x)||x.slice(0,6)===y.slice(0,6))}
+    function key(x){return `${x.province}|${x.district}|${x.facility}`.toLowerCase()}
+    function score(r){if(!r||!r.assessed)return 0;let s=100;if(!r.elmisFunctional)s-=25;if(!r.stockCardUpdated)s-=15;if(!r.functionalThermometer)s-=10;if(!r.tempChartUpdated)s-=10;if(!r.fefoFollowed)s-=10;s-=Math.min(20,(r.dhis2Discrepancy||0)*4);s-=Math.min(20,((r.pharmacyStockout||0)+(r.facilityStockout||0))*7);return Math.max(0,s)}
+    function riskFromScore(s){return s<50?'Critical':s<75?'Moderate':'Good'}
+    function cls(r){return r==='Critical'?'red':r==='Moderate'?'yellow':r==='Good'?'green':'grey'}
+    function option(value,label,selected){return `<option value="${value}"${value===selected?' selected':''}>${label}</option>`}
+    function dailyRecords(){let d=dateFilter.value;return (DAILY.records||[]).filter(r=>d==='All'||(r.visitDate||DAILY.date)===d)}
+    function merged(){
+      let records=dailyRecords(),used=new Set(),exact=new Map(records.map((r,i)=>[key(r),{r,i}]));
+      let mergedTargets=TARGET.facilities.map(f=>{let hit=exact.get(key(f));if(!hit){let idx=records.findIndex((r,i)=>!used.has(i)&&r.province===f.province&&r.district===f.district&&similar(r.facility,f.facility));if(idx>=0)hit={r:records[idx],i:idx}}if(hit){used.add(hit.i);return Object.assign({},f,hit.r,{facility:f.facility,sourceFacility:hit.r.facility,assessed:true})}return Object.assign({},f,{assessed:false})});
+      let unmatched=records.filter((r,i)=>!used.has(i)).map(r=>Object.assign({},r,{assessed:true,unmatched:true}));
+      return mergedTargets.concat(unmatched);
+    }
+    function populateDistricts(){
+      let province=provinceFilter.value,selected=districtFilter.value||params.get('district')||'All';
+      let districts=[...new Set(TARGET.facilities.concat(DAILY.records||[]).filter(f=>province==='All'||f.province===province).map(f=>f.district))].sort();
+      if(selected!=='All'&&!districts.includes(selected))selected='All';
+      districtFilter.innerHTML=option('All','All Districts',selected)+districts.map(d=>option(d,d,selected)).join('');
+    }
+    function render(){
+      let province=provinceFilter.value,district=districtFilter.value,q=facilitySearch.value.trim().toLowerCase(),risk=riskFilter.value;
+      let rows=merged().filter(f=>f.assessed&&(province==='All'||f.province===province)&&(district==='All'||f.district===district)&&(!q||f.facility.toLowerCase().includes(q)||(f.sourceFacility||'').toLowerCase().includes(q)));
+      rows=rows.map(f=>Object.assign({},f,{score:score(f),risk:riskFromScore(score(f))})).filter(f=>risk==='All'||f.risk===risk).sort((a,b)=>b.score-a.score||a.province.localeCompare(b.province)||a.district.localeCompare(b.district)||a.facility.localeCompare(b.facility));
+      rankingRows.innerHTML=rows.length?rows.map((f,i)=>{let stockouts=(f.pharmacyStockout||0)+(f.facilityStockout||0);return `<tr><td>${i+1}</td><td><strong>${f.sourceFacility||f.facility}${f.unmatched?' *':''}</strong></td><td>${f.province}</td><td>${f.district}</td><td><span class="pill ${f.elmisFunctional?'green':'red'}">${f.elmisFunctional?'Yes':'No'}</span></td><td>${f.dhis2Discrepancy||0}</td><td>${stockouts}</td><td>${f.score}</td><td><span class="pill ${cls(f.risk)}">${f.risk}</span></td></tr>`}).join(''):'<tr><td colspan="9" class="empty">No assessed facilities match the selected filters.</td></tr>';
+      rowCount.textContent=`${rows.length} assessed facilities`;
+      scopeLabel.textContent=`${dateFilter.value==='All'?'All dates':dateFilter.value} · ${province==='All'?'All provinces':province} · ${district==='All'?'All districts':district} · ${risk==='All'?'All risks':risk}`;
+      subtitle.textContent=`${roundName} · Full ranking list for export`;
+    }
+    async function init(){
+      [TARGET,DAILY]=await Promise.all([fetch(base+'target-facilities.json',{cache:'no-store'}).then(r=>r.json()),fetch(base+'daily/latest.json',{cache:'no-store'}).then(r=>r.json())]);
+      let dates=[...new Set(DAILY.records.map(r=>r.visitDate).filter(Boolean))].sort(),selectedDate=params.get('date')||'All';
+      if(selectedDate!=='All'&&!dates.includes(selectedDate))selectedDate='All';
+      dateFilter.innerHTML=option('All','All Dates',selectedDate)+dates.map(d=>option(d,d,selectedDate)).join('');
+      let provinces=[...new Set(TARGET.facilities.map(f=>f.province).concat((DAILY.records||[]).map(r=>r.province)))].sort(),selectedProvince=params.get('province')||'All';
+      if(selectedProvince!=='All'&&!provinces.includes(selectedProvince))selectedProvince='All';
+      provinceFilter.innerHTML=option('All','All Provinces',selectedProvince)+provinces.map(p=>option(p,p,selectedProvince)).join('');
+      let selectedRisk=params.get('risk')||'All';
+      riskFilter.innerHTML=['All','Critical','Moderate','Good'].map(r=>option(r,r==='All'?'All Risk Levels':r,selectedRisk)).join('');
+      populateDistricts();facilitySearch.value=params.get('q')||'';
+      dateFilter.onchange=render;provinceFilter.onchange=()=>{districtFilter.value='All';populateDistricts();render()};districtFilter.onchange=render;facilitySearch.oninput=render;riskFilter.onchange=render;
+      render();
+    }
+    init().catch(error=>{subtitle.textContent='Unable to load facility ranking';rankingRows.innerHTML=`<tr><td colspan="9" class="empty">${error.message}</td></tr>`});
+  </script>
+</body>
+</html>
