@@ -18,6 +18,7 @@ COMMODITIES = [
         "available_col": "Was this commodity available at the facility on the day of the assessment?",
         "scc_uom": "Implanon: Numeric Unit of Dispensing on SCC",
         "elmis_uom": "Implanon: Numeric Unit of Dispensing in eLMIS",
+        "reporting_code": "eLMIS Product Code Being Reported",
     },
     {
         "name": "Jadelle",
@@ -26,6 +27,7 @@ COMMODITIES = [
         "available_col": "Was this commodity available at the facility on the day of the assessment?.1",
         "scc_uom": "Jadelle: Numeric Unit of Dispensing on SCC",
         "elmis_uom": "Jadelle: Numeric Unit of Dispensing in eLMIS",
+        "reporting_code": "eLMIS Product Code Being Reported.1",
     },
     {
         "name": "DMPA-SC",
@@ -34,6 +36,7 @@ COMMODITIES = [
         "available_col": "Was this commodity available at the facility on the day of the assessment?.2",
         "scc_uom": None,
         "elmis_uom": "DMPA-SC (Sayana Press): Numeric Unit of Dispensing in eLMIS",
+        "reporting_code": "eLMIS Product Code Being Reported.2",
     },
     {
         "name": "DMPA-IM",
@@ -42,6 +45,7 @@ COMMODITIES = [
         "available_col": "Was this commodity available at the facility on the day of the assessment?.3",
         "scc_uom": "DMPA-IM (Depo-Provera): Numeric Unit of Dispensing on SCC",
         "elmis_uom": "DMPA-IM (Depo-Provera): Numeric Unit of Dispensing in eLMIS",
+        "reporting_code": "eLMIS Product Code Being Reported.3",
     },
     {
         "name": "COCs",
@@ -50,6 +54,7 @@ COMMODITIES = [
         "available_col": "Was this commodity available at the facility on the day of the assessment?.4",
         "scc_uom": "Combined Oral Contraceptives (COCs): Numeric Unit of Dispensing on SCC",
         "elmis_uom": "Combined Oral Contraceptives (COCs): Numeric Unit of Dispensing in eLMIS",
+        "reporting_code": "eLMIS Product Code Being Reported.4",
     },
     {
         "name": "IUCD",
@@ -58,6 +63,7 @@ COMMODITIES = [
         "available_col": "Was this commodity available at the facility on the day of the assessment?.5",
         "scc_uom": "Copper T / IUCD: Numeric Unit of Dispensing on SCC",
         "elmis_uom": "Copper T / IUCD: Numeric Unit of Dispensing in eLMIS",
+        "reporting_code": "eLMIS Product Code Being Reported.5",
     },
 ]
 
@@ -213,6 +219,7 @@ def commodity_record(row, commodity):
     scc_uom = clean_value(row.get(commodity["scc_uom"])) if commodity.get("scc_uom") else None
     elmis_uom = clean_value(row.get(commodity["elmis_uom"])) if commodity.get("elmis_uom") else None
     physical_uom = scc_uom
+    reporting_code = clean_value(row.get(commodity["reporting_code"])) if commodity.get("reporting_code") else None
     months = {month: month_values(row, commodity, month, month_slug) for month, month_slug in MONTHS}
     pharmacy_stockout = as_bool(row.get(f"{prefix}: Was the commodity stocked out in the pharmacy storeroom during Jan–Mar 2026?"))
     dispensing_stockout = as_bool(row.get(f"{prefix}: Was the commodity stocked out at facility level across all dispensing points during Jan–Mar 2026?"))
@@ -232,6 +239,8 @@ def commodity_record(row, commodity):
         "dhoQuantityReceived": as_number(row.get(f"{slug.capitalize()}: Quantity received during the last DHO delivery"))
         or as_number(row.get(f"{prefix}: Quantity received during the last DHO delivery")),
         "uomAlignment": uom_alignment(scc_uom, elmis_uom, physical_uom),
+        "reportingCode": str(reporting_code) if reporting_code is not None else "Not recorded",
+        "unitOrderedOn": str(elmis_uom) if elmis_uom is not None else "Not recorded",
         "sccUom": str(scc_uom) if scc_uom is not None else "Not recorded",
         "elmisUom": str(elmis_uom) if elmis_uom is not None else "Not recorded",
         "physicalUom": str(physical_uom) if physical_uom is not None else "Not recorded",

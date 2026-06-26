@@ -59,6 +59,8 @@
           "receivedFromDho": false,
           "dhoQuantityReceived": 0,
           "uomAlignment": "Mismatch",
+          "reportingCode": "RH0028",
+          "unitOrderedOn": "1.0",
           "sccUom": "1",
           "elmisUom": "1.0",
           "physicalUom": "1"
@@ -114,6 +116,8 @@
           "receivedFromDho": false,
           "dhoQuantityReceived": 0,
           "uomAlignment": "Mismatch",
+          "reportingCode": "RH0005",
+          "unitOrderedOn": "10.0",
           "sccUom": "10",
           "elmisUom": "10.0",
           "physicalUom": "10"
@@ -169,6 +173,8 @@
           "receivedFromDho": false,
           "dhoQuantityReceived": 0,
           "uomAlignment": "Not recorded",
+          "reportingCode": "RH0033",
+          "unitOrderedOn": "1.0",
           "sccUom": "Not recorded",
           "elmisUom": "1.0",
           "physicalUom": "Not recorded"
@@ -224,6 +230,8 @@
           "receivedFromDho": false,
           "dhoQuantityReceived": 0,
           "uomAlignment": "Mismatch",
+          "reportingCode": "RH00023",
+          "unitOrderedOn": "1.0",
           "sccUom": "1",
           "elmisUom": "1.0",
           "physicalUom": "1"
@@ -279,6 +287,8 @@
           "receivedFromDho": false,
           "dhoQuantityReceived": 0,
           "uomAlignment": "Mismatch",
+          "reportingCode": "RH0004",
+          "unitOrderedOn": "3.0",
           "sccUom": "1",
           "elmisUom": "3.0",
           "physicalUom": "1"
@@ -334,6 +344,8 @@
           "receivedFromDho": false,
           "dhoQuantityReceived": 0,
           "uomAlignment": "Mismatch",
+          "reportingCode": "RH0006",
+          "unitOrderedOn": "1.0",
           "sccUom": "1",
           "elmisUom": "1.0",
           "physicalUom": "1"
@@ -397,6 +409,8 @@
           "receivedFromDho": true,
           "dhoQuantityReceived": 11,
           "uomAlignment": "Mismatch",
+          "reportingCode": "RH0028",
+          "unitOrderedOn": "1.0",
           "sccUom": "1",
           "elmisUom": "1.0",
           "physicalUom": "1"
@@ -452,6 +466,8 @@
           "receivedFromDho": true,
           "dhoQuantityReceived": 2,
           "uomAlignment": "Mismatch",
+          "reportingCode": "RH0005",
+          "unitOrderedOn": "0.0",
           "sccUom": "10",
           "elmisUom": "0.0",
           "physicalUom": "10"
@@ -507,6 +523,8 @@
           "receivedFromDho": false,
           "dhoQuantityReceived": 0,
           "uomAlignment": "Not recorded",
+          "reportingCode": "HR0033",
+          "unitOrderedOn": "200.0",
           "sccUom": "Not recorded",
           "elmisUom": "200.0",
           "physicalUom": "Not recorded"
@@ -562,6 +580,8 @@
           "receivedFromDho": true,
           "dhoQuantityReceived": 100,
           "uomAlignment": "Mismatch",
+          "reportingCode": "RH0023",
+          "unitOrderedOn": "25.0",
           "sccUom": "25",
           "elmisUom": "25.0",
           "physicalUom": "25"
@@ -617,6 +637,8 @@
           "receivedFromDho": true,
           "dhoQuantityReceived": 28,
           "uomAlignment": "Mismatch",
+          "reportingCode": "RH0024",
+          "unitOrderedOn": "3.0",
           "sccUom": "3",
           "elmisUom": "3.0",
           "physicalUom": "3"
@@ -672,6 +694,8 @@
           "receivedFromDho": false,
           "dhoQuantityReceived": 0,
           "uomAlignment": "Mismatch",
+          "reportingCode": "0",
+          "unitOrderedOn": "0.0",
           "sccUom": "0",
           "elmisUom": "0.0",
           "physicalUom": "0"
@@ -735,6 +759,8 @@
           "receivedFromDho": true,
           "dhoQuantityReceived": 5,
           "uomAlignment": "Not recorded",
+          "reportingCode": "Not recorded",
+          "unitOrderedOn": "Not recorded",
           "sccUom": "1",
           "elmisUom": "Not recorded",
           "physicalUom": "1"
@@ -790,6 +816,8 @@
           "receivedFromDho": true,
           "dhoQuantityReceived": 50,
           "uomAlignment": "Not recorded",
+          "reportingCode": "Not recorded",
+          "unitOrderedOn": "Not recorded",
           "sccUom": "10",
           "elmisUom": "Not recorded",
           "physicalUom": "10"
@@ -845,6 +873,8 @@
           "receivedFromDho": true,
           "dhoQuantityReceived": 50,
           "uomAlignment": "Not recorded",
+          "reportingCode": "Not recorded",
+          "unitOrderedOn": "Not recorded",
           "sccUom": "Not recorded",
           "elmisUom": "Not recorded",
           "physicalUom": "Not recorded"
@@ -900,6 +930,8 @@
           "receivedFromDho": false,
           "dhoQuantityReceived": 0,
           "uomAlignment": "Not recorded",
+          "reportingCode": "Not recorded",
+          "unitOrderedOn": "Not recorded",
           "sccUom": "1",
           "elmisUom": "Not recorded",
           "physicalUom": "1"
@@ -955,6 +987,8 @@
           "receivedFromDho": true,
           "dhoQuantityReceived": 84,
           "uomAlignment": "Not recorded",
+          "reportingCode": "Not recorded",
+          "unitOrderedOn": "Not recorded",
           "sccUom": "1",
           "elmisUom": "Not recorded",
           "physicalUom": "1"
@@ -1010,6 +1044,8 @@
           "receivedFromDho": false,
           "dhoQuantityReceived": 0,
           "uomAlignment": "Not recorded",
+          "reportingCode": "Not recorded",
+          "unitOrderedOn": "Not recorded",
           "sccUom": "10",
           "elmisUom": "Not recorded",
           "physicalUom": "10"
