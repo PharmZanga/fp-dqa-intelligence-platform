@@ -57,6 +57,7 @@
     function score(r){if(!r||!r.assessed)return 0;let s=100;if(!r.elmisFunctional)s-=25;if(!r.stockCardUpdated)s-=15;if(!r.functionalThermometer)s-=10;if(!r.tempChartUpdated)s-=10;if(!r.fefoFollowed)s-=10;s-=Math.min(20,(r.dhis2Discrepancy||0)*4);s-=Math.min(20,((r.pharmacyStockout||0)+(r.facilityStockout||0))*7);return Math.max(0,s)}
     function riskFromScore(s){return s<50?'Critical':s<75?'Moderate':'Good'}
     function cls(r){return r==='Critical'?'red':r==='Moderate'?'yellow':r==='Good'?'green':'grey'}
+    function uniqueRankedFacilities(rows){let seen=new Set(),out=[];rows.forEach(f=>{let k=key(f);if(seen.has(k))return;seen.add(k);out.push(f)});return out}
     function option(value,label,selected){return `<option value="${value}"${value===selected?' selected':''}>${label}</option>`}
     function dailyRecords(){let d=dateFilter.value;return (DAILY.records||[]).filter(r=>d==='All'||(r.visitDate||DAILY.date)===d)}
     function merged(){
@@ -74,7 +75,7 @@
     function render(){
       let province=provinceFilter.value,district=districtFilter.value,q=facilitySearch.value.trim().toLowerCase(),risk=riskFilter.value;
       let rows=merged().filter(f=>f.assessed&&(province==='All'||f.province===province)&&(district==='All'||f.district===district)&&(!q||f.facility.toLowerCase().includes(q)||(f.sourceFacility||'').toLowerCase().includes(q)));
-      rows=rows.map(f=>Object.assign({},f,{score:score(f),risk:riskFromScore(score(f))})).filter(f=>risk==='All'||f.risk===risk).sort((a,b)=>b.score-a.score||a.province.localeCompare(b.province)||a.district.localeCompare(b.district)||a.facility.localeCompare(b.facility));
+      rows=uniqueRankedFacilities(rows).map(f=>Object.assign({},f,{score:score(f),risk:riskFromScore(score(f))})).filter(f=>risk==='All'||f.risk===risk).sort((a,b)=>b.score-a.score||a.province.localeCompare(b.province)||a.district.localeCompare(b.district)||a.facility.localeCompare(b.facility));
       rankingRows.innerHTML=rows.length?rows.map((f,i)=>{let stockouts=(f.pharmacyStockout||0)+(f.facilityStockout||0);return `<tr><td>${i+1}</td><td><strong>${f.sourceFacility||f.facility}${f.unmatched?' *':''}</strong></td><td>${f.province}</td><td>${f.district}</td><td><span class="pill ${f.elmisFunctional?'green':'red'}">${f.elmisFunctional?'Yes':'No'}</span></td><td>${f.dhis2Discrepancy||0}</td><td>${stockouts}</td><td>${f.score}</td><td><span class="pill ${cls(f.risk)}">${f.risk}</span></td></tr>`}).join(''):'<tr><td colspan="9" class="empty">No assessed facilities match the selected filters.</td></tr>';
       rowCount.textContent=`${rows.length} assessed facilities`;
       scopeLabel.textContent=`${dateFilter.value==='All'?'All dates':dateFilter.value} · ${province==='All'?'All provinces':province} · ${district==='All'?'All districts':district} · ${risk==='All'?'All risks':risk}`;
