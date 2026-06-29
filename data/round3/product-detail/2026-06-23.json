@@ -1,6 +1,6 @@
 {
   "date": "2026-06-23",
-  "source": "SRMNH DQA Round 3 export 2026-06-26",
+  "source": "SRMNH DQA Round 3 export 2026-06-29",
   "records": [
     {
       "visitDate": "2026-06-23",
@@ -706,7 +706,7 @@
       "visitDate": "2026-06-23",
       "province": "Lusaka",
       "district": "Luangwa",
-      "facility": "Boma Rural Health Center (Luangwa)",
+      "facility": "Luangwa Boys Sec School Rural HC",
       "products": [
         {
           "product": "Implanon",
