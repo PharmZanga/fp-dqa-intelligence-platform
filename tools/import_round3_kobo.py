@@ -137,8 +137,6 @@ def best_target_name(province, district, facility, targets):
     facility_text = str(facility or "").lower()
     if province == "Western" and district == "Luampa" and "luampa mission" in facility_text:
         return "Luampa 1st Level Hospital"
-    if province == "Lusaka" and district == "Luangwa" and "luangwa boma" in facility_text:
-        return "Luangwa Boys Sec School Rural HC"
     if province == "Lusaka" and district == "Kafue" and "kafue estates" in facility_text:
         return "Kafue East HP"
     if province == "Central" and district == "Kapiri Mposhi" and "kapiri mposhi urban" in facility_text:
