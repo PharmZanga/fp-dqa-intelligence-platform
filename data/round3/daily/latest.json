@@ -7089,6 +7089,239 @@
         "DHIS2 inconsistency"
       ],
       "remarks": "1. Data cleaning 2. SCC and eLMIS units to correspond 3. Clinical meeting on data collecting tools"
+    },
+    {
+      "visitDate": "2026-06-29",
+      "province": "Western",
+      "district": "Nkeyema",
+      "facility": "Maloba Health Post",
+      "level": "Health Post",
+      "assessed": true,
+      "elmisFunctional": true,
+      "sccAvailable": true,
+      "stockCardUpdated": false,
+      "dhis2Discrepancy": 3,
+      "pharmacyStockout": 5,
+      "facilityStockout": 5,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": true,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": true,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "Jadelle": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 1
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "IUCD": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "UoM mismatch",
+        "Delayed eLMIS entry",
+        "Incomplete SCC",
+        "Stock card not updated",
+        "Poor documentation",
+        "Ordering errors",
+        "eLMIS access challenges",
+        "Staff knowledge gap",
+        "DHIS2 inconsistency"
+      ],
+      "remarks": "Data discrepancy in fp register and DHIA2 mentorship by Facility incharge/DNO MCH by end of Quarter 3,poor ordering of fp commodities mentorship by District pharmacist by end of quarter 3, replacement of missing stock control card by facility incharge/pharmacy incharge immediately, replacement of hard ware by facility incharge/pharmacy incharge by end of quarter 3"
+    },
+    {
+      "visitDate": "2026-06-30",
+      "province": "Western",
+      "district": "Nkeyema",
+      "facility": "Namilangi Rural Health Centre",
+      "level": "Rural Health Centre",
+      "assessed": true,
+      "elmisFunctional": true,
+      "sccAvailable": true,
+      "stockCardUpdated": false,
+      "dhis2Discrepancy": 1,
+      "pharmacyStockout": 4,
+      "facilityStockout": 4,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": false,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": false,
+      "functionalThermometer": true,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "Jadelle": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "IUCD": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 0,
+          "fpDhis2Discrepancy": 0
+        }
+      },
+      "rootCauses": [
+        "UoM mismatch",
+        "Delayed eLMIS entry",
+        "Incomplete SCC",
+        "Stock card not updated",
+        "Poor documentation",
+        "Ordering errors",
+        "eLMIS access challenges",
+        "Staff knowledge gap",
+        "DHIS2 inconsistency"
+      ],
+      "remarks": "Update the facility edition and do physical count in the facility edition by the facility incharge/ pharmacy incharge immediately, Need for training in facility edition by three quarter by district pharmacist,Transferring stock balance brought forward immediately by pharmacy managers"
+    },
+    {
+      "visitDate": "2026-07-01",
+      "province": "Western",
+      "district": "Nkeyema",
+      "facility": "Kahare Rural Health Centre",
+      "level": "Rural Health Centre",
+      "assessed": true,
+      "elmisFunctional": true,
+      "sccAvailable": true,
+      "stockCardUpdated": false,
+      "dhis2Discrepancy": 5,
+      "pharmacyStockout": 5,
+      "facilityStockout": 5,
+      "dedicatedStoreroom": true,
+      "lockableDoors": true,
+      "functionalAC": false,
+      "productsOnShelves": true,
+      "productsOffGround": true,
+      "tempChartUpdated": false,
+      "functionalThermometer": false,
+      "fefoFollowed": true,
+      "commodities": {
+        "Implanon": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "Jadelle": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-SC": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "DMPA-IM": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 0
+        },
+        "COCs": {
+          "pharmacyStockout": 0,
+          "facilityStockout": 0,
+          "stockoutProduct": 0,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        },
+        "IUCD": {
+          "pharmacyStockout": 1,
+          "facilityStockout": 1,
+          "stockoutProduct": 1,
+          "sccElmisDiscrepancy": 1,
+          "fpDhis2Discrepancy": 1
+        }
+      },
+      "rootCauses": [
+        "UoM mismatch",
+        "Incomplete SCC",
+        "Stock card not updated",
+        "Poor documentation",
+        "Ordering errors",
+        "eLMIS access challenges",
+        "Staff knowledge gap",
+        "DHIS2 inconsistency"
+      ],
+      "remarks": "The unit on the stock control card to be collected by facility incharge/ pharmacy managers immediately, Ordering commodities in the facility edition by pharmacy manager immediately, avoiding miscounting in fp register and HIA2 collectively by incharge of pharmacy immediately,"
     }
   ]
 }
