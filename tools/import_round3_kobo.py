@@ -145,6 +145,8 @@ def best_target_name(province, district, facility, targets):
         return "Chitwa Rural Health Centre"
     if province == "Western" and district == "Kaoma" and "kashanu" in facility_text:
         return "Kashamu Health Post"
+    if province == "Muchinga" and district == "Nakonde" and "iwula" in facility_text:
+        return "Ilola HP"
     candidates = [
         t["facility"]
         for t in targets
