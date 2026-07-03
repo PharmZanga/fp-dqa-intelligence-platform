@@ -61,8 +61,8 @@
     function option(value,label,selected){return `<option value="${value}"${value===selected?' selected':''}>${label}</option>`}
     function dailyRecords(){let d=dateFilter.value;return (DAILY.records||[]).filter(r=>d==='All'||(r.visitDate||DAILY.date)===d)}
     function merged(){
-      let records=dailyRecords(),used=new Set(),exact=new Map(records.map((r,i)=>[key(r),{r,i}]));
-      let mergedTargets=TARGET.facilities.map(f=>{let hit=exact.get(key(f));if(!hit){let idx=records.findIndex((r,i)=>!used.has(i)&&r.province===f.province&&r.district===f.district&&similar(r.facility,f.facility));if(idx>=0)hit={r:records[idx],i:idx}}if(hit){used.add(hit.i);return Object.assign({},f,hit.r,{facility:f.facility,sourceFacility:hit.r.facility,assessed:true})}return Object.assign({},f,{assessed:false})});
+      let records=dailyRecords(),used=new Set();
+      let mergedTargets=TARGET.facilities.map(f=>{let idx=records.findIndex((r,i)=>!used.has(i)&&r.province===f.province&&r.district===f.district&&key(r)===key(f));if(idx<0)idx=records.findIndex((r,i)=>!used.has(i)&&r.province===f.province&&r.district===f.district&&similar(r.facility,f.facility));if(idx>=0){let hit=records[idx];used.add(idx);return Object.assign({},f,hit,{facility:f.facility,sourceFacility:hit.facility,assessed:true})}return Object.assign({},f,{assessed:false})});
       let unmatched=records.filter((r,i)=>!used.has(i)).map(r=>Object.assign({},r,{assessed:true,unmatched:true}));
       return mergedTargets.concat(unmatched);
     }

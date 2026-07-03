@@ -258,8 +258,8 @@
     {
       "province": "Central",
       "district": "Chibombo",
-      "facility": "Malambanyama RHC",
-      "level": "Rural Health Centre"
+      "facility": "chikobo Health center",
+      "level": "Health Centre"
     },
     {
       "province": "Central",
@@ -306,7 +306,7 @@
     {
       "province": "Central",
       "district": "Chibombo",
-      "facility": "Muntemba RHP",
+      "facility": "Malundu rural health post",
       "level": "Rural Health Post"
     },
     {
@@ -468,8 +468,8 @@
     {
       "province": "Muchinga",
       "district": "Nakonde",
-      "facility": "Shemu RHC",
-      "level": "Rural Health Centre"
+      "facility": "Nyela Health Post",
+      "level": "Health Post"
     },
     {
       "province": "Muchinga",
@@ -588,7 +588,7 @@
     {
       "province": "Western",
       "district": "Luampa",
-      "facility": "Nkenga Rural Health Centre",
+      "facility": "Katunda Rural Health Centre",
       "level": "Rural Health Centre"
     },
     {
