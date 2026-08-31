@@ -587,6 +587,30 @@
             gap: 6px
         }
 
+        .sidebar-group {
+            margin-top: 10px;
+            padding-top: 12px;
+            border-top: 1px solid rgba(255, 255, 255, .14)
+        }
+
+        .sidebar-group-title {
+            display: flex;
+            align-items: center;
+            gap: 9px;
+            padding: 4px 12px 8px;
+            color: #9fc2ba;
+            font-size: 11px;
+            font-weight: 800;
+            letter-spacing: .08em;
+            text-transform: uppercase
+        }
+
+        .sidebar-group .nav-link {
+            margin-left: 13px;
+            padding: 10px 12px;
+            font-size: 13px
+        }
+
         .sidebar-copyright {
             margin-top: auto;
             padding: 18px 12px 4px;
@@ -942,6 +966,348 @@
             line-height: 1.5
         }
 
+        .executive-summary {
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 20px;
+            padding: 0;
+            border-top: 5px solid var(--gold)
+        }
+
+        .executive-summary::after {
+            content: "DQA";
+            position: absolute;
+            right: -12px;
+            top: -26px;
+            color: rgba(12, 68, 124, .035);
+            font-size: 150px;
+            font-weight: 900;
+            pointer-events: none
+        }
+
+        .summary-heading {
+            position: relative;
+            z-index: 1;
+            padding: 26px 28px 20px;
+            background: linear-gradient(135deg, #f7fbff, #eef6ff);
+            border-bottom: 1px solid var(--line)
+        }
+
+        .summary-eyebrow {
+            margin-bottom: 8px;
+            color: var(--gold);
+            font-size: 11px;
+            font-weight: 900;
+            letter-spacing: .13em;
+            text-transform: uppercase
+        }
+
+        .summary-heading h2 {
+            max-width: 850px;
+            margin-bottom: 8px;
+            font-size: clamp(24px, 3vw, 34px);
+            line-height: 1.15
+        }
+
+        .summary-heading p {
+            max-width: 850px;
+            margin: 0;
+            color: var(--muted);
+            font-size: 15px;
+            line-height: 1.55
+        }
+
+        .summary-layout {
+            position: relative;
+            z-index: 1;
+            display: grid;
+            grid-template-columns: minmax(0, 1.65fr) minmax(260px, .75fr);
+            gap: 26px;
+            padding: 26px 28px 28px
+        }
+
+        .summary-copy {
+            color: #344054;
+            font-size: 15px;
+            line-height: 1.72
+        }
+
+        .summary-copy p {
+            margin: 0 0 16px
+        }
+
+        .summary-copy p:first-child {
+            color: var(--text);
+            font-size: 17px;
+            font-weight: 700
+        }
+
+        .summary-copy p:last-child {
+            margin-bottom: 0
+        }
+
+        .summary-focus {
+            align-self: start;
+            border: 1px solid #cfe0f3;
+            border-radius: 14px;
+            background: #f8fbff;
+            padding: 18px
+        }
+
+        .summary-focus h3 {
+            margin: 0 0 14px;
+            color: var(--blue);
+            font-size: 15px
+        }
+
+        .summary-focus dl {
+            margin: 0
+        }
+
+        .summary-focus div {
+            padding: 11px 0;
+            border-top: 1px solid var(--line)
+        }
+
+        .summary-focus div:first-child {
+            padding-top: 0;
+            border-top: 0
+        }
+
+        .summary-focus dt {
+            margin-bottom: 4px;
+            color: var(--muted);
+            font-size: 10px;
+            font-weight: 800;
+            letter-spacing: .08em;
+            text-transform: uppercase
+        }
+
+        .summary-focus dd {
+            margin: 0;
+            color: var(--text);
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 1.45
+        }
+
+        .round-workspace-nav {
+            margin-bottom: 18px;
+            padding: 18px;
+            border: 1px solid var(--line);
+            border-radius: 16px;
+            background: rgba(255, 255, 255, .97);
+            box-shadow: 0 8px 24px rgba(12, 68, 124, .08)
+        }
+
+        .field-highlights {
+            overflow: hidden;
+            border: 1px solid var(--line);
+            border-radius: 18px;
+            background: #fff;
+            box-shadow: 0 10px 30px rgba(12, 68, 124, .09)
+        }
+
+        .field-highlights-header {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            gap: 18px;
+            padding: 26px 28px;
+            color: #fff;
+            background: linear-gradient(125deg, #0c447c, #087867)
+        }
+
+        .field-highlights-header h2 {
+            margin: 4px 0 7px;
+            color: #fff;
+            font-size: clamp(24px, 3vw, 34px)
+        }
+
+        .field-highlights-header p {
+            max-width: 720px;
+            margin: 0;
+            color: #dcefed;
+            line-height: 1.55
+        }
+
+        .field-highlights-kicker {
+            color: #aee3d9;
+            font-size: 11px;
+            font-weight: 900;
+            letter-spacing: .12em;
+            text-transform: uppercase
+        }
+
+        .field-highlights-count {
+            flex: 0 0 auto;
+            padding: 8px 12px;
+            border: 1px solid rgba(255, 255, 255, .34);
+            border-radius: 999px;
+            background: rgba(255, 255, 255, .12);
+            font-size: 12px;
+            font-weight: 800
+        }
+
+        .field-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 14px;
+            padding: 22px
+        }
+
+        .field-photo {
+            position: relative;
+            min-width: 0;
+            overflow: hidden;
+            border: 1px solid var(--line);
+            border-radius: 14px;
+            background: #eef4f7
+        }
+
+        .field-photo:first-child,
+        .field-photo:nth-child(6) {
+            grid-column: span 2
+        }
+
+        .field-photo img {
+            display: block;
+            width: 100%;
+            height: 270px;
+            object-fit: cover;
+            transition: transform .25s ease
+        }
+
+        .field-photo:hover img {
+            transform: scale(1.025)
+        }
+
+        .field-photo figcaption {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            padding: 12px 14px;
+            color: var(--text);
+            font-size: 12px;
+            font-weight: 750;
+            line-height: 1.35
+        }
+
+        .field-photo figcaption time {
+            flex: 0 0 auto;
+            color: var(--muted);
+            font-size: 11px;
+            font-weight: 700
+        }
+
+        .field-empty {
+            display: grid;
+            place-items: center;
+            min-height: 360px;
+            padding: 40px 24px;
+            text-align: center
+        }
+
+        .field-empty-icon {
+            display: grid;
+            place-items: center;
+            width: 64px;
+            height: 64px;
+            margin: 0 auto 18px;
+            border-radius: 18px;
+            background: #eaf5f2;
+            color: #087867;
+            font-size: 28px
+        }
+
+        .field-empty h3 {
+            margin: 0 0 8px;
+            font-size: 21px
+        }
+
+        .field-empty p {
+            max-width: 520px;
+            margin: 0;
+            color: var(--muted);
+            line-height: 1.55
+        }
+
+        .round-workspace-heading {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 13px
+        }
+
+        .round-workspace-heading h2 {
+            margin: 0;
+            font-size: 19px
+        }
+
+        .round-workspace-heading span {
+            color: var(--muted);
+            font-size: 12px
+        }
+
+        .round-page-menu {
+            display: grid;
+            grid-template-columns: repeat(5, minmax(0, 1fr));
+            gap: 8px
+        }
+
+        .round-page-button {
+            display: flex;
+            align-items: center;
+            gap: 9px;
+            min-width: 0;
+            border: 1px solid var(--line);
+            border-radius: 10px;
+            background: #f8fbff;
+            color: var(--blue);
+            padding: 11px 12px;
+            text-align: left;
+            font: inherit;
+            font-size: 12px;
+            font-weight: 800;
+            line-height: 1.25;
+            cursor: pointer
+        }
+
+        .round-page-button:hover,
+        .round-page-button:focus {
+            border-color: #85b7eb;
+            background: #eef6ff;
+            outline: none
+        }
+
+        .round-page-button.active {
+            border-color: var(--blue);
+            background: var(--blue);
+            color: #fff;
+            box-shadow: 0 5px 14px rgba(12, 68, 124, .2)
+        }
+
+        .round-page-icon {
+            display: inline-flex;
+            flex: 0 0 26px;
+            align-items: center;
+            justify-content: center;
+            width: 26px;
+            height: 26px;
+            border-radius: 8px;
+            background: rgba(12, 68, 124, .09)
+        }
+
+        .round-page-button.active .round-page-icon {
+            background: rgba(255, 255, 255, .17)
+        }
+
+        .round-view-panel[hidden] {
+            display: none !important
+        }
+
         .scope-badge {
             flex: 0 0 auto;
             border-radius: 999px;
@@ -1159,6 +1525,7 @@
         }
 
         @media(min-width:901px) {
+            #executive-summary,
             #comparative-analysis,
             #critical-findings,
             #commodity-management,
@@ -1172,12 +1539,29 @@
         }
 
         @media(max-width:1000px) {
+            .summary-layout {
+                grid-template-columns: 1fr
+            }
+
             .product-kpis {
                 grid-template-columns: repeat(2, minmax(0, 1fr))
             }
 
             .action-grid {
                 grid-template-columns: 1fr
+            }
+
+            .round-page-menu {
+                grid-template-columns: repeat(3, minmax(0, 1fr))
+            }
+
+            .field-gallery {
+                grid-template-columns: repeat(2, minmax(0, 1fr))
+            }
+
+            .field-photo:first-child,
+            .field-photo:nth-child(6) {
+                grid-column: auto
             }
         }
 
@@ -1250,6 +1634,60 @@
                 display: block
             }
 
+            .summary-heading,
+            .summary-layout {
+                padding: 20px
+            }
+
+            .summary-copy {
+                font-size: 14px
+            }
+
+            .summary-copy p:first-child {
+                font-size: 16px
+            }
+
+            .round-workspace-nav {
+                padding: 14px
+            }
+
+            .round-workspace-heading {
+                align-items: flex-start;
+                flex-direction: column
+            }
+
+            .round-page-menu {
+                display: flex;
+                overflow-x: auto;
+                padding-bottom: 4px;
+                scrollbar-width: thin
+            }
+
+            .round-page-button {
+                flex: 0 0 155px
+            }
+
+            .field-highlights-header {
+                align-items: flex-start;
+                flex-direction: column;
+                padding: 22px 18px
+            }
+
+            .field-gallery {
+                grid-template-columns: 1fr;
+                gap: 12px;
+                padding: 14px
+            }
+
+            .field-photo img {
+                height: 235px
+            }
+
+            .field-photo figcaption {
+                align-items: flex-start;
+                flex-direction: column
+            }
+
             .scope-badge {
                 display: inline-block;
                 margin-top: 10px
@@ -1301,7 +1739,18 @@
     <div class="app-shell">
         <aside class="sidebar" id="platformSidebar" aria-label="DQA platform navigation">
             <div class="sidebar-title">Platform Navigation</div>
-            <nav><a class="nav-link" data-nav-target="executive-dashboard" href="#executive-dashboard"><span class="nav-icon">▦</span><span>Executive Dashboard</span></a><a class="nav-link active round-link" id="round1Link" href="#executive-dashboard" onclick="selectDqaRound('round1');return false"><span class="nav-icon">01</span><span>DQA Round 1 - May 2026</span></a><a class="nav-link round-link" id="round2Link" href="#executive-dashboard" onclick="selectDqaRound('round2');return false"><span class="nav-icon">02</span><span>DQA Round 2 - June 2026</span></a><a class="nav-link round-link" id="round3Link" href="#executive-dashboard" onclick="selectDqaRound('round3');return false"><span class="nav-icon">03</span><span>DQA Round 3 - 2026</span></a><a class="nav-link" data-nav-target="comparative-analysis" href="#comparative-analysis"><span class="nav-icon">↗</span><span>Comparative Analysis</span></a><a class="nav-link" data-nav-target="commodity-management" href="#commodity-management"><span class="nav-icon">▣</span><span>Commodity Management</span></a><a class="nav-link" data-nav-target="critical-findings" href="#critical-findings"><span class="nav-icon">!</span><span>Critical Findings</span></a><a class="nav-link" data-nav-target="facility-performance" href="#facility-performance"><span class="nav-icon">⌖</span><span>Facility Performance</span></a></nav>
+            <nav>
+                <a class="nav-link" data-nav-target="executive-summary" href="#executive-summary"><span class="nav-icon">▤</span><span>Executive Summary</span></a>
+                <a class="nav-link active round-link" id="round1Link" href="#executive-dashboard" onclick="selectDqaRound('round1');return false"><span class="nav-icon">01</span><span>DQA Round 1 - May 2026</span></a>
+                <a class="nav-link round-link" id="round2Link" href="#executive-dashboard" onclick="selectDqaRound('round2');return false"><span class="nav-icon">02</span><span>DQA Round 2 - June 2026</span></a>
+                <a class="nav-link round-link" id="round3Link" href="#executive-dashboard" onclick="selectDqaRound('round3');return false"><span class="nav-icon">03</span><span>DQA Round 3 - 2026</span></a>
+                <div class="sidebar-group" aria-labelledby="fieldHighlightsNavTitle">
+                    <div class="sidebar-group-title" id="fieldHighlightsNavTitle"><span aria-hidden="true">▧</span><span>Field Work Highlights</span></div>
+                    <a class="nav-link field-link" data-nav-target="field-highlights-round1" href="#field-highlights-round1"><span class="nav-icon">01</span><span>Round 1</span></a>
+                    <a class="nav-link field-link" data-nav-target="field-highlights-round2" href="#field-highlights-round2"><span class="nav-icon">02</span><span>Round 2</span></a>
+                    <a class="nav-link field-link" data-nav-target="field-highlights-round3" href="#field-highlights-round3"><span class="nav-icon">03</span><span>Round 3</span></a>
+                </div>
+            </nav>
             <div class="sidebar-copyright">&copy; 2026 Zanga Musakuzi</div>
         </aside>
         <div class="main-content">
@@ -1320,6 +1769,75 @@
                 </div>
             </section>
             <main class="wrap">
+                <section class="card executive-summary" id="executive-summary" aria-labelledby="executiveSummaryTitle">
+                    <div class="summary-heading">
+                        <div class="summary-eyebrow">Reproductive Health · Data Quality Assessment</div>
+                        <h2 id="executiveSummaryTitle">Executive Summary</h2>
+                        <p>Strengthening the quality and use of Family Planning data for responsive planning, reliable reporting and accountable service delivery.</p>
+                    </div>
+                    <div class="summary-layout">
+                        <div class="summary-copy">
+                            <p>High-quality data is essential for effective planning, forecasting, procurement, distribution and monitoring of Family Planning commodities and services. Accurate and timely data enables health managers and policymakers to make informed decisions that support uninterrupted access to Family Planning commodities and improve reproductive health service-delivery outcomes.</p>
+                            <p>The Ministry of Health has prioritized strengthening data quality and supply-chain performance as part of broader efforts to improve reproductive, maternal, newborn, child and adolescent health outcomes. Reliable data from source documents, the Electronic Logistics Management Information System (eLMIS), SmartCare Commodity Control (SCC) tools and the District Health Information System (DHIS2) are critical for monitoring commodity availability, quantifying future requirements, identifying service-utilization trends and supporting evidence-based decision-making.</p>
+                            <p>To strengthen data quality and accountability in Family Planning commodity management and reporting, the Ministry of Health, through the National Supply Chain Coordinating Unit (NSCCU) and cooperating partners, conducted a Family Planning Data Quality Assessment (DQA) and Technical Support Supervision (TSS) exercise across selected facilities in Copperbelt, Eastern, Luapula, Northern, North-Western and Southern Provinces.</p>
+                            <p>The exercise assessed the completeness, accuracy, consistency and timeliness of Family Planning data reported through source documents, DHIS2, eLMIS and SCC records. It also provided on-site mentorship and technical support to health workers responsible for data management, commodity management, reporting and the use of logistics information systems.</p>
+                        </div>
+                        <aside class="summary-focus" aria-label="Assessment focus">
+                            <h3>Assessment at a glance</h3>
+                            <dl>
+                                <div><dt>Programme area</dt><dd>Family Planning and reproductive health</dd></div>
+                                <div><dt>Quality dimensions</dt><dd>Completeness, accuracy, consistency and timeliness</dd></div>
+                                <div><dt>Systems reviewed</dt><dd>Source documents, DHIS2, eLMIS and SCC</dd></div>
+                                <div><dt>Geographic coverage</dt><dd>Copperbelt, Eastern, Luapula, Northern, North-Western and Southern Provinces</dd></div>
+                                <div><dt>Support approach</dt><dd>Data Quality Assessment, Technical Support Supervision and on-site mentorship</dd></div>
+                            </dl>
+                        </aside>
+                    </div>
+                </section>
+                <section class="field-highlights" id="field-highlights" aria-labelledby="fieldHighlightsTitle" hidden>
+                    <header class="field-highlights-header">
+                        <div>
+                            <div class="field-highlights-kicker">Family Planning DQA · On-site Support</div>
+                            <h2 id="fieldHighlightsTitle">Field Work Highlights — Round 3</h2>
+                            <p id="fieldHighlightsIntro">A visual record of facility-level data verification, supportive supervision, mentorship and commodity-management review during Round 3.</p>
+                        </div>
+                        <span class="field-highlights-count" id="fieldHighlightsCount">10 photographs</span>
+                    </header>
+                    <div class="field-highlight-panel" data-field-round="round1" hidden>
+                        <div class="field-empty"><div><div class="field-empty-icon" aria-hidden="true">▧</div><h3>Round 1 gallery is ready</h3><p>Photographs for Round 1 can be added here when they are available.</p></div></div>
+                    </div>
+                    <div class="field-highlight-panel" data-field-round="round2" hidden>
+                        <div class="field-empty"><div><div class="field-empty-icon" aria-hidden="true">▧</div><h3>Round 2 gallery is ready</h3><p>Photographs for Round 2 can be added here when they are available.</p></div></div>
+                    </div>
+                    <div class="field-highlight-panel" data-field-round="round3">
+                        <div class="field-gallery">
+                            <figure class="field-photo"><img src="assets/field-work/round3/round3-01.jpeg" alt="DQA team reviewing facility records with health workers" loading="lazy"><figcaption><span>Data verification and supportive supervision</span><time datetime="2026-07-02">2 July 2026</time></figcaption></figure>
+                            <figure class="field-photo"><img src="assets/field-work/round3/round3-02.jpeg" alt="DQA team engaging health workers at a facility" loading="lazy"><figcaption><span>Facility engagement and mentorship</span><time datetime="2026-06-23">23 June 2026</time></figcaption></figure>
+                            <figure class="field-photo"><img src="assets/field-work/round3/round3-03.jpeg" alt="Assessment team reviewing source documents with facility staff" loading="lazy"><figcaption><span>Source-document review</span><time datetime="2026-06-26">26 June 2026</time></figcaption></figure>
+                            <figure class="field-photo"><img src="assets/field-work/round3/round3-04.jpeg" alt="DQA reviewers examining registers with facility staff" loading="lazy"><figcaption><span>Register verification with facility staff</span><time datetime="2026-06-26">26 June 2026</time></figcaption></figure>
+                            <figure class="field-photo"><img src="assets/field-work/round3/round3-05.jpeg" alt="Health worker and assessor reviewing commodity records" loading="lazy"><figcaption><span>Commodity-record review</span><time datetime="2026-06-29">29 June 2026</time></figcaption></figure>
+                            <figure class="field-photo"><img src="assets/field-work/round3/round3-06.jpeg" alt="DQA team conducting an interview and digital data review" loading="lazy"><figcaption><span>Facility interview and data review</span><time datetime="2026-06-29">29 June 2026</time></figcaption></figure>
+                            <figure class="field-photo"><img src="assets/field-work/round3/round3-07.jpeg" alt="Field team working with records and laptops during an assessment" loading="lazy"><figcaption><span>Field data reconciliation</span><time datetime="2026-06-29">29 June 2026</time></figcaption></figure>
+                            <figure class="field-photo"><img src="assets/field-work/round3/round3-08.jpeg" alt="Facility staff and assessors reviewing records at a workstation" loading="lazy"><figcaption><span>On-site data validation</span><time datetime="2026-06-30">30 June 2026</time></figcaption></figure>
+                            <figure class="field-photo"><img src="assets/field-work/round3/round3-09.jpeg" alt="Assessment team and health workers reviewing digital information" loading="lazy"><figcaption><span>Technical support and mentorship</span><time datetime="2026-07-01">1 July 2026</time></figcaption></figure>
+                            <figure class="field-photo"><img src="assets/field-work/round3/round3-10.jpeg" alt="DQA team reviewing commodity information in a medicine store" loading="lazy"><figcaption><span>Commodity-management assessment</span><time datetime="2026-07-02">2 July 2026</time></figcaption></figure>
+                        </div>
+                    </div>
+                </section>
+                <section class="round-workspace-nav" id="roundWorkspace" aria-label="Selected round pages">
+                    <div class="round-workspace-heading">
+                        <h2 id="roundWorkspaceTitle">Round 1 pages</h2>
+                        <span>Select one page at a time to keep the dashboard focused.</span>
+                    </div>
+                    <nav class="round-page-menu" aria-label="Round page navigation">
+                        <button class="round-page-button active" type="button" data-round-page="overview" onclick="showRoundView('overview')"><span class="round-page-icon">▦</span><span>Overview</span></button>
+                        <button class="round-page-button" type="button" data-round-page="comparative" onclick="showRoundView('comparative')"><span class="round-page-icon">↗</span><span>Comparative Analysis</span></button>
+                        <button class="round-page-button" type="button" data-round-page="commodity" onclick="showRoundView('commodity')"><span class="round-page-icon">▣</span><span>Commodity Management</span></button>
+                        <button class="round-page-button" type="button" data-round-page="critical" onclick="showRoundView('critical')"><span class="round-page-icon">!</span><span>Critical Findings</span></button>
+                        <button class="round-page-button" type="button" data-round-page="facility" onclick="showRoundView('facility')"><span class="round-page-icon">⌖</span><span>Facility Performance</span></button>
+                    </nav>
+                </section>
+                <section class="round-view-panel" id="round-overview" data-round-view="overview">
                 <div class="page-intro">
                     <div>
                         <h2>Operational Overview</h2>
@@ -1370,7 +1888,8 @@
                         </div>
                     </div>
                 </section>
-                <section class="grid two" id="comparative-analysis" style="margin-top:15px">
+                </section>
+                <section class="grid two round-view-panel" id="comparative-analysis" data-round-view="comparative" hidden style="margin-top:15px">
                     <div class="card">
                         <h2>Province Completion Heatmap</h2>
                         <div class="heat" id="completionHeatmap"></div>
@@ -1394,7 +1913,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="grid three" id="critical-findings" style="margin-top:15px">
+                <section class="grid three round-view-panel" id="critical-findings" data-round-view="critical" hidden style="margin-top:15px">
                     <div class="card">
                         <h2>Daily Completion by Province</h2>
                         <div class="smallchart"><canvas id="completionChart"></canvas></div>
@@ -1408,7 +1927,7 @@
                         <div class="smallchart"><canvas id="rootChart"></canvas></div>
                     </div>
                 </section>
-                <section class="card round2-supply" id="round2SupplyAnalysis">
+                <section class="card round2-supply round-view-panel" id="round2SupplyAnalysis" data-round-view="commodity" hidden>
                     <h2>Round 2 Pharmacy vs Dispensing Point Availability</h2>
                     <section class="grid supply-kpis" id="supplyKpis"></section>
                     <section class="grid two">
@@ -1448,7 +1967,7 @@
                         </div>
                     </section>
                 </section>
-                <section class="card commodity-shell" id="commodity-management" style="margin-top:15px">
+                <section class="card commodity-shell round-view-panel" id="commodity-management" data-round-view="commodity" hidden style="margin-top:15px">
                     <div class="commodity-header">
                         <div class="page-intro">
                             <div>
@@ -1542,7 +2061,7 @@
                     </section>
                     </div>
                 </section>
-                <section class="grid two" style="margin-top:15px">
+                <section class="grid two round-view-panel" data-round-view="commodity" hidden style="margin-top:15px">
                     <div class="card">
                         <h2>Products with SCC/eLMIS Discrepancy</h2>
                         <div class="chart"><canvas id="sccChart"></canvas></div>
@@ -1552,7 +2071,7 @@
                         <div id="storageBox"></div>
                     </div>
                 </section>
-                <section class="grid two" id="facility-performance" style="margin-top:15px">
+                <section class="grid two round-view-panel" id="facility-performance" data-round-view="facility" hidden style="margin-top:15px">
                     <div class="card">
                         <div class="section-heading">
                             <h2>Facility Ranking League Table</h2><button class="section-action" onclick="openFacilityRanking()">Export Full List PDF</button>
@@ -1592,7 +2111,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="card" style="margin-top:15px">
+                <section class="card round-view-panel" data-round-view="facility" hidden style="margin-top:15px">
                     <div class="section-heading">
                         <div>
                             <h2>Facility-Level Risk Register</h2>
@@ -1639,6 +2158,105 @@
             facilityPage = 1,
             facilityPageSize = 25,
             facilityOptionRecords = [];
+        let activeRoundView = 'overview';
+        const roundViewHashes = {
+            overview: 'executive-dashboard',
+            comparative: 'comparative-analysis',
+            commodity: 'commodity-management',
+            critical: 'critical-findings',
+            facility: 'facility-performance'
+        };
+
+        function roundViewFromHash(hash) {
+            if (['commodity-overview', 'reporting-quality', 'product-detail-table', 'commodity-trends'].includes(hash)) return 'commodity';
+            return Object.keys(roundViewHashes).find(view => roundViewHashes[view] === hash) || null
+        }
+
+        function currentRoundLabel() {
+            return activeDqaRound === 'round3' ? 'Round 3' : activeDqaRound === 'round2' ? 'Round 2' : 'Round 1'
+        }
+
+        function showRoundView(view, updateHistory = true) {
+            if (!roundViewHashes[view]) view = 'overview';
+            activeRoundView = view;
+            let summaryPage = document.getElementById('executive-summary'),
+                workspace = document.getElementById('roundWorkspace');
+            document.getElementById('executive-dashboard').hidden = false;
+            document.getElementById('footer').hidden = false;
+            summaryPage.hidden = true;
+            document.getElementById('field-highlights').hidden = true;
+            workspace.hidden = false;
+            document.querySelectorAll('[data-round-view]').forEach(panel => panel.hidden = panel.dataset.roundView !== view);
+            document.querySelectorAll('[data-round-page]').forEach(button => {
+                let selected = button.dataset.roundPage === view;
+                button.classList.toggle('active', selected);
+                button.setAttribute('aria-pressed', String(selected))
+            });
+            document.getElementById('roundWorkspaceTitle').textContent = `${currentRoundLabel()} pages`;
+            setActiveNav('executive-dashboard');
+            if (updateHistory) history.pushState({
+                roundView: view
+            }, '', `#${roundViewHashes[view]}`);
+            requestAnimationFrame(() => {
+                workspace.scrollIntoView({
+                    behavior: updateHistory ? 'smooth' : 'auto'
+                });
+                window.dispatchEvent(new Event('resize'))
+            })
+        }
+
+        function showExecutiveSummary() {
+            let summaryPage = document.getElementById('executive-summary');
+            document.getElementById('executive-dashboard').hidden = true;
+            document.getElementById('footer').hidden = true;
+            summaryPage.hidden = false;
+            document.getElementById('field-highlights').hidden = true;
+            document.getElementById('roundWorkspace').hidden = true;
+            document.querySelectorAll('[data-round-view]').forEach(panel => panel.hidden = true);
+            setActiveNav('executive-summary');
+            requestAnimationFrame(() => summaryPage.scrollIntoView({
+                behavior: 'smooth'
+            }))
+        }
+
+        function fieldRoundFromHash(hash) {
+            let match = /^field-highlights-(round[123])$/.exec(hash);
+            return match ? match[1] : null
+        }
+
+        function showFieldHighlights(round = 'round3', updateHistory = true) {
+            if (!['round1', 'round2', 'round3'].includes(round)) round = 'round3';
+            let page = document.getElementById('field-highlights'),
+                number = round.replace('round', ''),
+                hasPhotos = round === 'round3';
+            document.getElementById('executive-dashboard').hidden = true;
+            document.getElementById('footer').hidden = true;
+            document.getElementById('executive-summary').hidden = true;
+            document.getElementById('roundWorkspace').hidden = true;
+            document.querySelectorAll('[data-round-view]').forEach(panel => panel.hidden = true);
+            page.hidden = false;
+            document.querySelectorAll('[data-field-round]').forEach(panel => panel.hidden = panel.dataset.fieldRound !== round);
+            document.getElementById('fieldHighlightsTitle').textContent = `Field Work Highlights — Round ${number}`;
+            document.getElementById('fieldHighlightsIntro').textContent = hasPhotos ? 'A visual record of facility-level data verification, supportive supervision, mentorship and commodity-management review during Round 3.' : `This gallery is reserved for photographs documenting field activities during Round ${number}.`;
+            document.getElementById('fieldHighlightsCount').textContent = hasPhotos ? '10 photographs' : 'Photos pending';
+            setActiveNav(`field-highlights-${round}`);
+            if (updateHistory) history.pushState({
+                fieldRound: round
+            }, '', `#field-highlights-${round}`);
+            requestAnimationFrame(() => page.scrollIntoView({
+                behavior: updateHistory ? 'smooth' : 'auto'
+            }))
+        }
+
+        function handleDashboardLocation() {
+            let hash = location.hash.replace('#', ''),
+                view = roundViewFromHash(hash),
+                fieldRound = fieldRoundFromHash(hash);
+            if (fieldRound) showFieldHighlights(fieldRound, false);
+            else if (view) showRoundView(view, false);
+            else if (!hash || hash === 'executive-summary') showExecutiveSummary();
+            else setActiveNav(hash)
+        }
 
         function toggleMobileNav(force) {
             let open = typeof force === 'boolean' ? force : !platformSidebar.classList.contains('open');
@@ -2128,10 +2746,11 @@
                 render()
             });
             document.querySelectorAll('[data-nav-target]').forEach(link => link.addEventListener('click', () => setActiveNav(link.dataset.navTarget)));
-            window.addEventListener('hashchange', () => setActiveNav(location.hash.replace('#', '') || 'executive-dashboard'));
+            window.addEventListener('hashchange', handleDashboardLocation);
+            window.addEventListener('popstate', handleDashboardLocation);
             populateDistricts();
             render();
-            setActiveNav(location.hash.replace('#', '') || 'executive-dashboard')
+            handleDashboardLocation()
         }
 
         function populateDistricts() {
@@ -2982,10 +3601,7 @@
                 rows.forEach(row => facilityRows.appendChild(row))
             }
             updateSyncStamp();
-            setActiveNav('executive-dashboard');
-            document.getElementById('executive-dashboard').scrollIntoView({
-                behavior: 'smooth'
-            })
+            showRoundView('overview')
         }
         selectDqaRound = switchRoundWithData;
         const baseInit = init;
@@ -2996,7 +3612,9 @@
             ROUND1_PRODUCT_DETAIL = PRODUCT_DETAIL;
             roundStatus.textContent = 'COMPLETED ROUND';
             let initialTarget = location.hash.replace('#', '');
-            if (initialTarget) requestAnimationFrame(() => document.getElementById(initialTarget)?.scrollIntoView())
+            let initialView = roundViewFromHash(initialTarget);
+            if (initialView) showRoundView(initialView, false);
+            else if (initialTarget) requestAnimationFrame(() => document.getElementById(initialTarget)?.scrollIntoView())
         };
         let supplySourceChartInstance;
 
