@@ -1433,6 +1433,15 @@
             outline: none
         }
 
+        .commodity-tabs a.active {
+            background: var(--blue);
+            color: #fff
+        }
+
+        [data-commodity-section][hidden] {
+            display: none !important
+        }
+
         .commodity-body {
             padding: 20px
         }
@@ -1978,18 +1987,18 @@
                         </div>
                     </div>
                     <nav class="commodity-tabs" aria-label="Commodity management sections">
-                        <a href="#commodity-overview">Overview</a>
-                        <a href="#reporting-quality">Reporting quality</a>
-                        <a href="#product-detail-table">Product detail</a>
-                        <a href="#commodity-trends">Discrepancy charts</a>
-                        <a href="#facility-performance">Facility actions</a>
+                        <a class="active" data-commodity-tab="overview" data-focused-hash="commodity-overview" href="?round=round1#commodity-overview" target="_blank" rel="noopener">Overview</a>
+                        <a data-commodity-tab="reporting" data-focused-hash="reporting-quality" href="?round=round1#reporting-quality" target="_blank" rel="noopener">Reporting quality</a>
+                        <a data-commodity-tab="detail" data-focused-hash="product-detail-table" href="?round=round1#product-detail-table" target="_blank" rel="noopener">Product detail</a>
+                        <a data-commodity-tab="trends" data-focused-hash="commodity-trends" href="?round=round1#commodity-trends" target="_blank" rel="noopener">Discrepancy charts</a>
+                        <a data-focused-hash="facility-performance" href="?round=round1#facility-performance" target="_blank" rel="noopener">Facility actions</a>
                     </nav>
                     <div class="commodity-body" id="commodity-overview">
-                    <div class="facility-lookup">
+                    <div class="facility-lookup" data-commodity-section="overview">
                         <div class="filter"><label for="facilityDrillSearch">Find facility</label><input id="facilityDrillSearch" type="search" placeholder="Type a facility name" oninput="filterFacilityOptions(this.value)"></div>
                         <div class="filter"><label for="facilityDrillFilter">Select facility</label><select id="facilityDrillFilter"></select></div>
                     </div>
-                    <div class="topbar commodity-filters">
+                    <div class="topbar commodity-filters" data-commodity-section="overview">
                         <div class="filter"><label>Product</label><select id="productFilter">
                                 <option value="All">All Products</option>
                             </select></div>
@@ -2000,8 +2009,8 @@
                                 <option>March</option>
                             </select></div>
                     </div>
-                    <section class="grid kpis product-kpis" id="productKpis"></section>
-                    <div class="card" id="reporting-quality" style="margin:15px 0">
+                    <section class="grid kpis product-kpis" id="productKpis" data-commodity-section="overview"></section>
+                    <div class="card" id="reporting-quality" data-commodity-section="reporting" hidden style="margin:15px 0">
                         <h2>Reporting Code & Order Unit KPI</h2>
                         <section class="grid kpis product-kpis" id="reportingKpis"></section>
                         <div class="scroll">
@@ -2022,7 +2031,9 @@
                             </table>
                         </div>
                     </div>
-                    <div class="scroll" id="product-detail-table">
+                    <div id="product-detail-table" data-commodity-section="detail" hidden>
+                        <h2>Product Detail</h2>
+                        <div class="scroll">
                         <table>
                             <thead>
                                 <tr>
@@ -2044,8 +2055,9 @@
                             </thead>
                             <tbody id="productRows"></tbody>
                         </table>
+                        </div>
                     </div>
-                    <section class="grid three" id="commodity-trends" style="margin-top:15px">
+                    <section class="grid three" id="commodity-trends" data-commodity-section="trends" hidden style="margin-top:15px">
                         <div class="card">
                             <h2>Physical vs eLMIS Stock</h2>
                             <div class="smallchart"><canvas id="prodStockChart"></canvas></div>
@@ -2061,7 +2073,7 @@
                     </section>
                     </div>
                 </section>
-                <section class="grid two round-view-panel" data-round-view="commodity" hidden style="margin-top:15px">
+                <section class="grid two round-view-panel" data-round-view="commodity" data-commodity-section="trends" hidden style="margin-top:15px">
                     <div class="card">
                         <h2>Products with SCC/eLMIS Discrepancy</h2>
                         <div class="chart"><canvas id="sccChart"></canvas></div>
@@ -2159,6 +2171,7 @@
             facilityPageSize = 25,
             facilityOptionRecords = [];
         let activeRoundView = 'overview';
+        let activeCommoditySection = 'overview';
         const roundViewHashes = {
             overview: 'executive-dashboard',
             comparative: 'comparative-analysis',
@@ -2170,6 +2183,49 @@
         function roundViewFromHash(hash) {
             if (['commodity-overview', 'reporting-quality', 'product-detail-table', 'commodity-trends'].includes(hash)) return 'commodity';
             return Object.keys(roundViewHashes).find(view => roundViewHashes[view] === hash) || null
+        }
+
+        function commoditySectionFromHash(hash) {
+            return {
+                'commodity-overview': 'overview',
+                'reporting-quality': 'reporting',
+                'product-detail-table': 'detail',
+                'commodity-trends': 'trends'
+            }[hash] || null
+        }
+
+        function syncFocusedWindowLinks() {
+            document.querySelectorAll('[data-focused-hash]').forEach(link => {
+                let url = new URL(location.href);
+                url.searchParams.set('round', activeDqaRound);
+                url.hash = link.dataset.focusedHash;
+                link.href = url.toString()
+            })
+        }
+
+        function showCommoditySection(section = 'overview', updateHistory = true, scrollToPage = true) {
+            let hashes = {
+                overview: 'commodity-overview',
+                reporting: 'reporting-quality',
+                detail: 'product-detail-table',
+                trends: 'commodity-trends'
+            };
+            if (!hashes[section]) section = 'overview';
+            activeCommoditySection = section;
+            document.querySelectorAll('[data-commodity-section]').forEach(panel => panel.hidden = panel.dataset.commoditySection !== section);
+            document.querySelectorAll('[data-commodity-tab]').forEach(link => {
+                let selected = link.dataset.commodityTab === section;
+                link.classList.toggle('active', selected);
+                if (selected) link.setAttribute('aria-current', 'page');
+                else link.removeAttribute('aria-current')
+            });
+            if (updateHistory) history.pushState({
+                commoditySection: section
+            }, '', `#${hashes[section]}`);
+            if (scrollToPage) requestAnimationFrame(() => document.getElementById('commodity-management').scrollIntoView({
+                behavior: updateHistory ? 'smooth' : 'auto'
+            }));
+            requestAnimationFrame(() => window.dispatchEvent(new Event('resize')))
         }
 
         function currentRoundLabel() {
@@ -2192,6 +2248,8 @@
                 button.classList.toggle('active', selected);
                 button.setAttribute('aria-pressed', String(selected))
             });
+            if (view === 'commodity') showCommoditySection(activeCommoditySection, false, false);
+            syncFocusedWindowLinks();
             document.getElementById('roundWorkspaceTitle').textContent = `${currentRoundLabel()} pages`;
             setActiveNav('executive-dashboard');
             if (updateHistory) history.pushState({
@@ -2251,8 +2309,14 @@
         function handleDashboardLocation() {
             let hash = location.hash.replace('#', ''),
                 view = roundViewFromHash(hash),
-                fieldRound = fieldRoundFromHash(hash);
+                fieldRound = fieldRoundFromHash(hash),
+                commoditySection = commoditySectionFromHash(hash);
             if (fieldRound) showFieldHighlights(fieldRound, false);
+            else if (commoditySection) {
+                activeCommoditySection = commoditySection;
+                showRoundView('commodity', false);
+                showCommoditySection(commoditySection, false)
+            }
             else if (view) showRoundView(view, false);
             else if (!hash || hash === 'executive-summary') showExecutiveSummary();
             else setActiveNav(hash)
@@ -3611,10 +3675,13 @@
             ROUND1_DAILY = DAILY;
             ROUND1_PRODUCT_DETAIL = PRODUCT_DETAIL;
             roundStatus.textContent = 'COMPLETED ROUND';
-            let initialTarget = location.hash.replace('#', '');
-            let initialView = roundViewFromHash(initialTarget);
-            if (initialView) showRoundView(initialView, false);
-            else if (initialTarget) requestAnimationFrame(() => document.getElementById(initialTarget)?.scrollIntoView())
+            let initialTarget = location.hash.replace('#', ''),
+                requestedRound = new URLSearchParams(location.search).get('round');
+            if (['round2', 'round3'].includes(requestedRound)) await switchRoundWithData(requestedRound);
+            if (initialTarget) {
+                history.replaceState({}, '', `${location.pathname}${location.search}#${initialTarget}`);
+                handleDashboardLocation()
+            }
         };
         let supplySourceChartInstance;
 
