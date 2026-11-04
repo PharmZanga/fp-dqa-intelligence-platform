@@ -64,6 +64,19 @@
   const line = (label,value) => `<div class="line"><span>${esc(label)}</span><b>${esc(value)}</b></div>`;
   const answer = v => v==='yes'?'Yes':v==='no'?'No':'Not recorded';
   let dataset = {records:[]};
+  const filterIds = ['province','district','visitDate','utilization','facilitySearch'];
+  const pageFiles = {overview:'elmis-dqa.html','facility-performance':'elmis-dqa-facilities.html','corrective-actions':'elmis-dqa-actions.html','rh-commodities':'elmis-dqa-commodities.html'};
+  const embedded = new URLSearchParams(location.search).get('embedded') === '1';
+  if (embedded) document.body.classList.add('embedded');
+  function syncPageLinks() {
+    document.querySelectorAll('[data-dqa-link]').forEach(link=>{
+      const url=new URL(pageFiles[link.dataset.dqaLink],location.href);
+      if(embedded) url.searchParams.set('embedded','1');
+      filterIds.forEach(id=>{if($(id).value)url.searchParams.set(id,$(id).value);});
+      link.href=url.toString();
+    });
+    if(embedded) requestAnimationFrame(()=>parent.postMessage({type:'elmis-dqa:height',height:Math.ceil(document.querySelector('main').getBoundingClientRect().height+20)},location.origin));
+  }
   function options(id,values,label) {
     const select=$(id),previous=select.value;
     select.replaceChildren(new Option(label,''),...values.filter(Boolean).sort().map(v=>new Option(v,v)));
@@ -73,6 +86,7 @@
     return dataset.records.filter(r=>(!$('province').value||r.province===$('province').value)&&(!$('district').value||r.district===$('district').value)&&(!$('visitDate').value||r.visitDate===$('visitDate').value));
   }
   function render() {
+    syncPageLinks();
     const visits=baseFiltered();
     const records=latestVisits(visits).filter(r=>(!$('utilization').value||r.utilization===$('utilization').value)&&r.facility.toLowerCase().includes($('facilitySearch').value.trim().toLowerCase()));
     const dateParts=Object.fromEntries(new Intl.DateTimeFormat('en-GB',{timeZone:'Africa/Lusaka',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()).map(p=>[p.type,p.value]));
@@ -100,6 +114,15 @@
       options('province',[...new Set(dataset.records.map(r=>r.province))],'All provinces');
       options('district',[...new Set(dataset.records.map(r=>r.district))],'All districts');
       options('visitDate',[...new Set(dataset.records.map(r=>r.visitDate))],'All dates');
+      const requested=new URLSearchParams(location.search);
+      filterIds.forEach(id=>{
+        const value=requested.get(id);
+        if(value && (id==='facilitySearch'||[...$(id).options].some(o=>o.value===value)))$(id).value=value;
+      });
+      options('district',[...new Set(dataset.records.filter(r=>!$('province').value||r.province===$('province').value).map(r=>r.district))],'All districts');
+      const menu=$('mobileNavToggle');
+      if(menu) menu.addEventListener('click',()=>{const open=$('platformSidebar').classList.toggle('open');menu.setAttribute('aria-expanded',String(open));});
+      if(embedded) new ResizeObserver(syncPageLinks).observe(document.querySelector('main'));
       for(const id of ['province','district','visitDate','utilization']) $(id).addEventListener('change',()=>{
         if(id==='province') {$('district').value='';options('district',[...new Set(dataset.records.filter(r=>!$('province').value||r.province===$('province').value).map(r=>r.district))],'All districts');}
         render();

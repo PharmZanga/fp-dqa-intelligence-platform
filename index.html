@@ -9,16 +9,16 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         :root {
-            --blue: #0c447c;
-            --gold: #d9a441;
+            --blue: #0b5d3b;
+            --gold: #82bd8a;
             --good: #177245;
             --warn: #b76e00;
             --crit: #b42318;
-            --bg: #eef4fb;
+            --bg: #eff7f2;
             --card: #fff;
             --text: #172033;
             --muted: #657084;
-            --line: #d9e2ef
+            --line: #d4e5da
         }
 
         * {
@@ -33,7 +33,7 @@
         }
 
         header {
-            background: linear-gradient(135deg, rgba(12, 68, 124, .96), rgba(24, 95, 165, .84)), url('https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1800&q=75') center/cover;
+            background: linear-gradient(135deg, rgba(11, 93, 59, .96), rgba(25, 135, 84, .84)), url('https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1800&q=75') center/cover;
             color: #fff;
             padding: 32px 34px 18px;
             border-bottom: 4px solid var(--gold)
@@ -51,7 +51,7 @@
 
         .hero p {
             margin: 8px 0 14px;
-            color: #dcecff
+            color: #d8eee1
         }
 
         .badges {
@@ -206,7 +206,7 @@
             border: 1px solid var(--line);
             border-radius: 14px;
             padding: 17px;
-            box-shadow: 0 8px 24px rgba(12, 68, 124, .09)
+            box-shadow: 0 8px 24px rgba(11, 93, 59, .09)
         }
 
         h2 {
@@ -311,7 +311,7 @@
         }
 
         .blue {
-            background: #eaf4ff;
+            background: #e9f6ed;
             color: var(--blue)
         }
 
@@ -339,7 +339,7 @@
 
         .copilot {
             margin-top: 15px;
-            border: 2px solid rgba(12, 68, 124, .18);
+            border: 2px solid rgba(11, 93, 59, .18);
             padding: 0;
             overflow: hidden
         }
@@ -350,7 +350,7 @@
             justify-content: space-between;
             gap: 12px;
             padding: 14px 17px;
-            background: #f8fbff
+            background: #f7fbf8
         }
 
         .copilot-head h2 {
@@ -389,7 +389,7 @@
             border: 1px solid var(--line);
             border-radius: 10px;
             padding: 12px;
-            background: #f8fbff
+            background: #f7fbf8
         }
 
         .copilot-panel textarea {
@@ -615,7 +615,7 @@
             margin-top: auto;
             padding: 18px 12px 4px;
             border-top: 1px solid rgba(255, 255, 255, .2);
-            color: #d8eaff;
+            color: #d8eee1;
             font-size: 11px;
             line-height: 1.5
         }
@@ -658,7 +658,7 @@
         }
 
         .round-hero {
-            background: linear-gradient(135deg, rgba(12, 68, 124, .97), rgba(24, 95, 165, .9)), url('https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1800&q=75') center/cover;
+            background: linear-gradient(135deg, rgba(11, 93, 59, .97), rgba(25, 135, 84, .9)), url('https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1800&q=75') center/cover;
             color: #fff;
             padding: 25px 32px 17px;
             border-bottom: 4px solid var(--gold)
@@ -805,33 +805,33 @@
         }
 
         .institutional-header {
-            background: linear-gradient(135deg, #0c447c, #185fa5)
+            background: linear-gradient(135deg, #0b5d3b, #198754)
         }
 
         .sidebar {
-            background: #0c447c
+            background: #0b5d3b
         }
 
         .sidebar-title {
-            color: #b9d8f5
+            color: #b8dfc9
         }
 
         .nav-link {
-            color: #e8f3ff
+            color: #e9f7ef
         }
 
         .nav-link:hover,
         .nav-link:focus {
-            background: #185fa5
+            background: #198754
         }
 
         .nav-link.active {
-            color: #0c447c
+            color: #0b5d3b
         }
 
         .empty-round {
-            background: #f7fbff;
-            border: 1px dashed #85b7eb;
+            background: #f5faf6;
+            border: 1px dashed #91c5a4;
             border-radius: 14px;
             padding: 32px;
             text-align: center;
@@ -979,7 +979,7 @@
             position: absolute;
             right: -12px;
             top: -26px;
-            color: rgba(12, 68, 124, .035);
+            color: rgba(11, 93, 59, .035);
             font-size: 150px;
             font-weight: 900;
             pointer-events: none
@@ -989,7 +989,7 @@
             position: relative;
             z-index: 1;
             padding: 26px 28px 20px;
-            background: linear-gradient(135deg, #f7fbff, #eef6ff);
+            background: linear-gradient(135deg, #f5faf6, #edf7f0);
             border-bottom: 1px solid var(--line)
         }
 
@@ -1048,9 +1048,9 @@
 
         .summary-focus {
             align-self: start;
-            border: 1px solid #cfe0f3;
+            border: 1px solid #cfe4d6;
             border-radius: 14px;
-            background: #f8fbff;
+            background: #f7fbf8;
             padding: 18px
         }
 
@@ -1097,7 +1097,7 @@
             border: 1px solid var(--line);
             border-radius: 16px;
             background: rgba(255, 255, 255, .97);
-            box-shadow: 0 8px 24px rgba(12, 68, 124, .08)
+            box-shadow: 0 8px 24px rgba(11, 93, 59, .08)
         }
 
         .field-highlights {
@@ -1105,7 +1105,7 @@
             border: 1px solid var(--line);
             border-radius: 18px;
             background: #fff;
-            box-shadow: 0 10px 30px rgba(12, 68, 124, .09)
+            box-shadow: 0 10px 30px rgba(11, 93, 59, .09)
         }
 
         .field-highlights-header {
@@ -1115,7 +1115,7 @@
             gap: 18px;
             padding: 26px 28px;
             color: #fff;
-            background: linear-gradient(125deg, #0c447c, #087867)
+            background: linear-gradient(125deg, #0b5d3b, #087867)
         }
 
         .field-highlights-header h2 {
@@ -1162,7 +1162,7 @@
             overflow: hidden;
             border: 1px solid var(--line);
             border-radius: 14px;
-            background: #eef4f7
+            background: #eff6f1
         }
 
         .field-photo:first-child,
@@ -1264,7 +1264,7 @@
             min-width: 0;
             border: 1px solid var(--line);
             border-radius: 10px;
-            background: #f8fbff;
+            background: #f7fbf8;
             color: var(--blue);
             padding: 11px 12px;
             text-align: left;
@@ -1277,8 +1277,8 @@
 
         .round-page-button:hover,
         .round-page-button:focus {
-            border-color: #85b7eb;
-            background: #eef6ff;
+            border-color: #91c5a4;
+            background: #edf7f0;
             outline: none
         }
 
@@ -1286,7 +1286,7 @@
             border-color: var(--blue);
             background: var(--blue);
             color: #fff;
-            box-shadow: 0 5px 14px rgba(12, 68, 124, .2)
+            box-shadow: 0 5px 14px rgba(11, 93, 59, .2)
         }
 
         .round-page-icon {
@@ -1297,7 +1297,7 @@
             width: 26px;
             height: 26px;
             border-radius: 8px;
-            background: rgba(12, 68, 124, .09)
+            background: rgba(11, 93, 59, .09)
         }
 
         .round-page-button.active .round-page-icon {
@@ -1311,7 +1311,7 @@
         .scope-badge {
             flex: 0 0 auto;
             border-radius: 999px;
-            background: #eaf4ff;
+            background: #e9f6ed;
             color: var(--blue);
             padding: 8px 12px;
             font-size: 12px;
@@ -1326,7 +1326,7 @@
             border: 1px solid var(--line);
             border-radius: 14px;
             background: rgba(244, 247, 251, .96);
-            box-shadow: 0 8px 24px rgba(12, 68, 124, .08)
+            box-shadow: 0 8px 24px rgba(11, 93, 59, .08)
         }
 
         .main-filters .filter {
@@ -1399,7 +1399,7 @@
 
         .commodity-header {
             padding: 22px 22px 16px;
-            background: linear-gradient(135deg, #f7fbff, #eef6ff);
+            background: linear-gradient(135deg, #f5faf6, #edf7f0);
             border-bottom: 1px solid var(--line)
         }
 
@@ -1429,7 +1429,7 @@
 
         .commodity-tabs a:hover,
         .commodity-tabs a:focus {
-            background: #eaf4ff;
+            background: #e9f6ed;
             outline: none
         }
 
@@ -3097,7 +3097,7 @@
                     datasets: [{
                         label: 'Facilities',
                         data: topRoot.map(x => x[1]),
-                        backgroundColor: topRoot.map((x, i) => i < 3 ? '#185fa5' : '#85b7eb')
+                        backgroundColor: topRoot.map((x, i) => i < 3 ? '#198754' : '#91c5a4')
                     }]
                 },
                 options: {
@@ -3141,7 +3141,7 @@
                     datasets: [{
                         label: 'SCC vs eLMIS discrepancy',
                         data: vals,
-                        backgroundColor: vals.map(v => v >= 7 ? '#b42318' : v >= 4 ? '#d9a441' : '#177245')
+                        backgroundColor: vals.map(v => v >= 7 ? '#b42318' : v >= 4 ? '#82bd8a' : '#177245')
                     }]
                 },
                 options: {
@@ -3158,8 +3158,8 @@
                                     lineWidth: 0
                                 }, {
                                     text: 'Moderate discrepancy burden',
-                                    fillStyle: '#d9a441',
-                                    strokeStyle: '#d9a441',
+                                    fillStyle: '#82bd8a',
+                                    strokeStyle: '#82bd8a',
                                     lineWidth: 0
                                 }, {
                                     text: 'High discrepancy burden',
@@ -3201,11 +3201,11 @@
                     datasets: [{
                         label: 'Physical Count',
                         data: labels.map(x => by[x].p),
-                        backgroundColor: '#185fa5'
+                        backgroundColor: '#198754'
                     }, {
                         label: 'eLMIS Stock',
                         data: labels.map(x => by[x].e),
-                        backgroundColor: '#d9a441'
+                        backgroundColor: '#82bd8a'
                     }]
                 },
                 options: {
@@ -3251,7 +3251,7 @@
                     datasets: [{
                         label: 'DHIS2 Patients',
                         data: labels.map(x => by[x].dh),
-                        backgroundColor: '#185fa5'
+                        backgroundColor: '#198754'
                     }, {
                         label: 'FP Register Patients',
                         data: labels.map(x => by[x].fp),
@@ -3808,7 +3808,7 @@
                     datasets: [{
                         label: 'Available at pharmacy',
                         data: grouped.map(x => x.pharmacyAvailable),
-                        backgroundColor: '#0c447c'
+                        backgroundColor: '#0b5d3b'
                     }, {
                         label: 'Available at dispensing point',
                         data: grouped.map(x => x.available),
@@ -3820,11 +3820,11 @@
                     }, {
                         label: 'Dispensing point stockout recorded',
                         data: grouped.map(x => x.dispensingStockout),
-                        backgroundColor: '#d9a441'
+                        backgroundColor: '#82bd8a'
                     }, {
                         label: 'Available despite pharmacy stockout',
                         data: grouped.map(x => x.availableDespitePharmacy),
-                        backgroundColor: '#185fa5'
+                        backgroundColor: '#198754'
                     }]
                 },
                 options: {
