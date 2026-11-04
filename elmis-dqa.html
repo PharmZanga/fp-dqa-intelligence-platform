@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>DQA 4 — eLMIS DQA | NSCCU</title>
+  <link rel="icon" href="assets/zambia-coat-of-arms.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/elmis-dqa.css">
+  <script src="assets/elmis-dqa.js" defer></script>
+</head>
+<body>
+<header><div class="brand"><img src="assets/zambia-coat-of-arms.svg" alt="Republic of Zambia coat of arms"><div><small>Republic of Zambia · Ministry of Health</small><strong>National FP DQA Intelligence Platform</strong></div></div><img class="tower" src="assets/control-tower-logo.svg" alt="NSCCU Control Tower"></header>
+<div class="layout">
+  <aside><p class="nav-title">Platform navigation</p><nav aria-label="DQA rounds">
+    <a href="index.html#executive-summary">Executive Summary</a>
+    <a href="index.html?round=round1#executive-dashboard"><b>01</b> DQA Round 1 — May 2026</a>
+    <a href="index.html?round=round2#executive-dashboard"><b>02</b> DQA Round 2 — June 2026</a>
+    <a href="index.html?round=round3#executive-dashboard"><b>03</b> DQA Round 3 — 2026</a>
+    <a class="active" href="elmis-dqa.html" aria-current="page"><b>04</b> eLMIS DQA</a>
+  </nav><p class="copyright">© 2026 Zanga Musakuzi</p></aside>
+  <main id="executive-dashboard">
+    <section class="hero"><p class="eyebrow">DQA 4 · Facility supervision</p><h1>eLMIS DQA</h1><p>System use, staff competency, corrective action and reproductive health commodity verification.</p><span class="badge" id="dataStatus">Loading assessment status…</span></section>
+    <nav class="tabs" aria-label="eLMIS DQA sections"><a href="#overview">Overview</a><a href="#facility-performance">Facilities</a><a href="#corrective-actions">Corrective actions</a><a href="#rh-commodities">RH commodities</a></nav>
+    <section class="panel filters" aria-label="Assessment filters">
+      <label>Province<select id="province"><option value="">All provinces</option></select></label>
+      <label>District<select id="district"><option value="">All districts</option></select></label>
+      <label>Assessment date<select id="visitDate"><option value="">All dates</option></select></label>
+      <label>Utilization<select id="utilization"><option value="">All statuses</option><option value="active">Active</option><option value="limited">Limited / irregular</option><option value="inactive">Not used</option><option value="unavailable">Unable to verify</option></select></label>
+      <label>Facility<input id="facilitySearch" type="search" placeholder="Search facility"></label><button id="resetFilters" type="button">Reset filters</button>
+    </section>
+    <p class="scope" id="scope" aria-live="polite"></p>
+    <section id="overview"><h2>Assessment overview</h2><div id="metrics" class="metrics"></div>
+      <div class="columns"><article class="panel"><h3>Verified utilization</h3><div id="utilizationSummary"></div><p class="note">Use is assessed over the 30 calendar days ending on the visit date. Access today is measured separately.</p></article><article class="panel"><h3>Mentorship and competency</h3><div id="mentorshipSummary"></div><p class="note">Competency is demonstrated independently after OJT. Staff totals are visit reports, not unique people across facilities.</p></article></div>
+    </section>
+    <section id="facility-performance" class="panel"><h2>Facility assessments</h2><p class="note">The latest assessment per facility within the selected date and location filters is shown. Utilization and search filters are applied to those latest assessments.</p><div class="table-wrap"><table><thead><tr><th>Province / district</th><th>Facility</th><th>Visit date</th><th>Access today</th><th>Verified use</th><th>OJT conducted</th><th>Reported stock-outs</th></tr></thead><tbody id="facilityRows"></tbody></table></div></section>
+    <section id="corrective-actions" class="panel"><h2>Corrective actions and follow-up</h2><div id="issueSummary" class="metrics compact"></div><div class="table-wrap"><table><thead><tr><th>Facility</th><th>Issue category</th><th>Status</th><th>Owner assigned</th><th>Deadline</th><th>Follow-up outcome</th></tr></thead><tbody id="issueRows"></tbody></table></div></section>
+    <section id="rh-commodities"><h2>RH commodities</h2><div class="columns"><article class="panel"><h3>Current stock-outs</h3><p class="note">A stock-out means zero usable physical stock among commodities normally managed by the facility. Facilities may report multiple commodities.</p><div id="stockoutSummary"></div></article><article class="panel"><h3>Physical stock versus eLMIS</h3><div id="stockSummary"></div><p class="note">Match rates include only verified comparisons on the same usable-stock basis, unit and cutoff. Quantities in different units are never added together. Sampling has no fixed upper limit.</p></article></div><div class="panel table-wrap"><table><thead><tr><th>Facility / commodity</th><th>Unit</th><th>Baseline variance</th><th>After-intervention variance</th><th>Comparison basis</th></tr></thead><tbody id="commodityRows"></tbody></table></div></section>
+    <footer>eLMIS Facility-Based Capacity Building and Issue Resolution Tracker · DQA 4<br><span id="updated"></span></footer>
+  </main>
+</div>
+</body></html>

@@ -1753,6 +1753,7 @@
                 <a class="nav-link active round-link" id="round1Link" href="#executive-dashboard" onclick="selectDqaRound('round1');return false"><span class="nav-icon">01</span><span>DQA Round 1 - May 2026</span></a>
                 <a class="nav-link round-link" id="round2Link" href="#executive-dashboard" onclick="selectDqaRound('round2');return false"><span class="nav-icon">02</span><span>DQA Round 2 - June 2026</span></a>
                 <a class="nav-link round-link" id="round3Link" href="#executive-dashboard" onclick="selectDqaRound('round3');return false"><span class="nav-icon">03</span><span>DQA Round 3 - 2026</span></a>
+                <a class="nav-link round-link" id="round4Link" href="elmis-dqa.html#executive-dashboard"><span class="nav-icon">04</span><span>DQA 4 - eLMIS DQA</span></a>
                 <div class="sidebar-group" aria-labelledby="fieldHighlightsNavTitle">
                     <div class="sidebar-group-title" id="fieldHighlightsNavTitle"><span aria-hidden="true">▧</span><span>Field Work Highlights</span></div>
                     <a class="nav-link field-link" data-nav-target="field-highlights-round1" href="#field-highlights-round1"><span class="nav-icon">01</span><span>Round 1</span></a>
@@ -3619,6 +3620,10 @@
             populateDistricts()
         }
         async function switchRoundWithData(round) {
+            if (round === 'round4') {
+                location.href = 'elmis-dqa.html#executive-dashboard';
+                return;
+            }
             activeDqaRound = round;
             let round2 = round === 'round2',
                 round3 = round === 'round3';
@@ -3677,6 +3682,10 @@
             roundStatus.textContent = 'COMPLETED ROUND';
             let initialTarget = location.hash.replace('#', ''),
                 requestedRound = new URLSearchParams(location.search).get('round');
+            if (requestedRound === 'round4') {
+                location.replace('elmis-dqa.html#executive-dashboard');
+                return;
+            }
             if (['round2', 'round3'].includes(requestedRound)) await switchRoundWithData(requestedRound);
             if (initialTarget) {
                 history.replaceState({}, '', `${location.pathname}${location.search}#${initialTarget}`);
