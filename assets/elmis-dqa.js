@@ -55,6 +55,7 @@
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   root.ElmisDqa = api;
   if (typeof document === 'undefined') return;
+  const dataSource = document.querySelector('script[data-elmis-source]')?.dataset.elmisSource || 'data/round4/elmis.json';
   const $ = id => document.getElementById(id);
   const esc = v => String(v ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const empty = text => `<div class="empty"><strong>No assessment results yet</strong>${esc(text)}</div>`;
@@ -91,7 +92,7 @@
   }
   async function init() {
     try {
-      const response=await fetch('data/round4/elmis.json',{cache:'no-store'});
+      const response=await fetch(dataSource,{cache:'no-store'});
       if (!response.ok) throw new Error(`Assessment file unavailable (${response.status}).`);
       dataset=validateDataset(await response.json());
       $('dataStatus').textContent=dataset.records.length?'Assessment results available':'Awaiting assessment results';
