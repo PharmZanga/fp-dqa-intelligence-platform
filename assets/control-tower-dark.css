@@ -1,0 +1,47 @@
+/* Control Tower reference palette and the original warehouse photograph. */
+:root{color-scheme:dark;--bg:#0b211b;--card:#102e25;--surface:#102e25;--ink:#edf8f1;--text:#edf8f1;--mut:#aac2b5;--muted:#aac2b5;--line:#254438;--primary:#52d8bd;--blue:#52d8bd;--blue2:#08786d;--gold:#37d6d1;--acc:#52d8bd;--good:#57b881;--green:#57b881;--green-soft:#163e2b;--warn:#efb36c;--yellow:#efb36c;--yellow-soft:#30291b;--crit:#ffaaa1;--red:#ffaaa1;--red-soft:#472821;--blue-soft:#173d36;--header:#062f28;--tower-photo:linear-gradient(90deg,#052f29f7 0%,#073e32e8 36%,#07392d75 66%,#052f292b 100%),url('supply-chain-warehouse.jpg')}
+body,.control-tower{color:var(--text);background:linear-gradient(#0b211bf0,#0b211bf5),url('supply-chain-warehouse.jpg') center/cover fixed!important;min-height:100vh}
+.control-tower{--text:#edf8f1;--muted:#aac2b5;--line:#254438;--bg:#0b211b;--surface:#102e25;--header:#062f28}
+.institutional-header,.control-tower .masthead{background:#062f28!important;background-image:none!important;color:#fff;border-bottom:1px solid #ffffff16}
+.institutional-header .brand-copy,.institutional-header h1,.masthead h1,.brand-lockup,.tower-brand{color:#fff!important}
+.brand-copy span,.institutional-header .masthead p,.control-tower .masthead .eyebrow,.tower-brand span{color:#b5d1c5!important}
+.round-hero,.main-content>.hero,.detail-header{background:var(--tower-photo) center 45%/cover no-repeat!important;border-bottom-color:#37d6d14a!important;color:#fff!important}
+.round-hero h1,.main-content>.hero h1,.round-hero h2,.main-content>.hero p,.round-hero p,.detail-header h1{color:#fff!important}
+.hero .eyebrow,.hero-kicker,.round-hero .eyebrow{color:#84e5cb!important}
+.sidebar,.control-tower .sidebar{background:linear-gradient(#062f28ed,#062f28f5),url('supply-chain-warehouse.jpg') center/cover!important;color:#edf8f1!important;border-right:1px solid var(--line)!important}
+.sidebar-title,.sidebar-group-title,.sidebar-copyright,.control-tower .nav-caption,.control-tower .nav-footer{color:#aacfc0!important}
+.sidebar .nav-link,.control-tower .side-menu>button{color:#d6f4e9!important;background:transparent!important;border-color:transparent!important}
+.sidebar .nav-link:hover,.sidebar .nav-link:focus,.control-tower .side-menu>button:hover{background:#ffffff0d!important;color:#fff!important}
+.sidebar .nav-link.active,.control-tower .side-menu>button.active{background:#12493c!important;border-color:#37d6d14a!important;color:#52e1c6!important}
+.sidebar .sidebar-group,.sidebar-copyright,.control-tower .nav-footer{border-color:#ffffff20!important}
+.control-tower .side-menu{background:transparent!important}
+.main-content,.control-tower .content{background:transparent!important}
+.card,.panel,.metric,.kpi,.control-tower .kpi,.control-tower .panel,.round-workspace-nav,.summary-heading,.summary-layout,.commodity-body,.commodity-header,.copilot,.copilot-head,.copilot-body,.copilot-panel,.copilot-answer,.field-highlights,.field-highlights-header,.field-photo,.page-filters,.filter,.control-tower .page-filters,.control-tower .filter-card,.photo-card,.contact-card,.support-contact-card-safe,.help-desk-flow,.help-desk-directory,.updates-gallery,.detail-table-wrap,.detail-page,.detail-search,.table-toolbar{background:var(--card)!important;color:var(--text)!important;border-color:var(--line)!important;box-shadow:none!important}
+.card h2,.panel h2,.panel h3,.metric strong,.kpi-value,.section-heading h2,h2,h3,.control-tower h2,.control-tower h3,.workspace-heading h2,.control-tower .kpi strong,.control-tower .kpi-value,.control-tower .program-comparison-row>b{color:var(--ink)!important}
+.muted,.note,.scope,.sub,.footer,footer,.kpi-note,.kpi-label,.metric span,.dqa-page-heading p,.control-tower .dataset-stamp,.control-tower .workspace-eyebrow,.control-tower .analysis-context,.control-tower .table-note,.control-tower .filter-card label{color:var(--muted)!important}
+.control-tower .kpi p,.control-tower .kpi small,.control-tower .panel p,.summary-copy p,.summary-deck,.page-intro p,.commodity-header p{color:var(--muted)!important}
+input,select,textarea,.control-tower input,.control-tower select,.control-tower textarea{background:#102e25!important;color:#edf8f1!important;border:1px solid #254438!important;color-scheme:dark}
+input::placeholder,textarea::placeholder{color:#aac2b5!important;opacity:1}
+button,.tabs a,.round-page-button,.commodity-tabs a,.copilot-chip,.copilot-toggle,.pagination button,.section-action,.detail-pagination button{background:#12382d!important;color:#d7eee2!important;border-color:#2b5142!important}
+button:hover,.tabs a:hover,.round-page-button:hover{background:#1b4a3c!important}
+.tabs a.active,.round-page-button.active,.commodity-tabs a.active,.commodity-tabs button.active,.control-tower .view-tabs button[aria-selected=true],.control-tower .executive-tabs button[aria-selected=true]{background:#12463a!important;color:#52e1c6!important;border-color:#22a58b!important;box-shadow:inset 0 -3px #15ad9c!important}
+.round-page-icon{background:#ffffff10!important;color:inherit!important}
+th,.control-tower th,.detail-page th{background:#163b30!important;color:#cfe9dc!important;border-color:var(--line)!important}
+td,.control-tower td{color:#edf8f1;border-color:var(--line)!important}
+tbody tr:nth-child(even),.control-tower tbody tr:nth-child(even),.detail-page tbody tr:nth-child(even){background:#123329!important}
+tbody tr:hover,.control-tower tbody tr:hover{background:#194235!important}
+.empty,.empty-round,.field-empty,.control-tower .empty-state,.fresh,.scope-badge,.technical-details,.technical-details summary,.data-coverage,.training-date-note,.control-tower .insight-strip,.storage-box,.heatcell,.pill,.pill.blue,.filters .filter{background:#12372c!important;color:#cce8da!important;border-color:#2b5142!important}
+.empty strong,.empty-round strong,.line b,.source-yes,.greentxt{color:#6fe2ba!important}
+.line{border-color:#254438!important}.metric{border-top-color:#22a58b!important}.metrics .metric:nth-child(2){border-top-color:#cf8b32!important}
+.pill.red,.alert,.alert-ribbon,.redtxt,.source-no{color:#ffb4aa!important}.pill.red,.alert,.alert-ribbon{background:#3b2521!important;border-color:#855248!important}
+.pill.yellow,.pill.warn,.yellowtxt,.round-notice{color:#f3c882!important}.pill.yellow,.pill.warn,.round-notice{background:#30291b!important;border-color:#826c34!important}
+.pill.green{background:#173e2d!important;color:#91e2b1!important}
+.control-tower .insight-card,.control-tower .management-card,.control-tower .priority-card,.control-tower .reporting-summary-card,.control-tower .help-desk-directory,.control-tower .updates-gallery,.control-tower .contact-card{background:#102e25!important;border-color:#254438!important;color:#edf8f1!important}
+.control-tower .donut:after{background:#102e25!important}.control-tower .donut strong,.control-tower .donut span{color:#edf8f1!important}
+a{color:#68dfc7}.control-tower a,.detail-page a{color:#68dfc7}
+.elmis-dqa-workspace iframe{background:transparent!important;border-color:#254438!important}
+body.embedded{background:transparent!important;min-height:0}
+:focus-visible{outline:3px solid #37d6d1!important;outline-offset:2px}
+@media print{body,.control-tower,.card,.panel,.metric,td,th{background:#fff!important;color:#14372e!important}.sidebar,.hero,.round-hero,.institutional-header{display:none!important}}
+
+.control-tower .count-summary strong,.control-tower .province-selection,.control-tower .map-label-grid>button,.control-tower .district-priority-list strong{color:#edf8f1!important}.control-tower .program-comparison-row span,.control-tower .timely-status-legend,.control-tower .district-priority-list small,.control-tower .count-summary span,.control-tower .repeat-table td small{color:#aac2b5!important}.control-tower .map-label-grid>button em{color:#6fe2ba!important}.control-tower .repeat-outstanding{color:#ffb4aa!important}
