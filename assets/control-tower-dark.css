@@ -45,3 +45,5 @@ body.embedded{background:transparent!important;min-height:0}
 @media print{body,.control-tower,.card,.panel,.metric,td,th{background:#fff!important;color:#14372e!important}.sidebar,.hero,.round-hero,.institutional-header{display:none!important}}
 
 .control-tower .count-summary strong,.control-tower .province-selection,.control-tower .map-label-grid>button,.control-tower .district-priority-list strong{color:#edf8f1!important}.control-tower .program-comparison-row span,.control-tower .timely-status-legend,.control-tower .district-priority-list small,.control-tower .count-summary span,.control-tower .repeat-table td small{color:#aac2b5!important}.control-tower .map-label-grid>button em{color:#6fe2ba!important}.control-tower .repeat-outstanding{color:#ffb4aa!important}
+
+.topbar,.main-filters,.fresh>span,.action-item,.commodity-tabs{background:#102e25!important;color:#edf8f1!important;border-color:#254438!important}.fresh{background:transparent!important}.fresh>span{border:1px solid #254438!important}
