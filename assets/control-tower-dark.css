@@ -8,11 +8,11 @@ body,.control-tower{color:var(--text);background:linear-gradient(#0b211bf0,#0b21
 .round-hero,.main-content>.hero,.detail-header{background:var(--tower-photo) center 45%/cover no-repeat!important;border-bottom-color:#37d6d14a!important;color:#fff!important}
 .round-hero h1,.main-content>.hero h1,.round-hero h2,.main-content>.hero p,.round-hero p,.detail-header h1{color:#fff!important}
 .hero .eyebrow,.hero-kicker,.round-hero .eyebrow{color:#84e5cb!important}
-.sidebar,.control-tower .sidebar{background:linear-gradient(#062f28ed,#062f28f5),url('supply-chain-warehouse.jpg') center/cover!important;color:#edf8f1!important;border-right:1px solid var(--line)!important}
+.sidebar,.control-tower .sidebar{background:linear-gradient(180deg,rgba(4,38,30,.72),rgba(6,58,46,.62),rgba(4,38,30,.68)),url('sidebar-warehouse.jpg') center/cover no-repeat!important;color:#edf8f1!important;border-right:1px solid var(--line)!important}
 .sidebar-title,.sidebar-group-title,.sidebar-copyright,.control-tower .nav-caption,.control-tower .nav-footer{color:#aacfc0!important}
 .sidebar .nav-link,.control-tower .side-menu>button{color:#d6f4e9!important;background:transparent!important;border-color:transparent!important}
 .sidebar .nav-link:hover,.sidebar .nav-link:focus,.control-tower .side-menu>button:hover{background:#ffffff0d!important;color:#fff!important}
-.sidebar .nav-link.active,.control-tower .side-menu>button.active{background:#12493c!important;border-color:#37d6d14a!important;color:#52e1c6!important}
+.sidebar .nav-link.active,.control-tower .side-menu>button.active{background:rgba(255,255,255,.16)!important;border-color:rgba(255,255,255,.32)!important;color:#fff!important}
 .sidebar .sidebar-group,.sidebar-copyright,.control-tower .nav-footer{border-color:#ffffff20!important}
 .control-tower .side-menu{background:transparent!important}
 .main-content,.control-tower .content{background:transparent!important}
@@ -47,3 +47,5 @@ body.embedded{background:transparent!important;min-height:0}
 .control-tower .count-summary strong,.control-tower .province-selection,.control-tower .map-label-grid>button,.control-tower .district-priority-list strong{color:#edf8f1!important}.control-tower .program-comparison-row span,.control-tower .timely-status-legend,.control-tower .district-priority-list small,.control-tower .count-summary span,.control-tower .repeat-table td small{color:#aac2b5!important}.control-tower .map-label-grid>button em{color:#6fe2ba!important}.control-tower .repeat-outstanding{color:#ffb4aa!important}
 
 .topbar,.main-filters,.fresh>span,.action-item,.commodity-tabs{background:#102e25!important;color:#edf8f1!important;border-color:#254438!important}.fresh{background:transparent!important}.fresh>span{border:1px solid #254438!important}
+
+.sidebar .nav-link,.control-tower .side-menu>button{color:#effaf4!important;text-shadow:0 1px 3px #00271d80}.control-tower .nav-footer strong,.control-tower .nav-footer>span{display:block!important;line-height:1.5}.control-tower .nav-footer{color:#d3eadd!important}
